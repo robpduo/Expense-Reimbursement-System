@@ -1,6 +1,7 @@
 package com.revature.dao;
 
 import com.revature.models.Role;
+import com.revature.models.Status;
 import com.revature.models.User;
 import com.revature.utils.ConnectionSingleton;
 
@@ -97,8 +98,7 @@ public class UserDao implements IUserDao{
             u.setfName(rs.getString(4));
             u.setlName(rs.getString(5));
             u.setEmail(rs.getString(6));
-            if (rs.getInt(7) == 1) u.setRole(Role.EMPLOYEE);
-            else u.setRole(Role.MANAGER);
+            u.setRole(Role.toRole(rs.getInt(7)));
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -142,7 +142,8 @@ public class UserDao implements IUserDao{
                 "password = ?," +
                 "first_name = ?," +
                 "last_name = ?," +
-                "email = ?" +
+                "email = ?," +
+                "role = ?" +
                 "WHERE user_id = " + user.getUserId() + ";";
 
         try {
@@ -154,6 +155,8 @@ public class UserDao implements IUserDao{
             ps.setString(3, user.getfName());
             ps.setString(4, user.getlName());
             ps.setString(5, user.getEmail());
+            ps.setInt(6, Role.toInt(user.getRole()));
+
             ps.execute();
 
             return true;

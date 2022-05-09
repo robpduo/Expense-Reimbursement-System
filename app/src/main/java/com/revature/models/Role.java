@@ -6,9 +6,9 @@ public enum Role {
 
     public static int toInt(Role role) {
         switch (role) {
-            case EMPLOYEE:
-                return 1;
             case MANAGER:
+                return 1;
+            case EMPLOYEE:
                 return 2;
             default:
                 return 0;
@@ -18,9 +18,9 @@ public enum Role {
     public static Role toRole(int i) {
         switch (i) {
             case 1:
-                return EMPLOYEE;
-            case 2:
                 return MANAGER;
+            case 2:
+                return EMPLOYEE;
             default:
                 return null;
         }

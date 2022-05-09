@@ -16,21 +16,21 @@ public class ReimbursementDao implements IReimbursementDao {
 
     @Override
     public boolean createReimbursement(Reimbursement r) {
-        String sql = "insert into reimbursement (amount, submitted_date, resolved_date, description, " +
-                "reimbursement_author, reimbursement_resolver, reimbursement_status, reimbursement_type) " +
-                "values (?, ?, ?, ?, ?, ?, ?, ?);";
+        String sql = "insert into reimbursement (amount, submitted_date, description, " +
+                "reimbursement_author, reimbursement_status, reimbursement_type) " +
+                "values (?, ?, ?, ?, ?, ?);";
+
         try {
             cs = ConnectionSingleton.getConnection();
             stmt = cs.prepareStatement(sql);
 
             stmt.setDouble(1, r.getAmount());
+
             stmt.setDate(2, Date.valueOf(r.getSumbmittedDate()));
-            stmt.setDate(3, Date.valueOf(r.getResolvedDate()));
-            stmt.setString(4, r.getDescription());
-            stmt.setInt(5, r.getAuthor().getUserId());
-            stmt.setInt(6, r.getResolver().getUserId());
-            stmt.setInt(7, Status.toInt(r.getStatus()));
-            stmt.setInt(8, Type.toInt(r.getType()));
+            stmt.setString(3, r.getDescription());
+            stmt.setInt(4, r.getAuthor().getUserId());
+            stmt.setInt(5, Status.toInt(r.getStatus()));
+            stmt.setInt(6, Type.toInt(r.getType()));
 
             stmt.executeUpdate();
             return true;
@@ -109,6 +109,23 @@ public class ReimbursementDao implements IReimbursementDao {
         return false;
     }
 
+    @Override
+    public boolean updateReimbursement(int id, String column, Date date) {
+        String sql = "update reimbursement set " + column + " = ? where reimbursement_id = " + id + ";";
+
+        try {
+            cs = ConnectionSingleton.getConnection();
+            stmt = cs.prepareStatement(sql);
+            stmt.setDate(1, date);
+            stmt.executeUpdate();
+            return true;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return false;
+    }
     @Override
     public void deleteReimbursement(int id) {
 
