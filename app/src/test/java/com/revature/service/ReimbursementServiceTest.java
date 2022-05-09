@@ -5,6 +5,7 @@ import com.revature.dao.IUserDao;
 import com.revature.dao.ReimbursementDao;
 import com.revature.dao.UserDao;
 import com.revature.models.Reimbursement;
+import com.revature.models.User;
 import com.revature.services.ReimbursementService;
 import com.revature.services.UserService;
 import org.junit.Assert;
@@ -32,13 +33,26 @@ public class ReimbursementServiceTest {
     // tests for viewPastTickets -------------------------------------------------------------------------
 
     // regular test
+    public static IReimbursementDao realRd = new ReimbursementDao();
+    public static ReimbursementService realRs = new ReimbursementService(realRd);
+
     @Test
     public void testViewPastTickets() {
         IUserDao ud = new UserDao();
-        List<Reimbursement> testList = rs.viewPastTickets(ud.getUserById(2));
+        List<Reimbursement> testList = realRs.viewPastTickets(ud.getUserById(2));
         Assert.assertEquals(2, testList.size());
     }
 
-    //
+    // tests for viewPendingTickets ----------------------------------------------------------------------
+
+    @Test
+    public void testViewPendingTickets() {
+        IUserDao ud = new UserDao();
+        List<Reimbursement> testList = realRs.viewPendingTickets(ud.getUserById(2));
+        Assert.assertEquals(2, testList.size());
+
+    }
+
+    // tests for
 
 }

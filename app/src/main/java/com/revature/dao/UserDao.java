@@ -136,14 +136,25 @@ public class UserDao implements IUserDao{
 
 
     @Override
-    public boolean updateUser(User user, String column, String nValue) {
-        String sql = "UPDATE users SET " + column + " = ? WHERE user_id = " + user.getUserId() +";";
+    public boolean updateUser(User user) {
+        String sql = "UPDATE users SET " +
+                "username = ?," +
+                "password = ?," +
+                "first_name = ?," +
+                "last_name = ?," +
+                "email = ?" +
+                "WHERE user_id = " + user.getUserId() + ";";
 
         try {
             cs = ConnectionSingleton.getConnection();
-            stmt = cs.prepareStatement(sql);
-            stmt.setString(1, nValue);
-            stmt.executeUpdate();
+            PreparedStatement ps = cs.prepareStatement(sql);
+
+            ps.setString(1, user.getUsername());
+            ps.setString(2, user.getPassword());
+            ps.setString(3, user.getfName());
+            ps.setString(4, user.getlName());
+            ps.setString(5, user.getEmail());
+            ps.execute();
 
             return true;
 

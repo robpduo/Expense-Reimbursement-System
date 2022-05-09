@@ -13,7 +13,8 @@ public interface IUserDao {
 
     public List<User> readUsers();
 
-    public boolean updateUser(User user, String column, String nValue);
+    public boolean updateUser(User user);
+
     public boolean updateUser(User user, String column, int nValue);
 
     public void deleteUser(User user);

@@ -24,13 +24,31 @@ public class ReimbursementService {
     public List<Reimbursement> viewPastTickets(User u) {
         List<Reimbursement> result = new LinkedList<>();
         List<Reimbursement> all = rd.readReimbursements();
+
         for (Reimbursement r : all) {
-            if (!r.getStatus().equals(Status.PENDING) && r.getAuthor().equals(u)) {
+            if (!r.getStatus().equals(Status.PENDING) && r.getAuthor().getUserId() == u.getUserId()) {
                 result.add(r);
             }
         }
+
         return result;
     }
 
+    /**
+     * View pending tickets
+     * @param u The user to view pending transactions
+     * @return A list of the user's pending tickets
+     */
+    public List<Reimbursement> viewPendingTickets(User u) {
+        List<Reimbursement> result = new LinkedList<>();
+        List<Reimbursement> all = rd.readReimbursements();
 
+        for (Reimbursement r : all) {
+            if (r.getStatus().equals(Status.PENDING) && r.getAuthor().getUserId() == u.getUserId()) {
+                result.add(r);
+            }
+        }
+
+        return result;
+    }
 }

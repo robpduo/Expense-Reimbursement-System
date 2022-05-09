@@ -26,7 +26,16 @@ public class Driver {
         Reimbursement r1 = new Reimbursement(400.0, date1, date1, "new reimbursement", u1,u2, Status.PENDING, Type.FOOD);
 
          */
+        /*
+        List<User> users = ud.readUsers();
+        User u1 = users.get(0);
+        User u2 = users.get(1);
 
+        u1.setUserId(2);
+        System.out.println(u1.toString());
+
+        ud.updateUser(u1);
+*/
         // rd.createReimbursement(r1);
 
         /*
@@ -37,12 +46,6 @@ public class Driver {
 
         // rd.updateReimbursement(1, "reimbursement_status", Status.toInt(Status.RESOLVED));
         // rd.deleteReimbursement(1);
-
-        List<Reimbursement> reimbursements = rs.viewPastTickets(ud.getUserById(2));
-
-        if (reimbursements.size() == 0) System.out.println("nothing");
-
-        for (Reimbursement r : reimbursements) System.out.println(r.toString());
 
 
     }
