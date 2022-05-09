@@ -62,6 +62,7 @@ public class UserDao implements IUserDao{
                 u.setlName(rs.getString(5));
                 u.setEmail(rs.getString(6));
 
+                // TODO
                 if(rs.getInt(7) == 1) {
                     u.setRole(Role.MANAGER);
                 } else {
@@ -77,6 +78,62 @@ public class UserDao implements IUserDao{
 
         return users;
     }
+
+    @Override
+    public User getUserById(int id) {
+        User u = new User();
+
+        try {
+            String sql = "select * from users where user_id = " + id + ";";
+            cs = ConnectionSingleton.getConnection();
+            Statement s = cs.createStatement();
+            s.execute(sql);
+            ResultSet rs = s.getResultSet();
+
+            rs.next();
+            u.setUserId(rs.getInt(1));
+            u.setUsername(rs.getString(2));
+            u.setPassword(rs.getString(3));
+            u.setfName(rs.getString(4));
+            u.setlName(rs.getString(5));
+            u.setEmail(rs.getString(6));
+            if (rs.getInt(7) == 1) u.setRole(Role.EMPLOYEE);
+            else u.setRole(Role.MANAGER);
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return u;
+    }
+
+    @Override
+    public User getUserByUsername(String username) {
+        User u = new User();
+
+        try {
+            String sql = "select * from users where username = " + username + ";";
+            cs = ConnectionSingleton.getConnection();
+            Statement s = cs.createStatement();
+            s.execute(sql);
+            ResultSet rs = s.getResultSet();
+
+            rs.next();
+            u.setUserId(rs.getInt(1));
+            u.setUsername(rs.getString(2));
+            u.setPassword(rs.getString(3));
+            u.setfName(rs.getString(4));
+            u.setlName(rs.getString(5));
+            u.setEmail(rs.getString(6));
+            u.setRole(Role.toRole(rs.getInt(7)));
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return u;
+    }
+
 
     @Override
     public boolean updateUser(User user, String column, String nValue) {
@@ -97,9 +154,37 @@ public class UserDao implements IUserDao{
 
         return false;
     }
+    @Override
+    public boolean updateUser(User user, String column, int nValue) {
+        String sql = "UPDATE users SET " + column + " = ? WHERE user_id = " + user.getUserId() +";";
+
+        try {
+            cs = ConnectionSingleton.getConnection();
+            stmt = cs.prepareStatement(sql);
+            stmt.setInt(1, nValue);
+            stmt.executeUpdate();
+
+            return true;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+        return false;
+    }
 
     @Override
     public void deleteUser(User user) {
+
+        try {
+            cs = ConnectionSingleton.getConnection();
+            String sql = "delete from users where user_id=" + user.getUserId() + ";";
+            stmt = cs.prepareStatement(sql);
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
     }
 }

@@ -3,35 +3,28 @@ package com.revature.models;
 import java.time.LocalDate;
 
 public class Reimbursement {
-    private int reimbursementId;
+
     private double amount;
     private LocalDate sumbmittedDate;
     private LocalDate resolvedDate;
+    private String description;
     private User author;
     private User resolver;
-    private User status;
-    private User type;
+    private Status status;
+    private Type type;
 
     public Reimbursement() {
     }
 
-    public Reimbursement(int reimbursementId, double amount, LocalDate sumbmittedDate, LocalDate resolvedDate, User author, User resolver, User status, User type) {
-        this.reimbursementId = reimbursementId;
+    public Reimbursement(double amount, LocalDate sumbmittedDate, LocalDate resolvedDate, String description, User author, User resolver, Status status, Type type) {
         this.amount = amount;
         this.sumbmittedDate = sumbmittedDate;
         this.resolvedDate = resolvedDate;
+        this.description = description;
         this.author = author;
         this.resolver = resolver;
         this.status = status;
         this.type = type;
-    }
-
-    public int getReimbursementId() {
-        return reimbursementId;
-    }
-
-    public void setReimbursementId(int reimbursementId) {
-        this.reimbursementId = reimbursementId;
     }
 
     public double getAmount() {
@@ -58,6 +51,14 @@ public class Reimbursement {
         this.resolvedDate = resolvedDate;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public User getAuthor() {
         return author;
     }
@@ -74,27 +75,26 @@ public class Reimbursement {
         this.resolver = resolver;
     }
 
-    public User getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(User status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 
-    public User getType() {
+    public Type getType() {
         return type;
     }
 
-    public void setType(User type) {
+    public void setType(Type type) {
         this.type = type;
     }
 
     @Override
     public String toString() {
         return "Reimbursement{" +
-                "reimbursementId=" + reimbursementId +
-                ", amount=" + amount +
+                "amount=" + amount +
                 ", sumbmittedDate=" + sumbmittedDate +
                 ", resolvedDate=" + resolvedDate +
                 ", author=" + author +

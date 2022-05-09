@@ -5,12 +5,16 @@ import java.util.List;
 
 public interface IUserDao {
 
-    /*Inserts user information into database*/
     public boolean createUser(User user);
+
+    public User getUserById(int id);
+
+    public User getUserByUsername(String username);
 
     public List<User> readUsers();
 
     public boolean updateUser(User user, String column, String nValue);
+    public boolean updateUser(User user, String column, int nValue);
 
     public void deleteUser(User user);
 
