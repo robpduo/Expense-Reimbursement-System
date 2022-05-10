@@ -2,6 +2,8 @@ package com.revature.service;
 
 import com.revature.dao.UserDao;
 import com.revature.exceptions.IncorrectUsernameOrPasswordException;
+import com.revature.exceptions.UnauthorizedUserException;
+import com.revature.models.Role;
 import com.revature.models.User;
 import com.revature.services.UserService;
 import org.junit.Assert;
@@ -11,6 +13,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserServiceTest {
 
@@ -53,5 +58,38 @@ public class UserServiceTest {
         User testUser = us.loginUser("uname", "wrongpassword");
     }
 
+    // tests for viewAllEmployees -----------------------------------------------------------------------------
+    @Test
+    public void testViewAllEmployees() throws UnauthorizedUserException {
+        User manager = new User();
+        manager.setRole(Role.MANAGER);
+
+        User u1 = new User();
+        u1.setRole(Role.EMPLOYEE);
+
+        User u2 = new User();
+        u2.setRole(Role.EMPLOYEE);
+
+        User u3 = new User();
+        u3.setRole(Role.EMPLOYEE);
+
+        List<User> users = new ArrayList<>();
+        users.add(u1);
+        users.add(u2);
+        users.add(u3);
+        users.add(manager);
+
+        Mockito.when(ud.readUsers()).thenReturn(users);
+        Assert.assertEquals(3, us.viewAllEmployees(manager).size());
+    }
+
+    @Test(expected = UnauthorizedUserException.class)
+    public void testViewAllEmployeesUnauthorizedUser() throws UnauthorizedUserException {
+        User u = new User();
+        u.setRole(Role.EMPLOYEE);
+        List<User> users = new ArrayList<>();
+        Mockito.when(ud.readUsers()).thenReturn(users);
+        us.viewAllEmployees(u);
+    }
 
 }

@@ -1,18 +1,20 @@
 package com.revature.services;
 
-import com.revature.dao.UserDao;
+import com.revature.dao.IUserDao;
 import com.revature.exceptions.IncorrectUsernameOrPasswordException;
-import com.revature.models.Reimbursement;
+import com.revature.exceptions.UnauthorizedUserException;
+import com.revature.models.Role;
 import com.revature.models.User;
+import com.revature.utils.LoggingUtil;
 
 import java.util.LinkedList;
 import java.util.List;
 
 public class UserService {
 
-    private UserDao ud;
+    private IUserDao ud;
 
-    public UserService(UserDao uDao) { this.ud = uDao; }
+    public UserService(IUserDao uDao) { this.ud = uDao; }
 
     /**
      * Logs in a user
@@ -24,10 +26,31 @@ public class UserService {
     public User loginUser(String username, String password) throws IncorrectUsernameOrPasswordException {
         User u = ud.getUserByUsername(username);
         if (ud.getUserByUsername(username) == null || !password.equals(u.getPassword())) {
+            LoggingUtil.logger.info("Attempt to login as user " + username + " failed");
             throw new IncorrectUsernameOrPasswordException();
         }
+        LoggingUtil.logger.info("Successfully logged in as user " + username);
         return u;
     }
 
+    /**
+     * viewAllEmployees: View all employees
+     * @param u The manager viewing the employees
+     * @return A list of all employees
+     * @throws UnauthorizedUserException Only a manager can view all employees
+     */
+    public List<User> viewAllEmployees(User u) throws UnauthorizedUserException {
+        if (!u.getRole().equals(Role.MANAGER)) {
+            LoggingUtil.logger.info("Attempt to retrieve all Employees failed");
+            throw new UnauthorizedUserException();
+        }
+        List<User> result = new LinkedList<>();
+        List<User> allUsers = ud.readUsers();
+        for (User user : allUsers) {
+            if (user.getRole().equals(Role.EMPLOYEE)) result.add(user);
+        }
+        LoggingUtil.logger.info("Successfully retrieved all Employees");
+        return result;
+    }
 
 }

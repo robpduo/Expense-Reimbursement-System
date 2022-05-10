@@ -1,0 +1,21 @@
+
+d
+java:S1104"NMake rd a static final constant or non-public and provide accessors if needed.(âþïº
+d
+java:S1104"NMake rs a static final constant or non-public and provide accessors if needed.(øÒ–ê
+i
+java:S1104"NMake ud a static final constant or non-public and provide accessors if needed.(¼ù¡ˆùÿÿÿÿ
+d
+java:S1104"NMake us a static final constant or non-public and provide accessors if needed.(ŸÜÝ¯
+>
+java:S1444"(Make this "public static rd" field final(âþïº
+>
+java:S1444"(Make this "public static rs" field final(øÒ–ê
+C
+java:S1444"(Make this "public static ud" field final(¼ù¡ˆùÿÿÿÿ
+>
+java:S1444"(Make this "public static us" field final(ŸÜÝ¯
+W
+java:S1854"<Remove this useless assignment to local variable "employee".(êÕÚ¡ýÿÿÿÿ
+H
+java:S1481"-Remove this unused "employee" local variable.(êÕÚ¡ýÿÿÿÿ
