@@ -4,10 +4,13 @@ import com.revature.dao.IReimbursementDao;
 import com.revature.dao.IUserDao;
 import com.revature.dao.ReimbursementDao;
 import com.revature.dao.UserDao;
+import com.revature.exceptions.IncorrectUsernameOrPasswordException;
+import com.revature.exceptions.NegativeAmountException;
 import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.models.*;
 import com.revature.services.ReimbursementService;
 import com.revature.services.UserService;
+import io.javalin.Javalin;
 
 public class Driver {
     public static IReimbursementDao rd = new ReimbursementDao();
@@ -18,10 +21,26 @@ public class Driver {
 
     public static void main(String[] args) throws UnauthorizedUserException {
 
-        User manager = ud.getUserById(2);
-        User employee = ud.getUserById(3);
+        Javalin server = Javalin.create(config -> {
+            config.enableCorsForAllOrigins();
+        });
 
-        rs.updateRequest(manager, 2, Status.PENDING);
+        server.exception(IncorrectUsernameOrPasswordException.class, (exception, ctx) -> {
+            ctx.result("Username or password was incorrect");
+        });
+
+        server.exception(NegativeAmountException.class, (exception, ctx) -> {
+            ctx.result("Amount cannot be negative");
+        });
+
+        server.exception(UnauthorizedUserException.class, (exception, ctx) -> {
+            ctx.result("You are not authorized to perform this action");
+        });
+
+
+
+        server.start();
+
 
     }
 }
