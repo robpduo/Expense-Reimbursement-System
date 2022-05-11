@@ -11,8 +11,7 @@
 
 # Miscellaneous
 - use the jdbc.properties file so sensitive information is not hard-coded
-- Add logging statements with log4j
+- Add logout to driver
 
 # Most Recent Updates
-- deleted viewPastTickets because it is essentially the same as viewAllResolved
-- deleted viewPendingTickets because it was the same as viewAllPending
+- put back viewPastTickets and viewPendingTickets

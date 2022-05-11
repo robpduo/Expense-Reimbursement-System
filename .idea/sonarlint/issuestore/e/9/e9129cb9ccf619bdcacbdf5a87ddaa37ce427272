@@ -1,7 +1,7 @@
 
 |
-java:S1192N"_Define a constant instead of duplicating this literal " = ? where reimbursement_id = " 3 times.(ìœŠ£8ò»ıŠ0
+java:S1192O"_Define a constant instead of duplicating this literal " = ? where reimbursement_id = " 3 times.(ìœŠ£8ò»ıŠ0
 w
-java:S1192N"ZDefine a constant instead of duplicating this literal "update reimbursement set " 3 times.(ìœŠ£8ò»ıŠ0
+java:S1192O"ZDefine a constant instead of duplicating this literal "update reimbursement set " 3 times.(ìœŠ£8ò»ıŠ0
 ]
 java:S20953"GUse try-with-resources or close this "Statement" in a "finally" clause.(ïáÌ

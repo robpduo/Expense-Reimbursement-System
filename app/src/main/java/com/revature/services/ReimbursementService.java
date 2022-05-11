@@ -1,7 +1,9 @@
 package com.revature.services;
 
 import com.revature.dao.IReimbursementDao;
+import com.revature.dao.IUserDao;
 import com.revature.dao.ReimbursementDao;
+import com.revature.dao.UserDao;
 import com.revature.exceptions.NegativeAmountException;
 import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.models.*;
@@ -22,13 +24,17 @@ public class ReimbursementService {
      * Submits a reimbursement request
      * @param amount sum of expense
      * @param description the reimbursement's description
-     * @param author user who made the request
+     * @param username The username of the user who made the request
      * @param type type of expense
      */
-    public void submitRequest (double amount, String description, User author, Type type) throws NegativeAmountException {
+    public void submitRequest (double amount, String description, String username, Type type) throws NegativeAmountException {
         Reimbursement r = new Reimbursement();
 
         if (amount < 0) throw new NegativeAmountException();
+
+        IUserDao ud = new UserDao();
+        UserService us = new UserService(ud);
+        User author = us.getUserByUsername(username);
 
         r.setAmount(amount);
         r.setSumbmittedDate(LocalDate.now());
@@ -42,14 +48,49 @@ public class ReimbursementService {
     }
 
     /**
+     * Retrieves all past tickets from a specific user
+     * @param username The username of the user whose past tickets are being viewed
+     * @return A list of the user's past tickets
+     */
+    public List<Reimbursement> viewPastTickets(String username) {
+        List<Reimbursement> result = new LinkedList<>();
+        List<Reimbursement> fullList = rd.readReimbursements();
+
+        for (Reimbursement r : fullList) {
+            if ((r.getStatus().equals(Status.APPROVED) || r.getStatus().equals(Status.DENIED))
+                    && r.getAuthor().getUsername().equals(username)) result.add(r);
+        }
+
+        LoggingUtil.logger.info("Successfully retrieved all past tickets from user " + username);
+        return result;
+    }
+
+    /**
+     * Retrieves all pending tickets from a user
+     * @param username The username of the user whose pending tickets to view
+     * @return A list of the user's pending tickets
+     */
+    public List<Reimbursement> viewPendingTickets(String username) {
+        List<Reimbursement> result = new LinkedList<>();
+        List<Reimbursement> fullList = rd.readReimbursements();
+
+        for (Reimbursement r : fullList) {
+            if (r.getStatus().equals(Status.PENDING) && r.getAuthor().getUsername().equals(username)) result.add(r);
+        }
+
+        LoggingUtil.logger.info("Successfully retrieved all pending tickets from user " + username);
+        return result;
+    }
+
+    /**
      * Updates the status of a reimbursement request
-     * @param u The user updating the request
+     * @param username The username of the user updating the request
      * @param id The id of the request
      * @param status The new status for the request
      * @throws UnauthorizedUserException Only a manager can update the status
      */
-    public void updateRequest (User u, int id, Status status) throws UnauthorizedUserException {
-
+    public void updateRequest (String username, int id, Status status) throws UnauthorizedUserException {
+        User u = getUserByUsername(username);
         if (!u.getRole().equals(Role.MANAGER)) {
             LoggingUtil.logger.info("Attempt to update Reimbursement #" + id + " failed");
             throw new UnauthorizedUserException();
@@ -66,7 +107,8 @@ public class ReimbursementService {
      * @return a list of all pending requests from all employees
      * @throws UnauthorizedUserException Only a manager can view all pending tickets
      */
-    public List<Reimbursement> viewAllPending(User u) throws UnauthorizedUserException {
+    public List<Reimbursement> viewAllPending(String username) throws UnauthorizedUserException {
+        User u = getUserByUsername(username);
         if (!u.getRole().equals(Role.MANAGER)) {
             LoggingUtil.logger.info("Attempt to view pending tickets failed");
             throw new UnauthorizedUserException();
@@ -82,11 +124,12 @@ public class ReimbursementService {
 
     /**
      * viewAllResolved: Views all resolved tickets from all employees
-     * @param u The user viewing all the resolved tickets
+     * @param username The username of the user viewing their resolved tickets
      * @return A list of all resolved tickets
      * @throws UnauthorizedUserException Only a manger can view all resolved tickets
      */
-    public List<Reimbursement> viewAllResolved(User u) throws UnauthorizedUserException {
+    public List<Reimbursement> viewAllResolved(String username) throws UnauthorizedUserException {
+        User u = getUserByUsername(username);
         if (!u.getRole().equals(Role.MANAGER)) {
             LoggingUtil.logger.info("Attempt to view all resolved tickets failed");
             throw new UnauthorizedUserException();
@@ -96,7 +139,7 @@ public class ReimbursementService {
         for (Reimbursement r : fullList) {
             if (r.getStatus().equals(Status.APPROVED) || r.getStatus().equals(Status.DENIED)) result.add(r);
         }
-        LoggingUtil.logger.info("Successfull retrieved all resolved tickets");
+        LoggingUtil.logger.info("Successfully retrieved all resolved tickets");
         return result;
     }
 
@@ -119,6 +162,17 @@ public class ReimbursementService {
         }
         LoggingUtil.logger.info("Successfully retrieved requests from Employee #" + emp.getUserId());
         return result;
+    }
+
+    /**
+     * Gets a user by their username
+     * @param username The user's username
+     * @return The user with the specified username
+     */
+    public User getUserByUsername(String username) {
+        IUserDao ud = new UserDao();
+        UserService us = new UserService(ud);
+        return ud.getUserByUsername(username);
     }
 
 }

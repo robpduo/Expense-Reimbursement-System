@@ -5,3 +5,58 @@
 2022-05-11 12:31:06 INFO  LoggingUtil:29 - Attempt to login as user tmclarnon1 failed
 2022-05-11 12:32:35 INFO  LoggingUtil:29 - Attempt to login as user tmclarnon1 failed
 2022-05-11 12:33:38 INFO  LoggingUtil:32 - Successfully logged in as user tmclarnon1
+2022-05-11 16:32:24 INFO  LoggingUtil:42 - Successfully registered user johndoe
+2022-05-11 16:49:04 INFO  LoggingUtil:59 - Failed attempt to view all employees
+2022-05-11 16:55:36 INFO  LoggingUtil:60 - Failed attempt to view all employees
+2022-05-11 16:56:22 INFO  LoggingUtil:60 - Failed attempt to view all employees
+2022-05-11 16:57:03 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-11 16:57:06 INFO  LoggingUtil:54 - Attempt to retrieve all Employees failed
+2022-05-11 16:57:37 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-11 16:57:40 INFO  LoggingUtil:62 - Successfully retrieved all Employees
+2022-05-11 17:20:22 INFO  LoggingUtil:23 - Failed attempt to submit reimbursement request
+2022-05-11 17:20:39 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-11 17:41:49 INFO  LoggingUtil:39 - Failed attempt to submit reimbursement request
+2022-05-11 17:42:20 INFO  LoggingUtil:39 - Failed attempt to update reimbursement request
+2022-05-11 17:42:31 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-11 17:42:34 INFO  LoggingUtil:60 - Attempt to update Reimbursement #1 failed
+2022-05-11 17:43:18 INFO  LoggingUtil:42 - Successfully registered user emcgill
+2022-05-11 17:43:27 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-11 17:43:31 INFO  LoggingUtil:66 - Updated Reimbursement #1
+2022-05-11 17:43:31 INFO  LoggingUtil:46 - APPROVED Reimbursement #1
+2022-05-11 17:50:11 INFO  LoggingUtil:55 - Failed attempt to view all pending requests
+2022-05-11 17:50:22 INFO  LoggingUtil:55 - Failed attempt to view all pending requests
+2022-05-11 17:50:28 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-11 17:50:31 INFO  LoggingUtil:78 - Attempt to view pending tickets failed
+2022-05-11 17:50:41 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-11 17:50:44 INFO  LoggingUtil:86 - Successfully retrieved all pending tickets
+2022-05-11 17:51:56 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-11 17:51:58 INFO  LoggingUtil:86 - Successfully retrieved all pending tickets
+2022-05-11 17:52:10 INFO  LoggingUtil:66 - Updated Reimbursement #1
+2022-05-11 17:52:10 INFO  LoggingUtil:46 - PENDING Reimbursement #1
+2022-05-11 17:52:13 INFO  LoggingUtil:86 - Successfully retrieved all pending tickets
+2022-05-11 17:59:23 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-11 17:59:26 INFO  LoggingUtil:86 - Successfully retrieved all pending tickets
+2022-05-11 18:00:44 INFO  LoggingUtil:55 - Failed attempt to view all pending requests
+2022-05-11 18:00:49 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-11 18:00:53 INFO  LoggingUtil:86 - Successfully retrieved all pending tickets
+2022-05-11 18:03:23 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-11 18:03:27 INFO  LoggingUtil:86 - Successfully retrieved all pending tickets
+2022-05-11 18:07:25 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-11 18:07:28 INFO  LoggingUtil:86 - Successfully retrieved all pending tickets
+2022-05-11 18:11:53 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-11 18:11:56 INFO  LoggingUtil:86 - Successfully retrieved all pending tickets
+2022-05-11 18:17:22 INFO  LoggingUtil:70 - Failed attempt to view all resolved requests
+2022-05-11 18:17:36 INFO  LoggingUtil:70 - Failed attempt to view all resolved requests
+2022-05-11 18:17:39 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-11 18:17:41 INFO  LoggingUtil:99 - Attempt to view all resolved tickets failed
+2022-05-11 18:20:20 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-11 18:20:23 INFO  LoggingUtil:107 - Successfull retrieved all resolved tickets
+2022-05-11 18:20:33 INFO  LoggingUtil:66 - Updated Reimbursement #1
+2022-05-11 18:20:33 INFO  LoggingUtil:47 - APPROVED Reimbursement #1
+2022-05-11 18:20:36 INFO  LoggingUtil:107 - Successfull retrieved all resolved tickets
+2022-05-11 18:32:13 INFO  LoggingUtil:33 - Successfully logged in as user bbeddie2
+2022-05-11 18:33:06 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user bbeddie2
+2022-05-11 18:35:59 INFO  LoggingUtil:33 - Successfully logged in as user bbeddie2
+2022-05-11 18:36:01 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user bbeddie2
+2022-05-11 18:42:12 INFO  LoggingUtil:33 - Successfully logged in as user bbeddie2
+2022-05-11 18:42:24 INFO  LoggingUtil:81 - Successfully retrieved all pending tickets from user bbeddie2

@@ -55,6 +55,7 @@ public class ReimbursementDao implements IReimbursementDao {
                 Reimbursement r = new Reimbursement();
                 IUserDao ud = new UserDao();
 
+                r.setId(rs.getInt(1));
                 r.setAmount(rs.getDouble(2));
                 r.setSumbmittedDate(rs.getDate(3).toLocalDate());
                 r.setResolvedDate(rs.getDate(4).toLocalDate());

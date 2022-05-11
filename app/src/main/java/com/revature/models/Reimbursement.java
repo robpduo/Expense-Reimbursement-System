@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class Reimbursement {
 
+    private int id;
     private double amount;
     private LocalDate sumbmittedDate;
     private LocalDate resolvedDate;
@@ -16,7 +17,8 @@ public class Reimbursement {
     public Reimbursement() {
     }
 
-    public Reimbursement(double amount, LocalDate sumbmittedDate, LocalDate resolvedDate, String description, User author, User resolver, Status status, Type type) {
+    public Reimbursement(int id, double amount, LocalDate sumbmittedDate, LocalDate resolvedDate, String description, User author, User resolver, Status status, Type type) {
+        this.id = id;
         this.amount = amount;
         this.sumbmittedDate = sumbmittedDate;
         this.resolvedDate = resolvedDate;
@@ -25,6 +27,14 @@ public class Reimbursement {
         this.resolver = resolver;
         this.status = status;
         this.type = type;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public double getAmount() {
@@ -94,9 +104,11 @@ public class Reimbursement {
     @Override
     public String toString() {
         return "Reimbursement{" +
-                "amount=" + amount +
+                "id=" + id +
+                ", amount=" + amount +
                 ", sumbmittedDate=" + sumbmittedDate +
                 ", resolvedDate=" + resolvedDate +
+                ", description='" + description + '\'' +
                 ", author=" + author +
                 ", resolver=" + resolver +
                 ", status=" + status +

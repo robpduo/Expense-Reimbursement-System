@@ -63,4 +63,13 @@ public class UserService {
         return result;
     }
 
+    /**
+     * Gets a user by their username
+     * @param username The user's username
+     * @return The user
+     */
+    public User getUserByUsername(String username) {
+        return ud.getUserByUsername(username);
+    }
+
 }

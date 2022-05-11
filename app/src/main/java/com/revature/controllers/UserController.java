@@ -3,7 +3,9 @@ package com.revature.controllers;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.exceptions.ExistingUserException;
 import com.revature.exceptions.IncorrectUsernameOrPasswordException;
+import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.services.UserService;
+import com.revature.utils.LoggingUtil;
 import io.javalin.http.Handler;
 import com.revature.models.User;
 
@@ -47,8 +49,21 @@ public class UserController {
             ctx.result("Username: " + u.getUsername() + " Successfully Created");
             ctx.status(201);
         } catch (ExistingUserException e) {
-            ctx.status(409); //TO DO
+            ctx.status(409);
             ctx.result("User already exists");
+        }
+    };
+
+    public Handler handleViewALlEmployees = ctx -> {
+        String username = (String) ctx.req.getSession().getAttribute("LoggedIn");
+        if (username == null) {
+            LoggingUtil.logger.info("Failed attempt to view all employees");
+            ctx.status(401);
+            ctx.result("You must be logged in to view all employees");
+        } else {
+            User u = us.getUserByUsername(username);
+            ctx.status(200);
+            ctx.result(om.writeValueAsString(us.viewAllEmployees(u)));
         }
     };
 

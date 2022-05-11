@@ -1,5 +1,6 @@
 package com.revature;
 
+import com.revature.controllers.ReimbursementController;
 import com.revature.controllers.UserController;
 import com.revature.dao.IReimbursementDao;
 import com.revature.dao.IUserDao;
@@ -15,10 +16,14 @@ import io.javalin.Javalin;
 
 import static io.javalin.apibuilder.ApiBuilder.path;
 import static io.javalin.apibuilder.ApiBuilder.post;
+import static io.javalin.apibuilder.ApiBuilder.get;
+import static io.javalin.apibuilder.ApiBuilder.put;
+
 
 public class Driver {
     public static IReimbursementDao rd = new ReimbursementDao();
     public static ReimbursementService rs = new ReimbursementService(rd);
+    public static ReimbursementController rCon = new ReimbursementController(rs);
 
     public static IUserDao ud = new UserDao();
     public static UserService us = new UserService(ud);
@@ -47,7 +52,17 @@ public class Driver {
            path("users", () -> {
               post("/login", uCon.handleLogin);
               post("/register", uCon.handleRegisterUser);
+              get("/viewAllEmployees", uCon.handleViewALlEmployees);
            });
+           path("reimbursements", () -> {
+               post("/submit", rCon.handleSubmitRequest);
+               get("/viewPast", rCon.handleViewPastTickets);
+               get("/viewPending", rCon.handleViewPendingTickets);
+               put("/update", rCon.handleUpdateRequest);
+               get("/viewAllPending", rCon.handleViewAllPending);
+               get("/viewAllResolved", rCon.handleViewAllResolved);
+           });
+
         });
 
         server.start(8000);
