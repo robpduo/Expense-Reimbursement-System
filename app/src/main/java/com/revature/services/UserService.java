@@ -1,6 +1,7 @@
 package com.revature.services;
 
 import com.revature.dao.IUserDao;
+import com.revature.exceptions.ExistingUserException;
 import com.revature.exceptions.IncorrectUsernameOrPasswordException;
 import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.models.Role;
@@ -25,12 +26,21 @@ public class UserService {
      */
     public User loginUser(String username, String password) throws IncorrectUsernameOrPasswordException {
         User u = ud.getUserByUsername(username);
-        if (ud.getUserByUsername(username) == null || !password.equals(u.getPassword())) {
+        if (u == null || !password.equals(u.getPassword())) {
             LoggingUtil.logger.info("Attempt to login as user " + username + " failed");
             throw new IncorrectUsernameOrPasswordException();
         }
         LoggingUtil.logger.info("Successfully logged in as user " + username);
         return u;
+    }
+
+    public void registerUser(User u) throws ExistingUserException {
+        if(ud.getUserByUsername(u.getUsername()) == null) {
+            LoggingUtil.logger.info("Failed to register user " + u.getUserId());
+            throw new ExistingUserException();
+        }
+        LoggingUtil.logger.info("Successfully registered user " + u.getUsername());
+        ud.createUser(u);
     }
 
     /**

@@ -58,6 +58,10 @@ public class UserServiceTest {
         User testUser = us.loginUser("uname", "wrongpassword");
     }
 
+    // tests for registerUser ---------------------------------------------------------------------------------
+
+
+
     // tests for viewAllEmployees -----------------------------------------------------------------------------
     @Test
     public void testViewAllEmployees() throws UnauthorizedUserException {

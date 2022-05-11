@@ -112,7 +112,7 @@ public class UserDao implements IUserDao{
         User u = new User();
 
         try {
-            String sql = "select * from users where username = " + username + ";";
+            String sql = "select * from users where username = '" + username + "';";
             cs = ConnectionSingleton.getConnection();
             Statement s = cs.createStatement();
             s.execute(sql);
