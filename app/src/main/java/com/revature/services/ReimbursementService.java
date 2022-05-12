@@ -4,6 +4,7 @@ import com.revature.dao.IReimbursementDao;
 import com.revature.dao.IUserDao;
 import com.revature.dao.ReimbursementDao;
 import com.revature.dao.UserDao;
+import com.revature.exceptions.IncorrectUsernameOrPasswordException;
 import com.revature.exceptions.NegativeAmountException;
 import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.models.*;
@@ -89,7 +90,8 @@ public class ReimbursementService {
      * @param status The new status for the request
      * @throws UnauthorizedUserException Only a manager can update the status
      */
-    public void updateRequest (String username, int id, Status status) throws UnauthorizedUserException {
+    public void updateRequest (String username, int id, Status status)
+            throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
         User u = getUserByUsername(username);
         if (!u.getRole().equals(Role.MANAGER)) {
             LoggingUtil.logger.info("Attempt to update Reimbursement #" + id + " failed");
@@ -103,11 +105,12 @@ public class ReimbursementService {
 
     /**
      * viewAllPending: Views all pending tickets from all employees
-     * @param u The user viewing the tickets (must be a manager)
+     * @param username The user viewing the tickets (must be a manager)
      * @return a list of all pending requests from all employees
      * @throws UnauthorizedUserException Only a manager can view all pending tickets
      */
-    public List<Reimbursement> viewAllPending(String username) throws UnauthorizedUserException {
+    public List<Reimbursement> viewAllPending(String username)
+            throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
         User u = getUserByUsername(username);
         if (!u.getRole().equals(Role.MANAGER)) {
             LoggingUtil.logger.info("Attempt to view pending tickets failed");
@@ -128,7 +131,8 @@ public class ReimbursementService {
      * @return A list of all resolved tickets
      * @throws UnauthorizedUserException Only a manger can view all resolved tickets
      */
-    public List<Reimbursement> viewAllResolved(String username) throws UnauthorizedUserException {
+    public List<Reimbursement> viewAllResolved(String username)
+            throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
         User u = getUserByUsername(username);
         if (!u.getRole().equals(Role.MANAGER)) {
             LoggingUtil.logger.info("Attempt to view all resolved tickets failed");
@@ -145,12 +149,15 @@ public class ReimbursementService {
 
     /**
      * viewEmployeeRequests: View all requests from a specific employee
-     * @param manager The manager viewing the requests
-     * @param emp The employee whose requests the manager is viewing
+     * @param m The manager viewing the requests
+     * @param e The employee whose requests the manager is viewing
      * @return a list of an employee's requests
      * @throws UnauthorizedUserException Only a manager can view a specific employee's requests
      */
-    public List<Reimbursement> viewEmployeeRequests(User manager, User emp) throws UnauthorizedUserException {
+    public List<Reimbursement> viewEmployeeRequests(String m, String e)
+            throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
+        User manager = getUserByUsername(m);
+        User emp = getUserByUsername(e);
         if (!manager.getRole().equals(Role.MANAGER)) {
             LoggingUtil.logger.info("Attempt to retrieve requests from Employee #" + emp.getUserId() + " failed");
             throw new UnauthorizedUserException();
@@ -169,10 +176,12 @@ public class ReimbursementService {
      * @param username The user's username
      * @return The user with the specified username
      */
-    public User getUserByUsername(String username) {
+    public User getUserByUsername(String username) throws IncorrectUsernameOrPasswordException {
         IUserDao ud = new UserDao();
         UserService us = new UserService(ud);
-        return ud.getUserByUsername(username);
+        User u = ud.getUserByUsername(username);
+        if (u == null) throw new IncorrectUsernameOrPasswordException();
+        return u;
     }
 
 }

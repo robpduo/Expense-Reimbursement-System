@@ -103,10 +103,19 @@ public class ReimbursementController {
         }
     };
 
-    // handle viewEmployeeRequests
+    public Handler handleViewEmployeeRequests = ctx -> {
+        String username = (String) ctx.req.getSession().getAttribute("LoggedIn");
 
-
-    // handle getUserByUsername
+        if (username == null) {
+            LoggingUtil.logger.info("Failed attempt to view all employee requests");
+            ctx.status(401);
+            ctx.result("You must be logged in to view all employee requests");
+        } else {
+            User u = om.readValue(ctx.body(), User.class);
+            ctx.status(200);
+            ctx.result(om.writeValueAsString(rs.viewEmployeeRequests(username, u.getUsername())));
+        }
+    };
 
 
 }

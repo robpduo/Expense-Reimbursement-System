@@ -6,6 +6,7 @@ import com.revature.dao.ReimbursementDao;
 import com.revature.dao.UserDao;
 import com.revature.exceptions.NegativeAmountException;
 import com.revature.exceptions.UnauthorizedUserException;
+import com.revature.exceptions.IncorrectUsernameOrPasswordException;
 import com.revature.models.*;
 import com.revature.services.ReimbursementService;
 import com.revature.services.UserService;
@@ -44,7 +45,17 @@ public class ReimbursementServiceTest {
 
     // tests for updateRequest ----------------------------------------------------------------------------
 
-
+    /*
+    @Test(expected = UnauthorizedUserException.class)
+    public void testUpdateRequest() throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
+        User u = new User();
+        u.setUsername("username");
+        u.setRole(Role.EMPLOYEE);
+        Mockito.when(rs.getUserByUsername(Mockito.any())).thenReturn(u);
+        rs.updateRequest("username", 1, Status.APPROVED);
+    }
+    
+     */
 
     // tests for viewAllPending --------------------------------------------------------------------------
 
@@ -112,6 +123,7 @@ public class ReimbursementServiceTest {
 
     // tests for viewEmployeeRequests --------------------------------------------------------------------
 
+    /*
     @Test
     public void testViewEmployeeRequests() throws UnauthorizedUserException {
         User manager = new User();
@@ -155,6 +167,8 @@ public class ReimbursementServiceTest {
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
         rs.viewEmployeeRequests(manager, emp);
     }
+    
+     */
 
 
 }

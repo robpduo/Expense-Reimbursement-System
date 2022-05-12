@@ -37,7 +37,7 @@ public class Driver {
         });
 
         server.exception(IncorrectUsernameOrPasswordException.class, (exception, ctx) -> {
-            ctx.result("Username or password was incorrect");
+            ctx.result("Could not find account with the given information");
         });
 
         server.exception(NegativeAmountException.class, (exception, ctx) -> {
@@ -52,17 +52,20 @@ public class Driver {
            path("users", () -> {
               post("/login", uCon.handleLogin);
               post("/register", uCon.handleRegisterUser);
-              get("/viewAllEmployees", uCon.handleViewALlEmployees);
-           });
-           path("reimbursements", () -> {
-               post("/submit", rCon.handleSubmitRequest);
-               get("/viewPast", rCon.handleViewPastTickets);
-               get("/viewPending", rCon.handleViewPendingTickets);
-               put("/update", rCon.handleUpdateRequest);
-               get("/viewAllPending", rCon.handleViewAllPending);
-               get("/viewAllResolved", rCon.handleViewAllResolved);
+              get("/view-all-employees", uCon.handleViewALlEmployees);
+              put("/logout", uCon.handleLogout);
+              get("/view-account", uCon.handleViewAccountInfo);
            });
 
+           path("reimbursements", () -> {
+               post("/submit", rCon.handleSubmitRequest);
+               get("/view-past", rCon.handleViewPastTickets);
+               get("/view-pending", rCon.handleViewPendingTickets);
+               put("/update", rCon.handleUpdateRequest);
+               get("/view-all-pending", rCon.handleViewAllPending);
+               get("/view-all-resolved", rCon.handleViewAllResolved);
+               get("/view-employee-requests", rCon.handleViewEmployeeRequests);
+           });
         });
 
         server.start(8000);

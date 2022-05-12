@@ -64,10 +64,20 @@ public class UserController {
             User u = us.getUserByUsername(username);
             ctx.status(200);
             ctx.result(om.writeValueAsString(us.viewAllEmployees(u)));
+            LoggingUtil.logger.info(username + " successfully viewed all employees");
         }
     };
 
-
-
-
+    public Handler handleViewAccountInfo = ctx -> {
+        String username = (String) ctx.req.getSession().getAttribute("LoggedIn");
+        if (username == null) {
+            LoggingUtil.logger.info("Failed attempt to view account information");
+            ctx.status(401);
+            ctx.result("You must be logged in to view account information");
+        } else {
+            ctx.status(200);
+            ctx.result(om.writeValueAsString(us.getUserByUsername(username)));
+            LoggingUtil.logger.info(username + " successfully retrieved account information");
+        }
+    };
 }

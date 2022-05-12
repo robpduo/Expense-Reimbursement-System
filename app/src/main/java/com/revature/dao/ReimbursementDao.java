@@ -4,6 +4,7 @@ import com.revature.models.Reimbursement;
 import com.revature.models.Status;
 import com.revature.models.Type;
 import com.revature.utils.ConnectionSingleton;
+import java.time.LocalDate;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -58,7 +59,7 @@ public class ReimbursementDao implements IReimbursementDao {
                 r.setId(rs.getInt(1));
                 r.setAmount(rs.getDouble(2));
                 r.setSumbmittedDate(rs.getDate(3).toLocalDate());
-                r.setResolvedDate(rs.getDate(4).toLocalDate());
+                if (rs.getDate(4)!= null) r.setResolvedDate(rs.getDate(4).toLocalDate());
                 r.setDescription(rs.getString(5));
                 r.setAuthor(ud.getUserById(rs.getInt(6)));
                 r.setResolver(ud.getUserById(rs.getInt(7)));

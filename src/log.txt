@@ -60,3 +60,53 @@
 2022-05-11 18:36:01 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user bbeddie2
 2022-05-11 18:42:12 INFO  LoggingUtil:33 - Successfully logged in as user bbeddie2
 2022-05-11 18:42:24 INFO  LoggingUtil:81 - Successfully retrieved all pending tickets from user bbeddie2
+2022-05-12 16:50:15 INFO  LoggingUtil:74 - Failed attempt to view account information
+2022-05-12 16:50:48 INFO  LoggingUtil:33 - Successfully logged in as user test
+2022-05-12 16:50:59 INFO  LoggingUtil:80 - test successfully retrieved account information
+2022-05-12 16:51:47 INFO  LoggingUtil:74 - Failed attempt to view account information
+2022-05-12 17:12:11 INFO  LoggingUtil:109 - Failed attempt to view all employee requests
+2022-05-12 17:12:15 INFO  LoggingUtil:33 - Successfully logged in as user test
+2022-05-12 17:15:43 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-12 17:16:19 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-12 17:22:00 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-12 17:22:11 INFO  LoggingUtil:33 - Successfully logged in as user test
+2022-05-12 17:22:41 INFO  LoggingUtil:31 - User testSuccessfully submitted a new reimbursement request
+2022-05-12 17:23:05 INFO  LoggingUtil:31 - User testSuccessfully submitted a new reimbursement request
+2022-05-12 17:23:10 INFO  LoggingUtil:31 - User testSuccessfully submitted a new reimbursement request
+2022-05-12 17:23:37 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-12 17:27:06 INFO  LoggingUtil:103 - Updated Reimbursement #22
+2022-05-12 17:27:06 INFO  LoggingUtil:74 - APPROVED Reimbursement #22
+2022-05-12 17:27:23 INFO  LoggingUtil:103 - Updated Reimbursement #23
+2022-05-12 17:27:23 INFO  LoggingUtil:74 - APPROVED Reimbursement #23
+2022-05-12 17:27:29 INFO  LoggingUtil:103 - Updated Reimbursement #24
+2022-05-12 17:27:29 INFO  LoggingUtil:74 - DENIED Reimbursement #24
+2022-05-12 17:31:34 INFO  LoggingUtil:103 - Updated Reimbursement #9
+2022-05-12 17:31:34 INFO  LoggingUtil:74 - DENIED Reimbursement #9
+2022-05-12 17:31:50 INFO  LoggingUtil:124 - Successfully retrieved all pending tickets
+2022-05-12 17:34:02 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-12 17:34:07 INFO  LoggingUtil:33 - Successfully logged in as user test
+2022-05-12 17:34:13 INFO  LoggingUtil:31 - User testSuccessfully submitted a new reimbursement request
+2022-05-12 17:34:28 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-12 17:39:31 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-12 17:41:11 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-12 17:41:16 INFO  LoggingUtil:124 - Successfully retrieved all pending tickets
+2022-05-12 17:41:50 INFO  LoggingUtil:170 - Successfully retrieved requests from Employee #1
+2022-05-12 17:43:45 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-12 17:43:47 INFO  LoggingUtil:124 - Successfully retrieved all pending tickets
+2022-05-12 17:43:50 INFO  LoggingUtil:170 - Successfully retrieved requests from Employee #1
+2022-05-12 17:47:59 INFO  LoggingUtil:30 - Attempt to login as user tmclarnonj1 failed
+2022-05-12 17:52:11 INFO  LoggingUtil:42 - Successfully registered user Robpduo
+2022-05-12 17:53:36 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-12 17:53:42 INFO  LoggingUtil:30 - Attempt to login as user Robpoduo failed
+2022-05-12 17:53:44 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-12 17:53:58 INFO  LoggingUtil:80 - Robpduo successfully retrieved account information
+2022-05-12 17:54:36 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-12 17:54:46 INFO  LoggingUtil:80 - Robpduo successfully retrieved account information
+2022-05-12 17:56:33 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user Robpduo
+2022-05-12 17:56:44 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-12 17:56:47 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user Robpduo
+2022-05-12 17:57:23 INFO  LoggingUtil:80 - Robpduo successfully retrieved account information
+2022-05-12 17:57:31 INFO  LoggingUtil:162 - Attempt to retrieve requests from Employee #1 failed
+2022-05-12 17:57:38 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-12 17:58:20 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-12 17:58:22 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user Robpduo

@@ -12,13 +12,15 @@ create table reimbursement (
 	reimbursement_id int primary key generated always as identity,
 	amount numeric not null,
 	submitted_date date not null,
-	resolved_date date not null,
+	resolved_date date,
 	description varchar(128), 
 	reimbursement_author int references users(user_id), 
 	reimbursement_resolver int references users(user_id),
 	reimbursement_status int references reimbursement_status(status_id), 
 	reimbursement_type int references reimbursement_type (type_id)
 );
+
+drop table reimbursement;
 
 create table users (
 	user_id int primary key generated always as identity,
