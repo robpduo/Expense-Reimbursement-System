@@ -25,10 +25,16 @@ import java.util.List;
 public class ReimbursementServiceTest {
 
     @Mock
-    public static ReimbursementDao rd;
+    public static IReimbursementDao rd;
 
     @InjectMocks
     public static ReimbursementService rs;
+
+    @Mock
+    public static IUserDao ud;
+
+    @InjectMocks
+    public static UserService us;
 
     @Before
     public void setupBeforeMethods() {
@@ -45,24 +51,20 @@ public class ReimbursementServiceTest {
 
     // tests for updateRequest ----------------------------------------------------------------------------
 
-    /*
-    @Test(expected = UnauthorizedUserException.class)
+    @Test
     public void testUpdateRequest() throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
         User u = new User();
-        u.setUsername("username");
-        u.setRole(Role.EMPLOYEE);
-        Mockito.when(rs.getUserByUsername(Mockito.any())).thenReturn(u);
-        rs.updateRequest("username", 1, Status.APPROVED);
+        Mockito.when(u.toString()).thenReturn("Hello World");
+        //System.out.println(u.toString());
     }
-    
-     */
 
     // tests for viewAllPending --------------------------------------------------------------------------
 
     /*
     @Test
-    public void testViewAllPending() throws UnauthorizedUserException {
+    public void testViewAllPending() throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
         User u = new User();
+        u.setUsername("username");
         u.setRole(Role.MANAGER);
         List<Reimbursement> testList = new ArrayList<>();
         Reimbursement r1 = new Reimbursement();
@@ -75,19 +77,21 @@ public class ReimbursementServiceTest {
         r3.setStatus(Status.DENIED);
         testList.add(r3);
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
-        Assert.assertEquals(1, rs.viewAllPending(u).size());
-    }
-
-    @Test(expected = UnauthorizedUserException.class)
-    public void testViewAllPendingUnauthorizedUser() throws UnauthorizedUserException {
-        User u = new User();
-        u.setRole(Role.EMPLOYEE);
-        List<Reimbursement> testList = new ArrayList<>();
-        Mockito.when(rd.readReimbursements()).thenReturn(testList);
-        rs.viewAllPending(u);
+        Mockito.when(rs.getUserByUsername(Mockito.anyString())).thenReturn(u);
+        Assert.assertEquals(1, rs.viewAllPending("username").size());
     }
 
      */
+
+    @Test(expected = UnauthorizedUserException.class)
+    public void testViewAllPendingUnauthorizedUser() throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
+        User u = new User();
+        u.setUsername("username");
+        u.setRole(Role.EMPLOYEE);
+        List<Reimbursement> testList = new ArrayList<>();
+        Mockito.when(rd.readReimbursements()).thenReturn(testList);
+        rs.viewAllPending(u.getUsername());
+    }
 
     // tests for viewAllResolved --------------------------------------------------------------------------
 
