@@ -45,7 +45,7 @@ public class ReimbursementServiceTest {
 
     // tests for updateRequest ----------------------------------------------------------------------------
 
-    /*
+
     @Test(expected = UnauthorizedUserException.class)
     public void testUpdateRequest() throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
         User u = new User();
@@ -54,8 +54,7 @@ public class ReimbursementServiceTest {
         Mockito.when(rs.getUserByUsername(Mockito.any())).thenReturn(u);
         rs.updateRequest("username", 1, Status.APPROVED);
     }
-    
-     */
+
 
     // tests for viewAllPending --------------------------------------------------------------------------
 
