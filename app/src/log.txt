@@ -1,0 +1,1 @@
+2022-05-12 20:06:59 INFO  LoggingUtil:33 - Successfully logged in as user username

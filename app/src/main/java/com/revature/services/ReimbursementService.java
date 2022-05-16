@@ -179,7 +179,7 @@ public class ReimbursementService {
     public User getUserByUsername(String username) throws IncorrectUsernameOrPasswordException {
         IUserDao ud = new UserDao();
         UserService us = new UserService(ud);
-        User u = ud.getUserByUsername(username);
+        User u = us.getUserByUsername(username);
         if (u == null) throw new IncorrectUsernameOrPasswordException();
         return u;
     }

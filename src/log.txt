@@ -110,3 +110,15 @@
 2022-05-12 17:57:38 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
 2022-05-12 17:58:20 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
 2022-05-12 17:58:22 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user Robpduo
+2022-05-12 19:33:54 INFO  LoggingUtil:40 - Failed attempt to view past tickets
+2022-05-12 19:34:00 INFO  LoggingUtil:33 - Successfully logged in as user bbeddie2
+2022-05-12 19:34:10 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user bbeddie2
+2022-05-12 19:35:26 INFO  LoggingUtil:31 - User bbeddie2Successfully submitted a new reimbursement request
+2022-05-12 19:35:51 INFO  LoggingUtil:31 - User bbeddie2Successfully submitted a new reimbursement request
+2022-05-12 19:37:34 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-12 19:37:58 INFO  LoggingUtil:103 - Updated Reimbursement #12
+2022-05-12 19:37:58 INFO  LoggingUtil:74 - APPROVED Reimbursement #12
+2022-05-12 19:38:06 INFO  LoggingUtil:103 - Updated Reimbursement #13
+2022-05-12 19:38:06 INFO  LoggingUtil:74 - DENIED Reimbursement #13
+2022-05-12 19:38:44 INFO  LoggingUtil:33 - Successfully logged in as user bbeddie2
+2022-05-12 19:38:52 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user bbeddie2
