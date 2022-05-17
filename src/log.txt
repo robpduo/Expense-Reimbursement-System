@@ -122,3 +122,61 @@
 2022-05-12 19:38:06 INFO  LoggingUtil:74 - DENIED Reimbursement #13
 2022-05-12 19:38:44 INFO  LoggingUtil:33 - Successfully logged in as user bbeddie2
 2022-05-12 19:38:52 INFO  LoggingUtil:65 - Successfully retrieved all past tickets from user bbeddie2
+2022-05-16 16:14:39 INFO  LoggingUtil:30 - Attempt to login as user Robert@gmail.com failed
+2022-05-16 16:15:33 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:16:14 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-16 16:16:15 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-16 16:16:31 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:18:24 INFO  LoggingUtil:30 - Attempt to login as user Robpduo failed
+2022-05-16 16:18:26 INFO  LoggingUtil:30 - Attempt to login as user Robpduo failed
+2022-05-16 16:22:20 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:22:28 INFO  LoggingUtil:30 - Attempt to login as user Robpduo failed
+2022-05-16 16:24:03 INFO  LoggingUtil:30 - Attempt to login as user fa failed
+2022-05-16 16:24:10 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:33:49 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:33:59 INFO  LoggingUtil:30 - Attempt to login as user Robpduoh failed
+2022-05-16 16:34:08 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:34:46 INFO  LoggingUtil:30 - Attempt to login as user Robpduo; failed
+2022-05-16 16:34:48 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:36:48 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:38:41 INFO  LoggingUtil:30 - Attempt to login as user Robert failed
+2022-05-16 16:38:54 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:40:05 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:40:16 INFO  LoggingUtil:30 - Attempt to login as user Robert failed
+2022-05-16 16:40:28 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 16:42:24 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 17:07:54 INFO  LoggingUtil:30 - Attempt to login as user kdfgdfgdfg failed
+2022-05-16 17:07:54 INFO  LoggingUtil:30 - Attempt to login as user kdfgdfgdfg failed
+2022-05-16 17:07:54 INFO  LoggingUtil:30 - Attempt to login as user kdfgdfgdfg failed
+2022-05-16 17:07:54 INFO  LoggingUtil:30 - Attempt to login as user kdfgdfgdfg failed
+2022-05-16 17:08:10 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 17:08:26 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 17:09:26 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 17:09:26 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 23:17:11 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 23:18:32 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 23:23:26 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 23:24:01 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 23:24:09 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 23:24:57 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 23:53:51 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-16 23:54:18 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:11:19 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:11:24 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:12:37 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:12:39 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:13:23 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-17 00:13:24 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-17 00:13:28 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-17 00:13:28 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-17 00:13:28 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-17 00:13:28 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-17 00:13:28 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-17 00:13:29 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-17 00:13:29 INFO  LoggingUtil:30 - Attempt to login as user robpduo failed
+2022-05-17 00:13:42 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:13:50 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:14:06 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:21:58 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:22:00 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-17 00:23:20 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
