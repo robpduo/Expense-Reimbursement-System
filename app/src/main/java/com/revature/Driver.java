@@ -47,6 +47,9 @@ public class Driver {
             ctx.result("You are not authorized to perform this action");
         });
 
+        server.before(ctx -> ctx.header("Access-Control-Allow-Credentials", "true"));
+        server.before(ctx -> ctx.header("Access-Control-Expose-Headers", "*"));
+
         server.routes( () -> {
            path("users", () -> {
               post("/login", uCon.handleLogin);

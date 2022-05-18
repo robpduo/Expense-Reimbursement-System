@@ -1,0 +1,76 @@
+:root {
+    --bg: #2D2E2E;
+    --dark: #0F0F0F;
+    --btn-blue: #46B1C9;
+    --accent: #98C1D9;
+    --text-white: #FBFBFB;
+}
+
+.navbar {
+    background: var(--accent);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 80%;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.nav-link {
+    color: var(--dark);
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logout-btn{
+    background-color: var(--btn-blue);
+    border: solid 2px var(--dark);
+    color: var(--dark);
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    outline: none;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}

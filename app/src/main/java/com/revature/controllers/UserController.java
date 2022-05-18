@@ -24,7 +24,7 @@ public class UserController {
         try {
             User login = us.loginUser(u.getUsername(), u.getPassword());
 
-            ctx.result("Logged in as: " + u.getUsername());
+            ctx.result(om.writeValueAsString(login));
             ctx.status(200);
 
             ctx.req.getSession().setAttribute("LoggedIn", login.getUsername());
@@ -69,7 +69,9 @@ public class UserController {
     };
 
     public Handler handleViewAccountInfo = ctx -> {
+
         String username = (String) ctx.req.getSession().getAttribute("LoggedIn");
+        System.out.println("X1: " + username);
         if (username == null) {
             LoggingUtil.logger.info("Failed attempt to view account information");
             ctx.status(401);

@@ -1,0 +1,5 @@
+BG: #2D2E2E
+Black: #0F0F0F
+Button Color: #3891A6
+Accent: #23CE6B
+Offwhite/text: #FBFBFB

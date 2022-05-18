@@ -6,7 +6,7 @@ public class Reimbursement {
 
     private int id;
     private double amount;
-    private LocalDate sumbmittedDate;
+    private LocalDate submittedDate;
     private LocalDate resolvedDate;
     private String description;
     private User author;
@@ -20,7 +20,7 @@ public class Reimbursement {
     public Reimbursement(int id, double amount, LocalDate sumbmittedDate, LocalDate resolvedDate, String description, User author, User resolver, Status status, Type type) {
         this.id = id;
         this.amount = amount;
-        this.sumbmittedDate = sumbmittedDate;
+        this.submittedDate = sumbmittedDate;
         this.resolvedDate = resolvedDate;
         this.description = description;
         this.author = author;
@@ -46,11 +46,11 @@ public class Reimbursement {
     }
 
     public LocalDate getSumbmittedDate() {
-        return sumbmittedDate;
+        return submittedDate;
     }
 
     public void setSumbmittedDate(LocalDate sumbmittedDate) {
-        this.sumbmittedDate = sumbmittedDate;
+        this.submittedDate = sumbmittedDate;
     }
 
     public LocalDate getResolvedDate() {
@@ -106,7 +106,7 @@ public class Reimbursement {
         return "Reimbursement{" +
                 "id=" + id +
                 ", amount=" + amount +
-                ", sumbmittedDate=" + sumbmittedDate +
+                ", sumbmittedDate=" + submittedDate +
                 ", resolvedDate=" + resolvedDate +
                 ", description='" + description + '\'' +
                 ", author=" + author +

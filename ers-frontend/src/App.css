@@ -1,0 +1,19 @@
+:root {
+  --bg: #3D5A80;
+  --dark: #0F0F0F;
+  --btn-blue: #3891A6;
+  --accent: #293241;
+  --text-white: #FBFBFB;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+}
