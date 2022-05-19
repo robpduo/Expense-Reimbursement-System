@@ -31,9 +31,7 @@ const ExpenseForm = () => {
             description,
             type
         }
-        console.log("x1:", expenseForm.amount);
-        console.log("x2:", expenseForm.description);
-        console.log("x3:", expenseForm.type);
+
         dispatch(submitExpense(expenseForm));
 
     }

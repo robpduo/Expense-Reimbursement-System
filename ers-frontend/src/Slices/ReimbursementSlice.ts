@@ -24,9 +24,8 @@ export const submitExpense = createAsyncThunk(
     async(expenseInput: Expense, thunkAPI) => {
     try {
         axios.defaults.withCredentials = true;
-        console.log("A", expenseInput.amount);
+        console.log("A: ", expenseInput.amount);
         const res = await axios.post(`http://localhost:8000/reimbursements/submit`, expenseInput);
-
         return expenseInput;
     } catch (error) {
         console.log(error);
@@ -36,7 +35,7 @@ export const submitExpense = createAsyncThunk(
 
 //Create the slice
 export const ReimburseSlice = createSlice({
-    name: "reimburse",
+    name: "reimbursements",
     initialState: initialReimbursementState,
     reducers: {
         toggleError: (state) => {
