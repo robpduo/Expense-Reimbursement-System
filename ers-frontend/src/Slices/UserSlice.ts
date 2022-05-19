@@ -1,6 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { IUser } from "../Interfaces/IUser";
+import { wrapper } from 'axios-cookiejar-support';
+
 
 //Figure out our default state for this slice
 
@@ -24,6 +26,7 @@ export const loginUser = createAsyncThunk(
     'user/login',
     async (credentials: Login, thunkAPI) => {
         try {
+            axios.defaults.withCredentials = true;
             const res = await axios.post('http://localhost:8000/users/login', credentials);
 
             return {

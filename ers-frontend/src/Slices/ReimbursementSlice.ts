@@ -20,7 +20,7 @@ type Expense = {
 }
 
 export const submitExpense = createAsyncThunk(
-    'reimbursements/submit',
+    'user/reimbursement',
     async(expenseInput: Expense, thunkAPI) => {
     try {
         axios.defaults.withCredentials = true;
@@ -35,7 +35,7 @@ export const submitExpense = createAsyncThunk(
 
 //Create the slice
 export const ReimburseSlice = createSlice({
-    name: "reimbursements",
+    name: "reimbursement",
     initialState: initialReimbursementState,
     reducers: {
         toggleError: (state) => {
@@ -47,6 +47,7 @@ export const ReimburseSlice = createSlice({
         builder.addCase(submitExpense.pending, (state, action) => {
             state.loading = true;
         });
+
         builder.addCase(submitExpense.fulfilled, (state, action) => {
             //The payload in this case, is the return from our asyncThunk from above
             state.reimbursement = action.payload;
@@ -54,6 +55,7 @@ export const ReimburseSlice = createSlice({
             state.error = false;
             state.loading = false;
         });
+
         builder.addCase(submitExpense.rejected, (state, action) => {
             state.error = true;
             state.loading = false;

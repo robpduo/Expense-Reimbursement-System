@@ -47,8 +47,7 @@ public class Driver {
             ctx.result("You are not authorized to perform this action");
         });
 
-        server.before(ctx -> ctx.header("Access-Control-Allow-Credentials", "true"));
-        server.before(ctx -> ctx.header("Access-Control-Expose-Headers", "*"));
+
 
         server.routes( () -> {
            path("users", () -> {
@@ -69,6 +68,8 @@ public class Driver {
                get("/view-employee-requests", rCon.handleViewEmployeeRequests);
            });
         });
+        server.before(ctx -> ctx.header("Access-Control-Allow-Credentials", "true"));
+        server.before(ctx -> ctx.header("Access-Control-Expose-Headers", "*"));
 
         server.start(8000);
 

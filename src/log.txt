@@ -366,3 +366,65 @@
 2022-05-19 12:10:34 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
 2022-05-19 12:10:39 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
 2022-05-19 12:13:03 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 12:21:15 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 12:25:59 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 12:26:58 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 12:27:04 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 12:28:23 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 12:43:44 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 12:44:16 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 12:44:20 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 12:44:22 INFO  LoggingUtil:32 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 12:54:16 INFO  LoggingUtil:76 - Failed attempt to update reimbursement request
+2022-05-19 12:54:20 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 12:54:24 INFO  LoggingUtil:110 - Attempt to update Reimbursement #25 failed
+2022-05-19 12:54:43 INFO  LoggingUtil:33 - Successfully logged in as user test
+2022-05-19 12:54:47 INFO  LoggingUtil:110 - Attempt to update Reimbursement #25 failed
+2022-05-19 12:55:02 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-19 12:55:04 INFO  LoggingUtil:129 - Updated Reimbursement #25
+2022-05-19 12:55:04 INFO  LoggingUtil:83 - DENIED Reimbursement #25
+2022-05-19 12:58:13 INFO  LoggingUtil:91 - Failed attempt to view all pending requests
+2022-05-19 12:58:17 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-19 12:58:20 INFO  LoggingUtil:161 - Successfully retrieved all pending tickets
+2022-05-19 13:00:05 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-19 13:00:54 INFO  LoggingUtil:194 - Successfully retrieved all resolved tickets
+2022-05-19 13:00:54 INFO  LoggingUtil:174 - Attempt to view all resolved tickets failed
+2022-05-19 13:00:57 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-19 13:01:02 INFO  LoggingUtil:194 - Successfully retrieved all resolved tickets
+2022-05-19 13:01:02 INFO  LoggingUtil:174 - Attempt to view all resolved tickets failed
+2022-05-19 13:01:07 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-19 13:01:10 INFO  LoggingUtil:194 - Successfully retrieved all resolved tickets
+2022-05-19 13:01:10 INFO  LoggingUtil:174 - Attempt to view all resolved tickets failed
+2022-05-19 13:01:47 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-19 13:01:58 INFO  LoggingUtil:33 - Successfully logged in as user tmclarnon1
+2022-05-19 13:02:00 INFO  LoggingUtil:194 - Successfully retrieved all resolved tickets
+2022-05-19 13:02:00 INFO  LoggingUtil:174 - Attempt to view all resolved tickets failed
+2022-05-19 14:22:35 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:22:39 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:23:16 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:24:48 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:25:02 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:25:27 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:25:40 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:25:47 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:26:43 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:29:14 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:29:20 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:31:31 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:41:35 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:41:50 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:41:55 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:42:43 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:42:44 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:42:54 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:42:59 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:43:55 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:45:08 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:45:12 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:50:38 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:50:44 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 14:51:25 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 14:53:46 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 14:54:04 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 14:54:29 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 14:54:46 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
