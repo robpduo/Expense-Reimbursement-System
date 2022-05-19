@@ -11,9 +11,10 @@ const EmployeePage = () => {
     const navigator = useNavigate();
 
     useEffect(()=>{
-        if(!userState.error && userState.user){
-            //navigator();
+        if(!userState.user){
+            navigator('/');
         }
+        alert("Please Login to Use this function");
     }, []);
 
     return (
