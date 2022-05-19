@@ -3,18 +3,17 @@ import { useSelector } from 'react-redux';
 import React, { useEffect } from 'react';
 
 import { EmployeeNavbar } from '../../Components/Navbar/EmployeeNavbar'
-import { RootState } from '../../UserStore'
+import { RootState } from '../../Store'
 
 
 const EmployeePage = () => {
-    const userState = useSelector((state:RootState) => state.user)
+    const userState = useSelector((state:RootState) => state.user);
     const navigator = useNavigate();
 
     useEffect(()=>{
         if(!userState.user){
             navigator('/');
         }
-        alert("Please Login to Use this function");
     }, []);
 
     return (

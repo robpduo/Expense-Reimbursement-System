@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../../Slices/UserSlice';
-import { AppDispatch, RootState } from '../../UserStore';
+import { AppDispatch, RootState } from '../../Store';
 
 import "./LoginForm.css"
 

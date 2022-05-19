@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import {useSelector} from 'react-redux';
-import {RootState} from '../../UserStore';
+import {RootState} from '../../Store';
 
 import { useNavigate } from 'react-router-dom';
 

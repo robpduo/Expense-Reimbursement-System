@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 import defaultImage from '../../deafultpic.jpg';
 import './Navbar.css';
-import { RootState } from '../../UserStore';
+import { RootState } from '../../Store';
 
 export const EmployeeNavbar: React.FC = () => {
 
@@ -25,8 +25,12 @@ export const EmployeeNavbar: React.FC = () => {
                     <Link to={"/create-reimbursement"} className="nav-link">Reimbursement Form</Link>
                 </li>
 
+                <li className="nav-item">
+                    <Link to={"/view-pending"} className="nav-link">View Pending</Link>
+                </li>
+
                 <li className="logout">
-                    <Link to={"/login"} className="nav-link">
+                    <Link to={"/"} className="nav-link">
                         <button className="logout-btn" onClick={handleLogout}>Logout</button>
                     </Link>
                 </li>

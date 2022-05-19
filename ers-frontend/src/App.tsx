@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import {LoginPage} from './Views/LoginPage/LoginPage';
 import EmployeePage from './Views/EmployeePage/EmployeePage';
 import ExpensePage from './Views/ExpensePage/ExpensePage';
+import ViewPending from './Components/ViewPending/ViewPending';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<LoginPage />}/>
           <Route path="/employee-home" element={<EmployeePage />}/>
           <Route path="/create-reimbursement" element={<ExpensePage />} />
+          <Route path="/view-pending" element={<ViewPending />} />
       </Routes>
     </BrowserRouter>
   );

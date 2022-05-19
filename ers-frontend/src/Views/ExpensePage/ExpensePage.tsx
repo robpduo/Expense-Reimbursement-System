@@ -5,7 +5,7 @@ import { EmployeeNavbar } from '../../Components/Navbar/EmployeeNavbar';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-import { RootState } from '../../UserStore'
+import { RootState } from '../../Store'
 
 const ExpensePage = () => {
   const userState = useSelector((state:RootState) => state.user);
@@ -15,7 +15,6 @@ const ExpensePage = () => {
     if(!userState.user){
         navigator('/');
     }
-    alert("Please Login to Use this function");
 }, []);
 
   return (

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { submitExpense } from '../../Slices/ReimbursementSlice';
 import { RType } from '../../Interfaces/IReimbursement';
-import { AppDispatch, RootState } from '../../UserStore';
+import { AppDispatch, RootState } from '../../Store';
 
 const ExpenseForm = () => {
     const [amount, setAmt] = useState<number>(0);
@@ -40,7 +40,7 @@ const ExpenseForm = () => {
         <div className="new-expense-form">
             <form onSubmit={handleSubmit}>
                 <label htmlFor='expense-amount'>Enter Expense Amount</label>
-                <input type="number" id='expense-amount' name='amount-field' onChange={handleInput}/>
+                <input type="number" step="0.01" id='expense-amount' name='amount-field' onChange={handleInput}/>
                 <br />
 
                 <label htmlFor='expense-description'>Description</label>
@@ -49,12 +49,12 @@ const ExpenseForm = () => {
 
                 <label htmlFor='expense-type'>Type of Expense</label>
                 <input type="number" id="expense-type" name='type-menu' onChange={handleInput} />
-                {/* <select id='expense-type' className="type-menu" ref="type-menu">
+                 {/* <select id='expense-type' className="type-menu" ref="type-menu">
                     <option value="FOOD">Food</option>
                     <option value="TRAVEL">Travel</option>
                     <option value="LODGING">Lodging</option>
                     <option value="OTHER">Other</option>
-                </select> */}
+                </select>  */}
 
                 <br />
                 <input type='submit' className="expense-submit-button" value="Submit" />
