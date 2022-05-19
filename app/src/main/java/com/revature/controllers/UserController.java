@@ -71,7 +71,6 @@ public class UserController {
     public Handler handleViewAccountInfo = ctx -> {
 
         String username = (String) ctx.req.getSession().getAttribute("LoggedIn");
-        System.out.println("X1: " + username);
         if (username == null) {
             LoggingUtil.logger.info("Failed attempt to view account information");
             ctx.status(401);

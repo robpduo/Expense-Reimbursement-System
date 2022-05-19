@@ -1,19 +1,13 @@
 import { IUser } from "./IUser"
 
 export interface IReimbursement {
-    postId: number,
-    postedDate: Date,
-    content: string,
-    postUser: IUser
-
-    id: number, 
     amount: number,
-    submittedDate: Date,
-    resolvedDate: Date, 
+    submittedDate?: Date,
+    resolvedDate?: Date, 
     description: string, 
-    author: IUser,
-    resolver: IUser,
-    status: Status,
+    author?: IUser,
+    resolver?: IUser,
+    status?: Status,
     type: RType
 }
 

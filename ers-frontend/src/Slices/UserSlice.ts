@@ -40,8 +40,6 @@ export const loginUser = createAsyncThunk(
     }
 )
 
-
-
 //Create the slice
 export const UserSlice = createSlice({
     name: "user",

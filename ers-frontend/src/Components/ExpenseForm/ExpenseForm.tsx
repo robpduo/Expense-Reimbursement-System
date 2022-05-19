@@ -25,29 +25,32 @@ const ExpenseForm = () => {
     }
 
     const handleSubmit = (event: React.FormEvent) => {
+        event.preventDefault();
         let expenseForm = {
             amount, 
             description,
             type
         }
-
+        console.log("x1:", expenseForm.amount);
+        console.log("x2:", expenseForm.description);
+        console.log("x3:", expenseForm.type);
         dispatch(submitExpense(expenseForm));
 
     }
 
     return (
         <div className="new-expense-form">
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label htmlFor='expense-amount'>Enter Expense Amount</label>
-                <input type="number" id='expense-amount' className='amount-field' onChange={handleInput}/>
+                <input type="number" id='expense-amount' name='amount-field' onChange={handleInput}/>
                 <br />
 
                 <label htmlFor='expense-description'>Description</label>
-                <input type="string" id='expense-description' className='description-field' onChange={handleInput}/>
+                <input type="string" id='expense-description' name='description-field' onChange={handleInput}/>
                 <br />
 
                 <label htmlFor='expense-type'>Type of Expense</label>
-                <input type="number" id="expense-type" className='type-menu' onChange={handleInput} />
+                <input type="number" id="expense-type" name='type-menu' onChange={handleInput} />
                 {/* <select id='expense-type' className="type-menu" ref="type-menu">
                     <option value="FOOD">Food</option>
                     <option value="TRAVEL">Travel</option>

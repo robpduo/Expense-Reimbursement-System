@@ -6,7 +6,6 @@ interface ReimbursementSliceState {
     loading: boolean,
     error: boolean,
     reimbursement?: IReimbursement
-    reimbList?: IReimbursement[]
 }
 
 const initialReimbursementState: ReimbursementSliceState = {
@@ -21,16 +20,14 @@ type Expense = {
 }
 
 export const submitExpense = createAsyncThunk(
-    'users/get',
+    'reimbursements/submit',
     async(expenseInput: Expense, thunkAPI) => {
     try {
-        const res = await axios.post(`http://localhost:8000/users/submit`, expenseInput);
+        axios.defaults.withCredentials = true;
+        console.log("A", expenseInput.amount);
+        const res = await axios.post(`http://localhost:8000/reimbursements/submit`, expenseInput);
 
-        return {
-            amount: 1300,
-            description: "kfc",
-            type: "FOOD"
-        }
+        return expenseInput;
     } catch (error) {
         console.log(error);
     }
@@ -38,8 +35,8 @@ export const submitExpense = createAsyncThunk(
 )
 
 //Create the slice
-export const UserSlice = createSlice({
-    name: "reimbursement",
+export const ReimburseSlice = createSlice({
+    name: "reimburse",
     initialState: initialReimbursementState,
     reducers: {
         toggleError: (state) => {
@@ -53,7 +50,8 @@ export const UserSlice = createSlice({
         });
         builder.addCase(submitExpense.fulfilled, (state, action) => {
             //The payload in this case, is the return from our asyncThunk from above
-            //state.user = action.payload;
+            state.reimbursement = action.payload;
+            console.log(state.reimbursement);
             state.error = false;
             state.loading = false;
         });
@@ -65,6 +63,6 @@ export const UserSlice = createSlice({
 })
 
 //If we had normal actions and reducers we would export them like this
-export const { toggleError } = UserSlice.actions;
+export const { toggleError } = ReimburseSlice.actions;
 
-export default UserSlice.reducer;
+export default ReimburseSlice.reducer;
