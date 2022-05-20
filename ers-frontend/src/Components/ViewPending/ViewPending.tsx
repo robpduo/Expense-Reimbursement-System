@@ -19,18 +19,29 @@ const ViewPending: React.FC = () => {
         if (userState.user) {
             dispatch(viewPending());
         }
-        console.log("P: ", reimburseState.reimbursements?.at(1)?.reimbursement_id);
     }, []);
 
     return (
         <div>
             <EmployeeNavbar />
             <div className="reimbursement-page">
-                {reimburseState.reimbursements ? reimburseState.reimbursements.map((reimburse: IReimbursement) => {
-                    return <Reimbursement {...reimburse} key={ reimburse.reimbursement_id} />
-                }) :
-                    <p>Here1</p>
-                }
+                <table>
+                    <tr className="reimbursement-headings">
+                        <th>Reimbursement ID</th>
+                        <th>Amount</th>
+                        <th>Date Submitted</th>
+                        <th>Description</th>
+                        <th>Author</th>
+                        <th>Reimbursement Type</th>
+                    </tr>
+                        {reimburseState.reimbursements ? reimburseState.reimbursements.map((reimburse: IReimbursement) => {
+                            return <Reimbursement {...reimburse} key={reimburse.id} />
+                        }) :
+                            <tr>
+                                <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+                            </tr>
+                        }
+                </table>
             </div>
         </div>
     )

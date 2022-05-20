@@ -1,9 +1,9 @@
 import { IUser } from "./IUser"
 
 export interface IReimbursement {
-    reimbursement_id?: number,
+    id?: number,
     amount: number,
-    submittedDate?: Date,
+    submittedDate?: string,
     resolvedDate?: Date, 
     description: string, 
     author?: IUser,
