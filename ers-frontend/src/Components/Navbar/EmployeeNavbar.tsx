@@ -1,18 +1,19 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import defaultImage from '../../deafultpic.jpg';
 import './Navbar.css';
-import { RootState } from '../../Store';
+import { AppDispatch, RootState } from '../../Store';
+import { logoutUser } from '../../Slices/UserSlice';
 
 export const EmployeeNavbar: React.FC = () => {
-
-    const handleLogout = () => {
-
-    }
-
+    const dispatch: AppDispatch = useDispatch();
     const user = useSelector((state:RootState) => state.user.user);
+    
+    const handleLogout = () => {
+        dispatch(logoutUser());
+    }
 
     return(
         <nav className="navbar">

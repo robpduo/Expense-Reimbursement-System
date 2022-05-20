@@ -10,6 +10,7 @@ interface UserSliceState {
     loading: boolean,
     error: boolean,
     user?: IUser,
+    nullUser?: IUser
 }
 
 const initialUserState: UserSliceState = {
@@ -43,6 +44,17 @@ export const loginUser = createAsyncThunk(
     }
 )
 
+export const logoutUser = createAsyncThunk(
+    'user/logout',
+    async (thunkAPI) => {
+        try {
+            axios.defaults.withCredentials = false;
+            const res = await axios.put('http://localhost:8000/users/logout');
+        } catch (e) {
+        }
+    }
+)
+
 //Create the slice
 export const UserSlice = createSlice({
     name: "user",
@@ -66,6 +78,13 @@ export const UserSlice = createSlice({
         });
         builder.addCase(loginUser.rejected, (state, action) => {
             state.error = true;
+            state.loading = false;
+        });
+
+        builder.addCase(logoutUser.fulfilled, (state, action) => {
+            //clear all user field
+            state.user = state.nullUser;
+            state.error = false;
             state.loading = false;
         });
     }
