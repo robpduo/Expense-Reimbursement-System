@@ -1,19 +1,28 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
+=======
+import React, { useEffect } from "react";
+>>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
 import { useDispatch, useSelector } from "react-redux";
 import { IReimbursement } from "../../Interfaces/IReimbursement";
 import { viewAllPending } from "../../Slices/ReimbursementSlice";
 import { AppDispatch, RootState } from "../../Store";
 import NavBarSelector from "../../Views/NavBarSelector/NavBarSelector";
 import Reimbursement from "../../Views/Reimbursement/Reimbursement";
+<<<<<<< HEAD
 import { AiOutlineCheck, AiOutlineClose } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 
+=======
+import { ReimbursementTableHeader } from "../../Views/ReimbursementTableHeader/ReimbursementTableHeader";
+>>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
 
 export const ViewAllPending:React.FC = () => {
 
     const dispatch: AppDispatch = useDispatch();
     const userState = useSelector((state:RootState) => state.user);
     const reimbursementState = useSelector((state:RootState) => state.reimburser);
+<<<<<<< HEAD
     const navigator = useNavigate();
 
     useEffect(() => {
@@ -24,12 +33,21 @@ export const ViewAllPending:React.FC = () => {
             navigator("./");
         }
     },[]);
+=======
+
+    useEffect(() => {
+        if (userState.user) {
+            dispatch(viewAllPending());
+        }
+    }, [])
+>>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
 
     return(
         <div>
             <NavBarSelector/>
             <div className="view-all-pending-page">
                 <table>
+<<<<<<< HEAD
                     <tr className="reimbursement-headings">
                         <th>Reimbursement ID</th>
                         <th>Amount</th>
@@ -49,6 +67,16 @@ export const ViewAllPending:React.FC = () => {
                             </tr>
                         }
 
+=======
+                    <ReimbursementTableHeader/>
+                    {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
+                        return <Reimbursement {...reimbursement} key={reimbursement.id} />
+                    }) :
+                        <tr>
+                            <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+                        </tr>
+                    }
+>>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
                 </table>
             </div>
         </div>

@@ -20,7 +20,7 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(10, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -46,7 +46,7 @@
 
 .nav-link {
     color: var(--dark);
-    font-size: 1.5rem;
+    font-size: 16;
     text-decoration: none;
     cursor: pointer;
 }

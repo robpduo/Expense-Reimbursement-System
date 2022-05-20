@@ -6,6 +6,7 @@ import { resolveRequest, viewPending } from '../../Slices/ReimbursementSlice';
 import { IReimbursement, RType, Status } from '../../Interfaces/IReimbursement';
 import { AiOutlineCheck, AiOutlineClose, AiFillDelete } from "react-icons/ai";
 
+<<<<<<< HEAD
 const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {    
     let date = new Date();
     const dispatch: AppDispatch = useDispatch();
@@ -49,16 +50,28 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
     }
 
     if (userState.user?.role.toString() === "MANAGER") {
+=======
+const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
+    
+>>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
     return (
         <tr className="reimbursement-data">
             <td>{reimburse.id}</td>
             <td>${reimburse.amount}</td>
+<<<<<<< HEAD
             <td>{date.getDate()}</td>
+=======
+>>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
             <td>{reimburse.description}</td>
-            <td>{reimburse.author?.userId}</td>
+            <td>{reimburse.author?.username}</td>
+            <td>{reimburse.resolver?.username}</td>
             <td>{reimburse.type}</td>
+<<<<<<< HEAD
             <td className="icon" onClick={handleApprove}><AiOutlineCheck /></td>
             <td className="icon" onClick={handleDeny}><AiOutlineClose /></td>
+=======
+            <td>{reimburse.status}</td>
+>>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
         </tr>
     )
     } else {

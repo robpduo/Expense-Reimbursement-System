@@ -37,6 +37,7 @@ public class UserController {
             ctx.status(200);
 
             ctx.req.getSession().setAttribute("LoggedIn", login.getUsername());
+            LoggingUtil.logger.info("Successfully logged in user " + login.getUserId());
 
             LoggingUtil.logger.info("Successfully logged in user " + login.getUserId());
 
