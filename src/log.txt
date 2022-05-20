@@ -1489,3 +1489,454 @@
 2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
 2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
 2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-20 14:35:11 INFO  LoggingUtil:44 - Successfully logged out
+2022-05-20 14:35:20 INFO  LoggingUtil:32 - Successfully logged in user 6
+2022-05-20 14:38:04 INFO  LoggingUtil:32 - Successfully logged in user 6
+2022-05-20 14:38:23 INFO  LoggingUtil:32 - Successfully logged in user 6
+2022-05-20 14:38:28 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 14:38:28 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 14:38:29 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 14:38:29 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 14:38:41 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 14:38:41 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 14:39:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:39:08 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:39:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:39:08 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:40:33 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:40:33 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:41:47 INFO  LoggingUtil:32 - Successfully logged in user 6
+2022-05-20 14:41:49 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:41:49 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:42:06 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:42:06 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:43:12 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:43:12 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:44:30 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:44:30 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:44:41 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:44:41 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:45:24 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:45:24 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:45:38 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:45:38 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:45:56 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:45:56 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:46:15 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:46:15 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:46:19 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:46:19 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:47:21 INFO  LoggingUtil:32 - Successfully logged in user 6
+2022-05-20 14:47:23 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 14:47:23 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 14:47:26 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:47:26 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:47:42 INFO  LoggingUtil:32 - Successfully logged in user 6
+2022-05-20 14:47:47 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 14:47:47 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 14:48:14 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:48:14 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:50:45 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 14:50:45 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 14:55:08 INFO  LoggingUtil:44 - Successfully logged out
+2022-05-20 14:55:13 INFO  LoggingUtil:32 - Successfully logged in user 6
+2022-05-20 14:55:14 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 14:55:17 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 14:55:17 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 14:55:23 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 14:55:39 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 14:55:39 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 14:59:39 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:00:06 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:00:09 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 15:00:09 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 15:00:10 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:00:12 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:00:51 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 15:00:51 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 15:00:52 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:00:53 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 15:00:53 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 15:00:55 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:00:56 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 15:00:56 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 15:00:58 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:00:58 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 15:00:58 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 15:01:00 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:01:01 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 15:01:01 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 15:01:02 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:01:03 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 15:01:03 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 15:01:52 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 15:01:52 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-20 15:01:52 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 15:01:56 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 15:01:56 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
