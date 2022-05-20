@@ -3,7 +3,7 @@ import { IUser } from "./IUser"
 export interface IReimbursement {
     id?: number,
     amount: number,
-    submittedDate?: string,
+    submittedDate?: Date,
     resolvedDate?: Date, 
     description: string, 
     author?: IUser,

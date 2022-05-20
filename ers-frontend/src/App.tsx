@@ -6,6 +6,7 @@ import {LoginPage} from './Views/LoginPage/LoginPage';
 import EmployeePage from './Views/EmployeePage/EmployeePage';
 import ExpensePage from './Views/ExpensePage/ExpensePage';
 import ViewPending from './Components/ViewPending/ViewPending';
+import { ViewAllPending } from './Components/ViewAllPending/ViewAllPending';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/home" element={<EmployeePage />}/>
           <Route path="/create-reimbursement" element={<ExpensePage />} />
           <Route path="/view-pending" element={<ViewPending />} />
+          <Route path="/view-all-pending" element={<ViewAllPending/>}/>
       </Routes>
     </BrowserRouter>
   );
