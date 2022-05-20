@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
 import defaultImage from '../../deafultpic.jpg';
@@ -7,15 +7,15 @@ import './Navbar.css';
 import { AppDispatch, RootState } from '../../Store';
 import { logoutUser } from '../../Slices/UserSlice';
 
-export const EmployeeNavbar: React.FC = () => {
+export const ManagerNavbar: React.FC = () => {
     const dispatch: AppDispatch = useDispatch();
-    const user = useSelector((state:RootState) => state.user.user);
-    
+    const user = useSelector((state: RootState) => state.user.user);
+
     const handleLogout = () => {
         dispatch(logoutUser());
     }
 
-    return(
+    return (
         <nav className="navbar">
             <ul className='nav-menu'>
                 <li className="nav-item">
@@ -28,6 +28,10 @@ export const EmployeeNavbar: React.FC = () => {
 
                 <li className="nav-item">
                     <Link to={"/view-pending"} className="nav-link">View Pending</Link>
+                </li>
+
+                <li className="manager-nav-item">
+                    <Link to={"/home"} className="nav-link">View All Pending</Link>
                 </li>
 
                 <li className="logout">

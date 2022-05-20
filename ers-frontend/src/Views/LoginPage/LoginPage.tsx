@@ -16,7 +16,7 @@ export const LoginPage: React.FC = () => {
 
     useEffect(()=>{
         if(!userState.error && userState.user){
-            navigator('/employee-home');
+            navigator('/home');
         }
     }, [userState]);
 

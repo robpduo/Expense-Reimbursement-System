@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
           <Route path="/" element={<LoginPage />}/>
-          <Route path="/employee-home" element={<EmployeePage />}/>
+          <Route path="/home" element={<EmployeePage />}/>
           <Route path="/create-reimbursement" element={<ExpensePage />} />
           <Route path="/view-pending" element={<ViewPending />} />
       </Routes>
