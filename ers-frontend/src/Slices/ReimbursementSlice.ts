@@ -42,9 +42,7 @@ export const viewPending = createAsyncThunk(
         try {
             axios.defaults.withCredentials = true;
             const res = await axios.get(`http://localhost:8000/reimbursements/view-pending`);
-            console.log("X", res);
             return (res.data);
-
         } catch (error) {
             console.log(error);
         }
@@ -82,12 +80,7 @@ export const ReimburseSlice = createSlice({
 
         builder.addCase(viewPending.fulfilled, (state, action) => {
             //The payload in this case, is the return from our asyncThunk from above
-            if (state.reimbursements && action.payload) {
-                state.reimbursements = [action.payload, ...state.reimbursements];
-                console.log("TY");
-            }
-            console.log(state.reimbursements);
-
+            state.reimbursements = action.payload;
             state.error = false;
             state.loading = false;
         });
