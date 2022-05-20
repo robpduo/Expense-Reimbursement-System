@@ -18,7 +18,9 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -41,147 +43,107 @@ public class ReimbursementServiceTest {
         MockitoAnnotations.openMocks(this);
     }
 
+    User u1 = new User(1, "testUser1", "password", "Test", "User", "tuser1@mail.com", Role.EMPLOYEE);
+    User u2 = new User(2, "testUser2", "password", "Test", "User", "tuser2@mail.com", Role.EMPLOYEE);
+    User manager = new User(3, "testManager", "password", "Test", "Manager", "tmanager@mail.com", Role.MANAGER);
+
+    Reimbursement r1 = new Reimbursement(1, 65.78, LocalDate.now(), null, "test reimbursement 1",
+            u1, null, Status.PENDING, Type.LODGING);
+
+    Reimbursement r2 = new Reimbursement(2, 100.56, LocalDate.now(), null, "test reimbursement 2",
+            u2, null, Status.PENDING, Type.LODGING);
+
+    Reimbursement r3 = new Reimbursement(3, 98.36, LocalDate.now(), null, "test reimbursement 3",
+            u1, null, Status.APPROVED, Type.TRAVEL);
+
+    Reimbursement r4 = new Reimbursement(4, 22.37, LocalDate.now(), null, "test reimbursement 4",
+            u2, null, Status.APPROVED, Type.TRAVEL);
+
+    Reimbursement r5 = new Reimbursement(5, 800.41, LocalDate.now(), null, "test reimbursement 5",
+            u1, null, Status.DENIED, Type.FOOD);
+
+    Reimbursement r6 = new Reimbursement(6, 671.58, LocalDate.now(), null, "test reimbursement 6",
+            u2, null, Status.DENIED, Type.FOOD);
+
+    Reimbursement r7 = new Reimbursement(7, 900.56, LocalDate.now(), null, "test reimbursement 5",
+            u1, null, Status.PENDING, Type.OTHER);
+
+    Reimbursement r8 = new Reimbursement(8, 2364.57, LocalDate.now(), null, "test reimbursement 6",
+            u2, null, Status.PENDING, Type.OTHER);
+
+    List<Reimbursement> testList = new ArrayList<>(Arrays.asList(r1, r2, r3, r4, r5, r6, r7, r8));
+
+
     // tests for submitRequest ---------------------------------------------------------------------------
 
     @Test(expected = NegativeAmountException.class)
     public void testSubmitRequestNegativeAmount() throws NegativeAmountException {
         User u = new User();
-        rs.submitRequest(-5, "hello world", "username", Type.LODGING);
+        rs.submitRequest(-7.89, "negative request", u, Type.LODGING);
     }
 
-    // tests for updateRequest ----------------------------------------------------------------------------
+    // tests for viewPastTickets -------------------------------------------------------------------------
 
-<<<<<<< HEAD
-
-    @Test(expected = UnauthorizedUserException.class)
-=======
     @Test
->>>>>>> fa0a98db909a9ecd8448022a541c6deb07fadc0b
-    public void testUpdateRequest() throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
-        User u = new User();
-        Mockito.when(u.toString()).thenReturn("Hello World");
-        //System.out.println(u.toString());
+    public void testViewPastTickets() {
+        Mockito.when(rd.readReimbursements()).thenReturn(testList);
+        List<Reimbursement> list = rs.viewPastTickets("testUser1");
+        Assert.assertTrue(list.contains(r3) && list.contains(r5));
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> fa0a98db909a9ecd8448022a541c6deb07fadc0b
+    // test for viewPendingTickets -----------------------------------------------------------------------
+
+    @Test
+    public void testViewPendingTickets() {
+        Mockito.when(rd.readReimbursements()).thenReturn(testList);
+        List<Reimbursement> list = rs.viewPendingTickets("testUser1");
+        Assert.assertTrue(list.contains(r1) && list.contains(r7));
+    }
 
     // tests for viewAllPending --------------------------------------------------------------------------
 
-    /*
     @Test
-    public void testViewAllPending() throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
-        User u = new User();
-        u.setUsername("username");
-        u.setRole(Role.MANAGER);
-        List<Reimbursement> testList = new ArrayList<>();
-        Reimbursement r1 = new Reimbursement();
-        r1.setStatus(Status.PENDING);
-        testList.add(r1);
-        Reimbursement r2 = new Reimbursement();
-        r2.setStatus(Status.APPROVED);
-        testList.add(r2);
-        Reimbursement r3 = new Reimbursement();
-        r3.setStatus(Status.DENIED);
-        testList.add(r3);
+    public void testViewAllPending() throws UnauthorizedUserException {
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
-        Mockito.when(rs.getUserByUsername(Mockito.anyString())).thenReturn(u);
-        Assert.assertEquals(1, rs.viewAllPending("username").size());
+        List<Reimbursement> list = rs.viewAllPending(manager);
+        Assert.assertTrue(list.contains(r1) && list.contains(r2) && list.contains(r7) && list.contains(r8));
     }
 
-     */
-
     @Test(expected = UnauthorizedUserException.class)
-    public void testViewAllPendingUnauthorizedUser() throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
-        User u = new User();
-        u.setUsername("username");
-        u.setRole(Role.EMPLOYEE);
-        List<Reimbursement> testList = new ArrayList<>();
+    public void testViewAllPendingUnauthorizedUser() throws UnauthorizedUserException {
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
-        rs.viewAllPending(u.getUsername());
+        List<Reimbursement> list = rs.viewAllPending(u1);
+        Assert.assertTrue(list.contains(r1) && list.contains(r2) && list.contains(r7) && list.contains(r8));
     }
 
     // tests for viewAllResolved --------------------------------------------------------------------------
 
-    /*
     @Test
     public void testViewAllResolved() throws UnauthorizedUserException {
-        User u = new User();
-        u.setRole(Role.MANAGER);
-        List<Reimbursement> testList = new ArrayList<>();
-        Reimbursement r1 = new Reimbursement();
-        r1.setStatus(Status.PENDING);
-        testList.add(r1);
-        Reimbursement r2 = new Reimbursement();
-        r2.setStatus(Status.APPROVED);
-        testList.add(r2);
-        Reimbursement r3 = new Reimbursement();
-        r3.setStatus(Status.DENIED);
-        testList.add(r3);
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
-        Assert.assertEquals(2, rs.viewAllResolved(u).size());
+        List<Reimbursement> list = rs.viewAllResolved(manager);
+        Assert.assertTrue(list.contains(r3) && list.contains(r4) && list.contains(r5) && list.contains(r6));
     }
 
     @Test(expected = UnauthorizedUserException.class)
     public void testViewAllResolvedUnauthorizedUser() throws UnauthorizedUserException {
-        User u = new User();
-        u.setRole(Role.EMPLOYEE);
-        List<Reimbursement> testList = new ArrayList<>();
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
-        rs.viewAllResolved(u);
+        List<Reimbursement> list = rs.viewAllResolved(u1);
     }
-
-     */
 
     // tests for viewEmployeeRequests --------------------------------------------------------------------
 
-    /*
     @Test
     public void testViewEmployeeRequests() throws UnauthorizedUserException {
-        User manager = new User();
-        manager.setRole(Role.MANAGER);
-        User u1 = new User();
-        u1.setRole(Role.EMPLOYEE);
-        u1.setUserId(1);
-        User u2 = new User();
-        u2.setRole(Role.EMPLOYEE);
-        u2.setUserId(2);
-
-        List<Reimbursement> testList = new ArrayList<>();
-
-        Reimbursement r1 = new Reimbursement();
-        r1.setStatus(Status.PENDING);
-        r1.setAuthor(u1);
-        testList.add(r1);
-
-        Reimbursement r2 = new Reimbursement();
-        r2.setStatus(Status.APPROVED);
-        r2.setAuthor(u1);
-        testList.add(r2);
-
-        Reimbursement r3 = new Reimbursement();
-        r3.setStatus(Status.DENIED);
-        r3.setAuthor(u2);
-        testList.add(r3);
-
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
-        Assert.assertEquals(2, rs.viewEmployeeRequests(manager, u1).size());
+        List<Reimbursement> list = rs.viewEmployeeRequests(manager, u1);
+        Assert.assertTrue(list.contains(r1) && list.contains(r3) && list.contains(r5) && list.contains(r7));
     }
-
 
     @Test(expected = UnauthorizedUserException.class)
     public void testViewEmployeeRequestsUnauthorizedUser() throws UnauthorizedUserException {
-        User manager = new User();
-        manager.setRole(Role.EMPLOYEE);
-        User emp = new User();
-        emp.setRole(Role.EMPLOYEE);
-        List<Reimbursement> testList = new ArrayList<>();
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
-        rs.viewEmployeeRequests(manager, emp);
+        List<Reimbursement> list = rs.viewEmployeeRequests(u2, u1);
     }
-    
-     */
-
 
 }

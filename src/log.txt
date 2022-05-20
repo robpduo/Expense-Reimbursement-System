@@ -428,3 +428,36 @@
 2022-05-19 14:54:04 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
 2022-05-19 14:54:29 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
 2022-05-19 14:54:46 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-20 09:11:51 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-20 09:12:19 INFO  LoggingUtil:60 - Successfully submitted new request
+2022-05-20 09:12:19 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-20 09:12:43 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-20 09:15:34 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-20 09:15:39 INFO  LoggingUtil:31 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-20 09:16:36 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-20 09:17:03 INFO  LoggingUtil:31 - User johndoe Successfully submitted a new reimbursement request
+2022-05-20 09:17:29 INFO  LoggingUtil:76 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 09:19:39 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-20 09:19:45 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 09:26:06 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-20 09:26:18 INFO  LoggingUtil:31 - User johndoe Successfully submitted a new reimbursement request
+2022-05-20 09:26:28 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-20 09:27:01 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-20 09:27:45 INFO  LoggingUtil:123 - Successfully updated request #15
+2022-05-20 09:27:45 INFO  LoggingUtil:75 - APPROVED Reimbursement #15
+2022-05-20 09:28:45 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-20 09:28:52 INFO  LoggingUtil:75 - DENIED Reimbursement #17
+2022-05-20 09:29:19 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-20 09:31:08 INFO  LoggingUtil:185 - Successfully retrieved all resolved tickets
+2022-05-20 09:33:51 INFO  LoggingUtil:54 - Failed attempt to view pending tickets
+2022-05-20 09:33:55 INFO  LoggingUtil:33 - Successfully logged in as user johndoe
+2022-05-20 09:33:58 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-20 09:34:20 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-20 09:37:28 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-20 09:37:31 INFO  LoggingUtil:220 - Successfully retrieved requests from Employee #6
+2022-05-20 09:38:03 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-20 09:38:05 INFO  LoggingUtil:220 - Successfully retrieved requests from Employee #6
+2022-05-20 09:38:05 INFO  LoggingUtil:119 - emcgill successfully viewed all requests from user johndoe
+2022-05-20 09:39:09 INFO  LoggingUtil:185 - Successfully retrieved all resolved tickets
+2022-05-20 09:41:11 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
+2022-05-20 09:41:20 INFO  LoggingUtil:33 - Successfully logged in as user emcgill
