@@ -5,6 +5,7 @@ import { viewAllPending } from "../../Slices/ReimbursementSlice";
 import { AppDispatch, RootState } from "../../Store";
 import NavBarSelector from "../../Views/NavBarSelector/NavBarSelector";
 import Reimbursement from "../../Views/Reimbursement/Reimbursement";
+import { ReimbursementTableHeader } from "../../Views/ReimbursementTableHeader/ReimbursementTableHeader";
 
 export const ViewAllPending:React.FC = () => {
 
@@ -16,29 +17,21 @@ export const ViewAllPending:React.FC = () => {
         if (userState.user) {
             dispatch(viewAllPending());
         }
-    })
+    }, [])
 
     return(
         <div>
             <NavBarSelector/>
             <div className="view-all-pending-page">
                 <table>
-                    <tr className="reimbursement-headings">
-                        <th>Reimbursement ID</th>
-                        <th>Amount</th>
-                        <th>Date Submitted</th>
-                        <th>Description</th>
-                        <th>Author</th>
-                        <th>Reimbursement Type</th>
-                    </tr>
-                        {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
-                            return <Reimbursement {...reimbursement} key={reimbursement.id} />
-                        }) :
-                            <tr>
-                                <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-                            </tr>
-                        }
-
+                    <ReimbursementTableHeader/>
+                    {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
+                        return <Reimbursement {...reimbursement} key={reimbursement.id} />
+                    }) :
+                        <tr>
+                            <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+                        </tr>
+                    }
                 </table>
             </div>
         </div>

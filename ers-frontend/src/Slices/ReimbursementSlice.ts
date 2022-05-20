@@ -63,6 +63,20 @@ export const viewAllPending = createAsyncThunk(
     }
 )
 
+export const viewPastTickets = createAsyncThunk(
+    'user/view-past-tickets',
+    async (thunkAPI) => {
+
+        try {
+            axios.defaults.withCredentials = true;
+            const res = await axios.get(`http://localhost:8000/reimbursements/view-past`);
+            return (res.data);
+        } catch (error) {
+            console.log(error);
+        }
+    }
+)
+
 
 //Create the slice
 export const ReimburseSlice = createSlice({
@@ -102,7 +116,13 @@ export const ReimburseSlice = createSlice({
             state.reimbursements = action.payload;
             state.error = false;
             state.loading = false;
-        })
+        });
+
+        builder.addCase(viewPastTickets.fulfilled, (state, action) => {
+            state.reimbursements = action.payload;
+            state.error = false;
+            state.loading = false;
+        });
     }
 })
 

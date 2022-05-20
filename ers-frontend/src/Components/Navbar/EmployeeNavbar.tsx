@@ -2,7 +2,6 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
-import defaultImage from '../../deafultpic.jpg';
 import './Navbar.css';
 import { AppDispatch, RootState } from '../../Store';
 import { logoutUser } from '../../Slices/UserSlice';
@@ -29,7 +28,9 @@ export const EmployeeNavbar: React.FC = () => {
                 <li className="nav-item">
                     <Link to={"/view-pending"} className="nav-link">View Pending</Link>
                 </li>
-
+                <li className="nav-item">
+                    <Link to={"/view-past"} className="nav-link">View Past Tickets</Link>
+                </li>
                 <li className="logout">
                     <Link to={"/"} className="nav-link">
                         <button className="logout-btn" onClick={handleLogout}>Logout</button>

@@ -40,7 +40,7 @@
 
 .nav-link {
     color: var(--dark);
-    font-size: 1.5rem;
+    font-size: 16;
     text-decoration: none;
     cursor: pointer;
 }

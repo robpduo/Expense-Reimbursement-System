@@ -7,6 +7,7 @@ import EmployeePage from './Views/EmployeePage/EmployeePage';
 import ExpensePage from './Views/ExpensePage/ExpensePage';
 import ViewPending from './Components/ViewPending/ViewPending';
 import { ViewAllPending } from './Components/ViewAllPending/ViewAllPending';
+import { ViewPastTickets } from './Components/ViewPastTickets/ViewPastTickets';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/create-reimbursement" element={<ExpensePage />} />
           <Route path="/view-pending" element={<ViewPending />} />
           <Route path="/view-all-pending" element={<ViewAllPending/>}/>
+          <Route path="/view-past" element={<ViewPastTickets/>}/>
       </Routes>
     </BrowserRouter>
   );

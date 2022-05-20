@@ -7,6 +7,7 @@ import { EmployeeNavbar } from '../Navbar/EmployeeNavbar';
 import { IReimbursement } from '../../Interfaces/IReimbursement';
 import Reimbursement from '../../Views/Reimbursement/Reimbursement';
 import NavBarSelector from '../../Views/NavBarSelector/NavBarSelector';
+import { ReimbursementTableHeader } from '../../Views/ReimbursementTableHeader/ReimbursementTableHeader';
 //rafce
 
 
@@ -27,21 +28,14 @@ const ViewPending: React.FC = () => {
             <NavBarSelector />
             <div className="reimbursement-page">
                 <table>
-                    <tr className="reimbursement-headings">
-                        <th>Reimbursement ID</th>
-                        <th>Amount</th>
-                        <th>Date Submitted</th>
-                        <th>Description</th>
-                        <th>Author</th>
-                        <th>Reimbursement Type</th>
-                    </tr>
-                        {reimburseState.reimbursements ? reimburseState.reimbursements.map((reimburse: IReimbursement) => {
-                            return <Reimbursement {...reimburse} key={reimburse.id} />
-                        }) :
-                            <tr>
-                                <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-                            </tr>
-                        }
+                    <ReimbursementTableHeader/>
+                    {reimburseState.reimbursements ? reimburseState.reimbursements.map((reimburse: IReimbursement) => {
+                        return <Reimbursement {...reimburse} key={reimburse.id} />
+                    }) :
+                        <tr>
+                            <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+                        </tr>
+                    }
                 </table>
             </div>
         </div>
