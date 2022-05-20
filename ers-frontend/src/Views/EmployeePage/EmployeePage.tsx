@@ -4,21 +4,25 @@ import React, { useEffect } from 'react';
 
 import { EmployeeNavbar } from '../../Components/Navbar/EmployeeNavbar'
 import { RootState } from '../../Store'
+import { ManagerNavbar } from '../../Components/Navbar/ManagerNavBar';
+import { render } from '@testing-library/react';
+import NavBarSelector from '../NavBarSelector/NavBarSelector';
 
 
 const EmployeePage = () => {
-    const userState = useSelector((state:RootState) => state.user);
+    const userState = useSelector((state: RootState) => state.user);
     const navigator = useNavigate();
 
-    useEffect(()=>{
-        if(!userState.user){
+    useEffect(() => {
+        //check if any user is logged in
+        if (!userState.user) {
             navigator('/');
         }
     }, []);
 
     return (
         <>
-            <EmployeeNavbar />
+            <NavBarSelector />
             <div className="welcome-canvas">
                 <h1>Welcome: {userState.user?.fName} {userState.user?.lName}</h1>
                 <h3>Account Information</h3>

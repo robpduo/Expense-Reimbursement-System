@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import { RootState } from '../../Store'
+import NavBarSelector from '../NavBarSelector/NavBarSelector';
 
 const ExpensePage = () => {
   const userState = useSelector((state:RootState) => state.user);
@@ -19,7 +20,7 @@ const ExpensePage = () => {
 
   return (
     <div className="new-expense-page">
-      <EmployeeNavbar />
+      <NavBarSelector />
       <ExpenseForm />
     </div>
   )

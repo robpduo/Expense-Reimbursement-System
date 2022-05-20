@@ -6,6 +6,7 @@ import { viewPending } from '../../Slices/ReimbursementSlice';
 import { EmployeeNavbar } from '../Navbar/EmployeeNavbar';
 import { IReimbursement } from '../../Interfaces/IReimbursement';
 import Reimbursement from '../../Views/Reimbursement/Reimbursement';
+import NavBarSelector from '../../Views/NavBarSelector/NavBarSelector';
 //rafce
 
 
@@ -23,7 +24,7 @@ const ViewPending: React.FC = () => {
 
     return (
         <div>
-            <EmployeeNavbar />
+            <NavBarSelector />
             <div className="reimbursement-page">
                 <table>
                     <tr className="reimbursement-headings">

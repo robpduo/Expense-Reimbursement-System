@@ -30,7 +30,7 @@ export const ManagerNavbar: React.FC = () => {
                     <Link to={"/view-pending"} className="nav-link">View Pending</Link>
                 </li>
 
-                <li className="manager-nav-item">
+                <li className="nav-item">
                     <Link to={"/home"} className="nav-link">View All Pending</Link>
                 </li>
 
