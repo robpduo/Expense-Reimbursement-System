@@ -28,6 +28,10 @@ public class ReimbursementController {
         } else {
             Reimbursement r = om.readValue(ctx.body(), Reimbursement.class);
             rs.submitRequest(r.getAmount(), r.getDescription(), username, r.getType());
+<<<<<<< HEAD
+=======
+            LoggingUtil.logger.info("User " + username + "Successfully submitted a new reimbursement request");
+>>>>>>> c3b3c9e (iunno)
             ctx.status(200);
             ctx.result("Request submitted");
             LoggingUtil.logger.info("User " + username + " Successfully submitted a new reimbursement request");
