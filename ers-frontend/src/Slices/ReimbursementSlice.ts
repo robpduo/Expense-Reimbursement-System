@@ -77,6 +77,19 @@ export const viewPastTickets = createAsyncThunk(
     }
 )
 
+export const viewAllResolved = createAsyncThunk(
+    'user/view-all-resolved',
+    async (thunkAPI) => {
+
+        try {
+            axios.defaults.withCredentials = true;
+            const res = await axios.get(`http://localhost:8000/reimbursements/view-all-resolved`);
+            return (res.data);
+        } catch (error) {
+            console.log(error);
+        }
+    }
+)
 
 //Create the slice
 export const ReimburseSlice = createSlice({
@@ -119,6 +132,12 @@ export const ReimburseSlice = createSlice({
         });
 
         builder.addCase(viewPastTickets.fulfilled, (state, action) => {
+            state.reimbursements = action.payload;
+            state.error = false;
+            state.loading = false;
+        });
+
+        builder.addCase(viewAllResolved.fulfilled, (state, action) => {
             state.reimbursements = action.payload;
             state.error = false;
             state.loading = false;

@@ -29,7 +29,7 @@ export const EmployeeNavbar: React.FC = () => {
                     <Link to={"/view-pending"} className="nav-link">View Pending</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to={"/view-past"} className="nav-link">View Past Tickets</Link>
+                    <Link to={"/view-past"} className="nav-link">View Past</Link>
                 </li>
                 <li className="logout">
                     <Link to={"/"} className="nav-link">

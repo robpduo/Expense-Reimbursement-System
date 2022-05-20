@@ -29,3 +29,7 @@ _
 /app/src/main/java/com/revature/models/Type.java,9\d\9d216a4ead83846813c4cbca77dec4215e8f6407
 h
 8app/src/main/java/com/revature/dao/ReimbursementDao.java,e\9\e9129cb9ccf619bdcacbdf5a87ddaa37ce427272
+q
+Aapp/src/main/java/com/revature/services/ReimbursementService.java,b\5\b5b01d63b4f1b0a7a33078af8929639f7335c6f1
+h
+8app/src/main/java/com/revature/services/UserService.java,b\5\b5e8c4c17cbb187f9ad7c9746663ba464af025e1

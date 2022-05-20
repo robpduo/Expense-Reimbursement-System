@@ -10,6 +10,7 @@ export const ReimbursementTableHeader:React.FC = () => {
             <th>Resolved</th>
             <th>Description</th>
             <th>Author</th>
+            <th>Resolver</th>
             <th>Type</th>
             <th>Status</th>
         </tr>

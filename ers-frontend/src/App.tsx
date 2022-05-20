@@ -8,6 +8,7 @@ import ExpensePage from './Views/ExpensePage/ExpensePage';
 import ViewPending from './Components/ViewPending/ViewPending';
 import { ViewAllPending } from './Components/ViewAllPending/ViewAllPending';
 import { ViewPastTickets } from './Components/ViewPastTickets/ViewPastTickets';
+import { ViewAllResolved } from './Components/ViewAllResolved/ViewAllResolved';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/view-pending" element={<ViewPending />} />
           <Route path="/view-all-pending" element={<ViewAllPending/>}/>
           <Route path="/view-past" element={<ViewPastTickets/>}/>
+          <Route path="/view-all-resolved" element={<ViewAllResolved/>}/>
       </Routes>
     </BrowserRouter>
   );

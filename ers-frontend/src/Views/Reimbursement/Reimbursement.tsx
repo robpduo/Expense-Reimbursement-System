@@ -12,7 +12,8 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
             <td>{reimburse.id}</td>
             <td>${reimburse.amount}</td>
             <td>{reimburse.description}</td>
-            <td>{reimburse.author?.userId}</td>
+            <td>{reimburse.author?.username}</td>
+            <td>{reimburse.resolver?.username}</td>
             <td>{reimburse.type}</td>
             <td>{reimburse.status}</td>
         </tr>
