@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { IReimbursement } from "../../Interfaces/IReimbursement";
 import { viewAllPending } from "../../Slices/ReimbursementSlice";
@@ -20,6 +20,7 @@ export const ViewAllPending:React.FC = () => {
         if (userState.user?.role.toString() === "MANAGER") {
             dispatch(viewAllPending());
         } else {
+            navigator("./");
             navigator("./");
         }
     },[]);

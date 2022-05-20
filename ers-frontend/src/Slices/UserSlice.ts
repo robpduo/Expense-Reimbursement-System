@@ -23,13 +23,16 @@ type Login = {
     password: string
 }
 
+type currentUser = {
+    username: string
+}
+
 export const loginUser = createAsyncThunk(
     'user/login',
     async (credentials: Login, thunkAPI) => {
         try {
             axios.defaults.withCredentials = true;
             const res = await axios.post('http://localhost:8000/users/login', credentials);
-
             return {
                 userId: res.data.userId,
                 username: res.data.username,
@@ -48,8 +51,9 @@ export const logoutUser = createAsyncThunk(
     'user/logout',
     async (thunkAPI) => {
         try {
-            axios.defaults.withCredentials = false;
+            axios.defaults.withCredentials = true;
             const res = await axios.put('http://localhost:8000/users/logout');
+            window.location.reload();
         } catch (e) {
         }
     }
@@ -72,7 +76,6 @@ export const UserSlice = createSlice({
         builder.addCase(loginUser.fulfilled, (state, action) => {
             //The payload in this case, is the return from our asyncThunk from above
             state.user = action.payload;
-            console.log(state.user);
             state.error = false;
             state.loading = false;
         });

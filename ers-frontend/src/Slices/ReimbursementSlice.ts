@@ -1,19 +1,21 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { stat } from "fs";
-import { IReimbursement, RType } from "../Interfaces/IReimbursement";
+import { IReimbursement, RType, Status } from "../Interfaces/IReimbursement";
 import { IUser } from "../Interfaces/IUser";
 
 interface ReimbursementSliceState {
     loading: boolean,
     error: boolean,
+    toggleChange: boolean,
     reimbursement?: IReimbursement,
     reimbursements?: IReimbursement[]
 }
 
 const initialReimbursementState: ReimbursementSliceState = {
     loading: false,
-    error: false
+    error: false,
+    toggleChange: false
 }
 
 type Expense = {
@@ -23,8 +25,8 @@ type Expense = {
 }
 
 type Request = {
-    id: number,
-    status: RType
+    id?: number,
+    status: Status
 }
 
 export const submitExpense = createAsyncThunk(
@@ -127,6 +129,7 @@ export const ReimburseSlice = createSlice({
         builder.addCase(resolveRequest.fulfilled, (state, action) => {
             state.error = false;
             state.loading = false;
+            state.toggleChange = !state.toggleChange;
         })
     }
 })

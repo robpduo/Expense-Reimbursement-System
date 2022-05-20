@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
 import defaultImage from '../../deafultpic.jpg';
@@ -9,11 +9,18 @@ import { logoutUser } from '../../Slices/UserSlice';
 
 export const ManagerNavbar: React.FC = () => {
     const dispatch: AppDispatch = useDispatch();
-    const user = useSelector((state: RootState) => state.user.user);
+    const userState = useSelector((state: RootState) => state.user);
+    const navigator = useNavigate();
 
     const handleLogout = () => {
         dispatch(logoutUser());
     }
+
+    useEffect(() => {
+        if (!userState.user) {
+            navigator("./")
+        } 
+    }, []);
 
     return (
         <nav className="navbar">
