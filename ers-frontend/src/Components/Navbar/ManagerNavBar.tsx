@@ -31,7 +31,7 @@ export const ManagerNavbar: React.FC = () => {
                 </li>
 
                 <li className="nav-item">
-                    <Link to={"/home"} className="nav-link">View All Pending</Link>
+                    <Link to={"/view-all-pending"} className="nav-link">View All Pending</Link>
                 </li>
 
                 <li className="logout">

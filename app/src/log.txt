@@ -1,1 +1,8 @@
 2022-05-12 20:06:59 INFO  LoggingUtil:33 - Successfully logged in as user username
+2022-05-20 09:44:55 INFO  LoggingUtil:34 - Could not submit request due to negative amount
+2022-05-20 10:33:32 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user testUser2
+2022-05-20 10:34:02 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user testUser2
+2022-05-20 10:34:26 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user testUser1
+2022-05-20 10:41:20 INFO  LoggingUtil:133 - Attempt to view pending tickets failed
+2022-05-20 10:44:18 INFO  LoggingUtil:165 - Attempt to view all resolved tickets failed
+2022-05-20 10:48:15 INFO  LoggingUtil:197 - Attempt to retrieve requests from Employee #1 failed

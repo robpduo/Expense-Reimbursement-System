@@ -1,19 +1,21 @@
 
 ^
-java:S1192"IDefine a constant instead of duplicating this literal "LoggedIn" 3 times.(¯õõR
+java:S1192"IDefine a constant instead of duplicating this literal "LoggedIn" 4 times.(¯õõR
 m
 java:S1104"WMake handleLogin a static final constant or non-public and provide accessors if needed.(Öª‰
 s
-java:S1104&"XMake handleLogout a static final constant or non-public and provide accessors if needed.(Ö€ãøÿÿÿÿ
+java:S1104("XMake handleLogout a static final constant or non-public and provide accessors if needed.(Ö€ãøÿÿÿÿ
 t
-java:S1104,"^Make handleRegisterUser a static final constant or non-public and provide accessors if needed.(ŸóÂš
+java:S1104/"^Make handleRegisterUser a static final constant or non-public and provide accessors if needed.(ŸóÂš
 x
-java:S11049"bMake handleViewALlEmployees a static final constant or non-public and provide accessors if needed.(ßèüË
+java:S1104="bMake handleViewALlEmployees a static final constant or non-public and provide accessors if needed.(ßèüË
+|
+java:S1104K"aMake handleViewAccountInfo a static final constant or non-public and provide accessors if needed.(¸§â¼ÿÿÿÿÿ
 G
 java:S1611"1Remove the parentheses around the "ctx" parameter(Öª‰
 L
-java:S1611&"1Remove the parentheses around the "ctx" parameter(Ö€ãøÿÿÿÿ
+java:S1611("1Remove the parentheses around the "ctx" parameter(Ö€ãøÿÿÿÿ
 G
-java:S1611,"1Remove the parentheses around the "ctx" parameter(ŸóÂš
+java:S1611/"1Remove the parentheses around the "ctx" parameter(ŸóÂš
 i
 java:S1128"NRemove this unused import 'com.revature.exceptions.UnauthorizedUserException'.(˜È÷³úÿÿÿÿ

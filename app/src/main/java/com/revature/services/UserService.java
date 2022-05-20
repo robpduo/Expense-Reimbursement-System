@@ -30,7 +30,6 @@ public class UserService {
             LoggingUtil.logger.info("Attempt to login as user " + username + " failed");
             throw new IncorrectUsernameOrPasswordException();
         }
-        LoggingUtil.logger.info("Successfully logged in as user " + username);
         return u;
     }
 
@@ -39,7 +38,6 @@ public class UserService {
             LoggingUtil.logger.info("Failed to register user " + u.getUserId());
             throw new ExistingUserException();
         }
-        LoggingUtil.logger.info("Successfully registered user " + u.getUsername());
         ud.createUser(u);
     }
 
@@ -59,7 +57,6 @@ public class UserService {
         for (User user : allUsers) {
             if (user.getRole().equals(Role.EMPLOYEE)) result.add(user);
         }
-        LoggingUtil.logger.info("Successfully retrieved all Employees");
         return result;
     }
 

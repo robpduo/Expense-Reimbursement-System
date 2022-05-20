@@ -28,7 +28,13 @@ public class UserController {
             ctx.status(200);
 
             ctx.req.getSession().setAttribute("LoggedIn", login.getUsername());
+<<<<<<< HEAD
             System.out.println(ctx.req.getSession().getAttribute("LoggedIn").toString());
+=======
+
+            LoggingUtil.logger.info("Successfully logged in user " + login.getUserId());
+
+>>>>>>> 0a070a10a7f1a1ed7830b5b2ec666ff0dabbad1e
         } catch (IncorrectUsernameOrPasswordException e) {
             ctx.result("Incorrect Username or Password");
             ctx.status(401);
@@ -39,6 +45,7 @@ public class UserController {
         ctx.req.getSession().removeAttribute("LoggedIn");
         ctx.status(200);
         ctx.result("Logged out Successfully");
+        LoggingUtil.logger.info("Successfully logged out");
     };
 
     public Handler handleRegisterUser = (ctx) -> {
@@ -48,6 +55,7 @@ public class UserController {
             us.registerUser(u);
             ctx.result("Username: " + u.getUsername() + " Successfully Created");
             ctx.status(201);
+            LoggingUtil.logger.info("Successfully registered user " + u.getUserId());
         } catch (ExistingUserException e) {
             ctx.status(409);
             ctx.result("User already exists");
@@ -57,9 +65,9 @@ public class UserController {
     public Handler handleViewALlEmployees = ctx -> {
         String username = (String) ctx.req.getSession().getAttribute("LoggedIn");
         if (username == null) {
-            LoggingUtil.logger.info("Failed attempt to view all employees");
             ctx.status(401);
             ctx.result("You must be logged in to view all employees");
+            LoggingUtil.logger.info("Failed attempt to view all employees");
         } else {
             User u = us.getUserByUsername(username);
             ctx.status(200);
@@ -72,9 +80,9 @@ public class UserController {
 
         String username = (String) ctx.req.getSession().getAttribute("LoggedIn");
         if (username == null) {
-            LoggingUtil.logger.info("Failed attempt to view account information");
             ctx.status(401);
             ctx.result("You must be logged in to view account information");
+            LoggingUtil.logger.info("Failed attempt to view account information");
         } else {
             ctx.status(200);
             ctx.result(om.writeValueAsString(us.getUserByUsername(username)));
