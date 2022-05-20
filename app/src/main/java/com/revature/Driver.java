@@ -9,7 +9,6 @@ import com.revature.dao.UserDao;
 import com.revature.exceptions.IncorrectUsernameOrPasswordException;
 import com.revature.exceptions.NegativeAmountException;
 import com.revature.exceptions.UnauthorizedUserException;
-import com.revature.models.*;
 import com.revature.services.ReimbursementService;
 import com.revature.services.UserService;
 import io.javalin.Javalin;
@@ -56,6 +55,7 @@ public class Driver {
               get("/view-all-employees", uCon.handleViewALlEmployees);
               put("/logout", uCon.handleLogout);
               get("/view-account", uCon.handleViewAccountInfo);
+              get("/get-user", uCon.getUser);
            });
 
            path("reimbursements", () -> {

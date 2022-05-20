@@ -3,7 +3,6 @@ package com.revature.controllers;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.exceptions.ExistingUserException;
 import com.revature.exceptions.IncorrectUsernameOrPasswordException;
-import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.services.UserService;
 import com.revature.utils.LoggingUtil;
 import io.javalin.http.Handler;
@@ -19,6 +18,16 @@ public class UserController {
         this.om = new ObjectMapper();
     }
 
+    public Handler getUser = (ctx) -> {
+        User u = om.readValue(ctx.body(), User.class);
+        try {
+             ctx.result(om.writeValueAsString(us.getUserByUsername(u.getUsername())));
+        } catch (NullPointerException e) {
+            ctx.result("Incorrect Username or Password");
+            ctx.status(401);
+        }
+    };
+
     public Handler handleLogin = (ctx) -> {
         User u = om.readValue(ctx.body(), User.class);
         try {
@@ -28,13 +37,9 @@ public class UserController {
             ctx.status(200);
 
             ctx.req.getSession().setAttribute("LoggedIn", login.getUsername());
-<<<<<<< HEAD
-            System.out.println(ctx.req.getSession().getAttribute("LoggedIn").toString());
-=======
 
             LoggingUtil.logger.info("Successfully logged in user " + login.getUserId());
 
->>>>>>> 0a070a10a7f1a1ed7830b5b2ec666ff0dabbad1e
         } catch (IncorrectUsernameOrPasswordException e) {
             ctx.result("Incorrect Username or Password");
             ctx.status(401);

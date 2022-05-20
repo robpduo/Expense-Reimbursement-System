@@ -4,7 +4,6 @@ import com.revature.models.Reimbursement;
 import com.revature.models.Status;
 import com.revature.models.Type;
 import com.revature.utils.ConnectionSingleton;
-import java.time.LocalDate;
 
 import java.sql.*;
 import java.util.ArrayList;

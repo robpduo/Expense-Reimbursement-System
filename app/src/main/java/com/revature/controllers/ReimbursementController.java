@@ -6,7 +6,6 @@ import com.revature.models.Reimbursement;
 import com.revature.models.User;
 import com.revature.services.ReimbursementService;
 import com.revature.utils.LoggingUtil;
-import com.sun.javafx.util.Logging;
 import io.javalin.http.Handler;
 
 public class ReimbursementController {

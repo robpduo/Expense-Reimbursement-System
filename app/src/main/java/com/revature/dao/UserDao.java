@@ -1,7 +1,6 @@
 package com.revature.dao;
 
 import com.revature.models.Role;
-import com.revature.models.Status;
 import com.revature.models.User;
 import com.revature.utils.ConnectionSingleton;
 

@@ -1,8 +1,5 @@
 package com.revature.models;
 
-import javax.print.attribute.standard.MediaSize;
-import java.util.concurrent.TransferQueue;
-
 public enum Type {
     LODGING,
     TRAVEL,
