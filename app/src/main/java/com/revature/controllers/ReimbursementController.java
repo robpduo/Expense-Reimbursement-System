@@ -27,8 +27,8 @@ public class ReimbursementController {
             ctx.result("You must be logged in to submit a reimbursement request");
         } else {
             Reimbursement r = om.readValue(ctx.body(), Reimbursement.class);
-            rs.submitRequest(r.getAmount(), r.getDescription(), "Robpduo", r.getType());
-            LoggingUtil.logger.info("User " + "Robpduo" + "Successfully submitted a new reimbursement request");
+            rs.submitRequest(r.getAmount(), r.getDescription(), username, r.getType());
+            LoggingUtil.logger.info("User " + username + "Successfully submitted a new reimbursement request");
             ctx.status(200);
             ctx.result("Request submitted");
         }

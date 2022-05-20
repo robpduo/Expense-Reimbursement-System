@@ -428,3 +428,249 @@
 2022-05-19 14:54:04 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
 2022-05-19 14:54:29 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
 2022-05-19 14:54:46 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 15:13:18 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 15:16:03 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 15:17:01 INFO  LoggingUtil:25 - Failed attempt to submit reimbursement request
+2022-05-19 15:53:04 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 15:53:55 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 15:54:50 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 15:56:38 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 15:56:59 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-19 16:19:19 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 16:21:38 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 16:23:15 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 16:24:37 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 16:25:18 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 16:26:21 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 16:26:58 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:27:04 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:28:05 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:42:51 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 16:42:53 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:49:20 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 16:49:23 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:50:57 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:51:01 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:51:10 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:52:15 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:52:16 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:52:18 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:52:39 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:52:49 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:53:26 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:53:32 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:54:04 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:54:05 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 16:59:48 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:00:51 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:00:55 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:01:01 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:01:03 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:01:15 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:04:17 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:04:24 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:04:55 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:04:58 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:04:59 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:05:01 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:05:53 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:05:58 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:06:02 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:07:04 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:07:05 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:08:28 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:08:44 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:09:04 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 17:09:05 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:09:54 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:10:06 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:10:17 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 17:10:18 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:10:39 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:12:33 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:12:40 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:12:54 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:13:00 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:13:06 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:19:28 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:20:00 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:20:05 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:20:39 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:20:42 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:20:43 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:20:51 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:21:25 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:21:35 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:29:45 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:32:25 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 17:32:26 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:34:46 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:34:49 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:35:23 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 17:35:24 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:35:51 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 17:35:52 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:37:32 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:37:47 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 17:37:48 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:38:30 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:39:37 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:40:29 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:41:33 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:41:36 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:41:59 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:42:12 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:42:17 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:43:25 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 17:43:26 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:44:24 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 17:44:29 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 17:47:23 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 17:47:23 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 20:46:52 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 20:46:53 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:01:40 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 21:01:41 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:01:51 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:02:25 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:03:08 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 21:03:10 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:04:50 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:04:58 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:05:07 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:05:20 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 21:05:21 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:06:19 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:06:20 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:06:23 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:06:25 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:06:35 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:06:47 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:08:19 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:08:33 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:08:35 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:08:41 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:08:48 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 21:08:48 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:09:21 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:09:24 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:09:32 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:09:44 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:09:49 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:09:54 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:10:12 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:10:16 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:10:50 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:10:59 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:11:03 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:11:11 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:11:18 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:11:40 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:11:59 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:12:07 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:12:17 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:12:19 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:12:31 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:16:13 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 21:16:14 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:18:52 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 21:18:53 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:20:41 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 21:20:42 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:21:14 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:21:48 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 21:21:49 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 21:23:12 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 21:23:13 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:05:12 INFO  LoggingUtil:53 - Failed attempt to view pending tickets
+2022-05-19 23:05:14 INFO  LoggingUtil:53 - Failed attempt to view pending tickets
+2022-05-19 23:05:45 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 23:05:49 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:09:30 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 23:09:48 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:10:28 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:19:58 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 23:19:59 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:26:21 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 23:26:22 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:29:43 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 23:29:45 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:32:20 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:46:10 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:47:27 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 23:47:28 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:50:28 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 23:50:30 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:55:54 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-19 23:55:55 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:56:22 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-19 23:56:40 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-20 00:05:16 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-20 00:13:59 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-20 00:34:13 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:34:44 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:34:50 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:35:30 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-20 00:37:12 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:37:15 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:37:46 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:37:48 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:38:17 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:38:19 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:38:23 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:38:27 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:39:21 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:39:43 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:40:30 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-20 00:40:35 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-20 00:42:19 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:42:36 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-20 00:42:38 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:45:56 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:46:30 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-20 00:46:35 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:49:05 INFO  LoggingUtil:26 - Failed attempt to submit reimbursement request
+2022-05-20 00:49:20 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:49:24 INFO  LoggingUtil:32 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-20 00:49:54 INFO  LoggingUtil:32 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-20 00:50:13 INFO  LoggingUtil:32 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-20 00:50:36 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:50:47 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:50:57 INFO  LoggingUtil:31 - User testerSuccessfully submitted a new reimbursement request
+2022-05-20 00:50:59 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 00:54:48 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:57:01 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:57:30 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 00:58:12 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-20 01:03:19 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-20 01:04:47 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 01:14:03 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 01:14:06 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 01:14:52 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 01:16:50 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 01:16:53 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 01:17:41 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 01:17:59 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 01:18:58 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 01:19:11 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 01:25:51 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 01:28:12 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 01:28:20 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-20 01:28:22 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-20 09:57:41 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-20 09:58:07 INFO  LoggingUtil:31 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-20 09:59:16 INFO  LoggingUtil:33 - Successfully logged in as user bbeddie2
+2022-05-20 09:59:23 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user bbeddie2
+2022-05-20 09:59:57 INFO  LoggingUtil:31 - User bbeddie2Successfully submitted a new reimbursement request
+2022-05-20 10:00:00 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user bbeddie2
+2022-05-20 10:00:05 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user bbeddie2
+2022-05-20 10:00:09 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user bbeddie2
+2022-05-20 10:00:12 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user bbeddie2
+2022-05-20 14:26:07 INFO  LoggingUtil:33 - Successfully logged in as user tester
+2022-05-20 14:26:12 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 14:26:15 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 14:26:17 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user tester
+2022-05-20 14:26:45 INFO  LoggingUtil:33 - Successfully logged in as user Robpduo
+2022-05-20 14:26:46 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-20 14:27:12 INFO  LoggingUtil:82 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-20 14:27:23 INFO  LoggingUtil:33 - Successfully logged in as user tester

@@ -28,7 +28,7 @@ public class UserController {
             ctx.status(200);
 
             ctx.req.getSession().setAttribute("LoggedIn", login.getUsername());
-
+            System.out.println(ctx.req.getSession().getAttribute("LoggedIn").toString());
         } catch (IncorrectUsernameOrPasswordException e) {
             ctx.result("Incorrect Username or Password");
             ctx.status(401);
