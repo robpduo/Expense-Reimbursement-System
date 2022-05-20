@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { stat } from "fs";
 import { IReimbursement, RType } from "../Interfaces/IReimbursement";
+import { IUser } from "../Interfaces/IUser";
 
 interface ReimbursementSliceState {
     loading: boolean,
@@ -19,6 +20,11 @@ type Expense = {
     amount: number,
     description: string,
     type: RType
+}
+
+type Request = {
+    id: number,
+    status: RType
 }
 
 export const submitExpense = createAsyncThunk(
@@ -63,6 +69,20 @@ export const viewAllPending = createAsyncThunk(
     }
 )
 
+export const resolveRequest = createAsyncThunk(
+    'user/update',
+    async (decision: Request, thunkAPI) => {
+
+        try {
+            axios.defaults.withCredentials = true;
+            const res = await axios.put(`http://localhost:8000/reimbursements/update`, decision);
+            
+        } catch (error) {
+            console.log(error);
+        }
+    }
+)
+
 
 //Create the slice
 export const ReimburseSlice = createSlice({
@@ -100,6 +120,11 @@ export const ReimburseSlice = createSlice({
 
         builder.addCase(viewAllPending.fulfilled, (state, action) => {
             state.reimbursements = action.payload;
+            state.error = false;
+            state.loading = false;
+        })
+
+        builder.addCase(resolveRequest.fulfilled, (state, action) => {
             state.error = false;
             state.loading = false;
         })

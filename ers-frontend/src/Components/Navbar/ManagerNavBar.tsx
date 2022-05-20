@@ -27,10 +27,6 @@ export const ManagerNavbar: React.FC = () => {
                 </li>
 
                 <li className="nav-item">
-                    <Link to={"/view-pending"} className="nav-link">View Pending</Link>
-                </li>
-
-                <li className="nav-item">
                     <Link to={"/view-all-pending"} className="nav-link">View All Pending</Link>
                 </li>
 

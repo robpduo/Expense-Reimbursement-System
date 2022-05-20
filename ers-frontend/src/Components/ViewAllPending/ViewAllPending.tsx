@@ -5,18 +5,24 @@ import { viewAllPending } from "../../Slices/ReimbursementSlice";
 import { AppDispatch, RootState } from "../../Store";
 import NavBarSelector from "../../Views/NavBarSelector/NavBarSelector";
 import Reimbursement from "../../Views/Reimbursement/Reimbursement";
+import { AiOutlineCheck, AiOutlineClose } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
+
 
 export const ViewAllPending:React.FC = () => {
 
     const dispatch: AppDispatch = useDispatch();
     const userState = useSelector((state:RootState) => state.user);
     const reimbursementState = useSelector((state:RootState) => state.reimburser);
+    const navigator = useNavigate();
 
     useEffect(() => {
-        if (userState.user) {
+        if (userState.user?.role.toString() === "MANAGER") {
             dispatch(viewAllPending());
+        } else {
+            navigator("./");
         }
-    })
+    },[]);
 
     return(
         <div>
@@ -30,9 +36,12 @@ export const ViewAllPending:React.FC = () => {
                         <th>Description</th>
                         <th>Author</th>
                         <th>Reimbursement Type</th>
+                        {/* table headers for checkmark and crosses                     */}
+                        <th></th> 
+                        <th></th>
                     </tr>
                         {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
-                            return <Reimbursement {...reimbursement} key={reimbursement.id} />
+                                return <Reimbursement {...reimbursement} key={reimbursement.id} />
                         }) :
                             <tr>
                                 <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>

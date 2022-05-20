@@ -7,7 +7,6 @@ import { EmployeeNavbar } from '../Navbar/EmployeeNavbar';
 import { IReimbursement } from '../../Interfaces/IReimbursement';
 import Reimbursement from '../../Views/Reimbursement/Reimbursement';
 import NavBarSelector from '../../Views/NavBarSelector/NavBarSelector';
-//rafce
 
 
 const ViewPending: React.FC = () => {
@@ -17,8 +16,10 @@ const ViewPending: React.FC = () => {
     const navigator = useNavigate();
 
     useEffect(() => {
-        if (userState.user) {
+        if (userState.user?.role.toString() === "EMPLOYEE") {
             dispatch(viewPending());
+        } else {
+            navigator("./")
         }
     }, []);
 
@@ -36,7 +37,7 @@ const ViewPending: React.FC = () => {
                         <th>Reimbursement Type</th>
                     </tr>
                         {reimburseState.reimbursements ? reimburseState.reimbursements.map((reimburse: IReimbursement) => {
-                            return <Reimbursement {...reimburse} key={reimburse.id} />
+                                return <Reimbursement {...reimburse} key={reimburse.id} />
                         }) :
                             <tr>
                                 <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
