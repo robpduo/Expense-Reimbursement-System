@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { stat } from "fs";
 import { useState } from "react";
+import { ViewAllResolved } from "../Components/ViewAllResolved/ViewAllResolved";
 import { IReimbursement, RType, Status } from "../Interfaces/IReimbursement";
 import { IUser } from "../Interfaces/IUser";
 
@@ -184,6 +185,15 @@ export const ReimburseSlice = createSlice({
             state.reimbursements = action.payload;
             state.error = false;
             state.loading = false;
+        });
+
+        builder.addCase(viewPastTickets.rejected, (state, action) => {
+            state.error = true;
+            state.loading = false;
+        });
+
+        builder.addCase(viewPastTickets.pending, (state, action) => {
+            state.loading = true;
         });
         //End of Past Tickets
 

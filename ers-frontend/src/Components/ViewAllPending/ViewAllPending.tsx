@@ -7,6 +7,7 @@ import NavBarSelector from "../../Views/NavBarSelector/NavBarSelector";
 import Reimbursement from "../../Views/Reimbursement/Reimbursement";
 import { AiOutlineCheck, AiOutlineClose } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
+import { ReimbursementTableHeader } from "../../Views/ReimbursementTableHeader/ReimbursementTableHeader";
 
 export const ViewAllPending:React.FC = () => {
 
@@ -30,17 +31,7 @@ export const ViewAllPending:React.FC = () => {
             <NavBarSelector/>
             <div className="view-all-pending-page">
                 <table>
-                    <tr className="reimbursement-headings">
-                        <th>Reimbursement ID</th>
-                        <th>Amount</th>
-                        <th>Date Submitted</th>
-                        <th>Description</th>
-                        <th>Author</th>
-                        <th>Reimbursement Type</th>
-                        {/* table headers for checkmark and crosses                     */}
-                        <th></th> 
-                        <th></th>
-                    </tr>
+                        <ReimbursementTableHeader />
                         {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
                                 return <Reimbursement {...reimbursement} key={reimbursement.id} />
                         }) :

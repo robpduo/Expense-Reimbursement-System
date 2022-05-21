@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppDispatch, RootState } from '../../Store'; //change userstore to store
-import { useNavigate } from 'react-router-dom';
-import { modifyToRemove, resolveRequest, viewPending } from '../../Slices/ReimbursementSlice';
-import { IReimbursement, RType, Status } from '../../Interfaces/IReimbursement';
+import { modifyToRemove, resolveRequest } from '../../Slices/ReimbursementSlice';
+import { IReimbursement } from '../../Interfaces/IReimbursement';
 import { AiOutlineCheck, AiOutlineClose, AiFillDelete } from "react-icons/ai";
-import { ViewAllPending } from '../../Components/ViewAllPending/ViewAllPending';
 
 const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
     let date = new Date();
@@ -49,7 +47,7 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
         console.log("DELETE: ", reimburse.id);
     }
 
-    if (userState.user?.role.toString() === "MANAGER" && reimbursementState.source == "view-all") {
+    if (userState.user?.role.toString() === "MANAGER" && reimbursementState.source === "view-all") {
         return (
             <tr className="reimbursement-data">
                 <td>{reimburse.id}</td>
@@ -65,7 +63,7 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
                 <td className="icon" onClick={handleDeny}><AiOutlineClose /></td>
             </tr>
         )
-    } else if (reimbursementState.source == "view-pending") {
+    } else if (reimbursementState.source === "view-pending") {
         return (
             <tr className="reimbursement-data">
                 <td>{reimburse.id}</td>

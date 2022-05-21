@@ -15,12 +15,6 @@ export const ManagerNavbar: React.FC = () => {
         dispatch(logoutUser());
     }
 
-    useEffect(() => {
-        if (!userState.user) {
-            navigator("./")
-        } 
-    }, []);
-
     return (
         <nav className="navbar">
             <ul className='nav-menu'>
@@ -29,12 +23,6 @@ export const ManagerNavbar: React.FC = () => {
                 </li>
                 <li className="nav-item">
                     <Link to={"/create-reimbursement"} className="nav-link">Reimbursement Form</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to={"/view-pending"} className="nav-link">View Pending</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to={"/view-past"} className="nav-link">View Past</Link>
                 </li>
                 <li className="nav-item">
                     <Link to={"/view-all-pending"} className="nav-link">View All Pending</Link>
