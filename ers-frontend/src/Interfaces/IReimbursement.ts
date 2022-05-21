@@ -19,9 +19,9 @@ export enum Status {
 }
 
 export enum RType {
-    LODGING,
-    TRAVEL,
-    FOOD,
-    OTHER,
-    BLANK
+    LODGING = 0,
+    TRAVEL = 1,
+    FOOD = 2,
+    OTHER = 3,
+    BLANK = 4
 }

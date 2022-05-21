@@ -242,8 +242,7 @@ export const ReimburseSlice = createSlice({
         builder.addCase(modFilterType.fulfilled, (state, action) => {
             state.error = false;
             state.loading = false;
-            state.reimbursements = state.reimbursements?.filter((filter) => filter.type === filterType);
-            console.log(filterType);
+            state.reimbursements = state.reimbursements?.filter((filter) => filter.type == filterType);
         });
 
         builder.addCase(modFilterId.fulfilled, (state, action) => {
