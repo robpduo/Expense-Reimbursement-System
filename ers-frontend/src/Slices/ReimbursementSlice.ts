@@ -9,6 +9,11 @@ import { IUser } from "../Interfaces/IUser";
 let toRemove: number; //used to determine which reimbursement id should be deleted from the array so that the page updates correctly 
 let pageSource: string; //used to determine if approve and delete icons will render, otherwise icons will render on all pages
 
+/*filter functions*/
+let filterType: RType;
+let filterId: number;
+let filterAuthor: number;
+
 interface ReimbursementSliceState {
     loading: boolean,
     error: boolean,
@@ -131,6 +136,27 @@ export const viewAllResolved = createAsyncThunk(
     }
 )
 
+export const modFilterType = createAsyncThunk(
+    'user/filterByType',
+    function (type: RType) {
+        filterType = type;
+        console.log("F", filterType);
+    }
+)
+
+export const modFilterId = createAsyncThunk(
+    'user/filterById',
+    function (id: number) {
+        filterId = id;
+    }
+)
+
+export const modAuthorId = createAsyncThunk(
+    'user/filterByAuthor',
+    function (author: number) {
+        filterAuthor = author;
+    }
+)
 //Create the slice
 export const ReimburseSlice = createSlice({
     name: "reimbursement",
@@ -212,6 +238,25 @@ export const ReimburseSlice = createSlice({
             state.loading = false;
         });
         //End of View All Resolved
+        
+        builder.addCase(modFilterType.fulfilled, (state, action) => {
+            state.error = false;
+            state.loading = false;
+            state.reimbursements = state.reimbursements?.filter((filter) => filter.type === filterType);
+            console.log(filterType);
+        });
+
+        builder.addCase(modFilterId.fulfilled, (state, action) => {
+            state.error = false;
+            state.loading = false;
+            state.reimbursements = state.reimbursements?.filter((filter) => filter.id === filterId);
+        });
+
+        builder.addCase(modAuthorId.fulfilled, (state, action) => {
+            state.error = false;
+            state.loading = false;
+            state.reimbursements = state.reimbursements?.filter((filter) => filter.author?.userId === filterAuthor);
+        });
     }
 })
 

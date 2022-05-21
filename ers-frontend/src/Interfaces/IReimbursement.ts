@@ -22,5 +22,6 @@ export enum RType {
     LODGING,
     TRAVEL,
     FOOD,
-    OTHER
+    OTHER,
+    BLANK
 }
