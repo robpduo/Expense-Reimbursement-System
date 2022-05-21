@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppDispatch, RootState } from '../../Store'; //change userstore to store
 import { useNavigate } from 'react-router-dom';
-import { viewPending } from '../../Slices/ReimbursementSlice';
+import { modifySource, viewPending } from '../../Slices/ReimbursementSlice';
 import { EmployeeNavbar } from '../Navbar/EmployeeNavbar';
 import { IReimbursement } from '../../Interfaces/IReimbursement';
 import Reimbursement from '../../Views/Reimbursement/Reimbursement';
@@ -18,6 +18,7 @@ const ViewPending: React.FC = () => {
 
     useEffect(() => {
         if (userState.user?.role.toString() === "EMPLOYEE") {
+            dispatch(modifySource("view-pending"));
             dispatch(viewPending());
         } else {
             navigator("./")

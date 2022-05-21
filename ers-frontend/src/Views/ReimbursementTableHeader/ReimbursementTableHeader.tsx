@@ -13,6 +13,8 @@ export const ReimbursementTableHeader:React.FC = () => {
             <th>Resolver</th>
             <th>Type</th>
             <th>Status</th>
+            <th></th>
+            <th></th>
         </tr>
     )
 }

@@ -1,21 +1,25 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { stat } from "fs";
+import { useState } from "react";
 import { IReimbursement, RType, Status } from "../Interfaces/IReimbursement";
 import { IUser } from "../Interfaces/IUser";
+
+let toRemove: number; //used to determine which reimbursement id should be deleted from the array so that the page updates correctly 
+let pageSource: string; //used to determine if approve and delete icons will render, otherwise icons will render on all pages
 
 interface ReimbursementSliceState {
     loading: boolean,
     error: boolean,
-    toggleChange: boolean,
     reimbursement?: IReimbursement,
-    reimbursements?: IReimbursement[]
+    reimbursements?: IReimbursement[],
+    source: string
 }
 
 const initialReimbursementState: ReimbursementSliceState = {
     loading: false,
     error: false,
-    toggleChange: false
+    source: ""
 }
 
 type Expense = {
@@ -74,13 +78,26 @@ export const viewAllPending = createAsyncThunk(
 export const resolveRequest = createAsyncThunk(
     'user/update',
     async (decision: Request, thunkAPI) => {
-
         try {
             axios.defaults.withCredentials = true;
             const res = await axios.put(`http://localhost:8000/reimbursements/update`, decision);
         } catch (error) {
             console.log(error);
         }
+    }
+)
+
+export const modifyToRemove = createAsyncThunk(
+    'user/toRemove',
+    function (reimburseId: number) {
+        toRemove = reimburseId;
+    }
+)
+
+export const modifySource = createAsyncThunk(
+    'user/source',
+    function (source: string) {
+        return (source)
     }
 )
 
@@ -97,8 +114,6 @@ export const viewPastTickets = createAsyncThunk(
         }
     }
 )
-
-
 
 
 export const viewAllResolved = createAsyncThunk(
@@ -141,6 +156,7 @@ export const ReimburseSlice = createSlice({
             state.error = true;
             state.loading = false;
         });
+        //End of Submit Expense
 
         builder.addCase(viewPending.fulfilled, (state, action) => {
             //The payload in this case, is the return from our asyncThunk from above
@@ -148,30 +164,44 @@ export const ReimburseSlice = createSlice({
             state.error = false;
             state.loading = false;
         });
+        //End of View Pending
 
         builder.addCase(viewAllPending.fulfilled, (state, action) => {
             state.reimbursements = action.payload;
             state.error = false;
             state.loading = false;
         });
+        //End of View All Pending
 
         builder.addCase(resolveRequest.fulfilled, (state, action) => {
             state.error = false;
             state.loading = false;
-            state.toggleChange = !state.toggleChange;
+            state.reimbursements = state.reimbursements?.filter((stillPending) => stillPending.id !== toRemove);
         });
+        //End of Resolve Request
 
         builder.addCase(viewPastTickets.fulfilled, (state, action) => {
             state.reimbursements = action.payload;
             state.error = false;
             state.loading = false;
         });
+        //End of Past Tickets
 
         builder.addCase(viewAllResolved.fulfilled, (state, action) => {
             state.reimbursements = action.payload;
             state.error = false;
             state.loading = false;
         });
+        //End of View All Resolved
+
+        builder.addCase(modifySource.fulfilled, (state, action) => {
+            //The payload in this case, is the return from our asyncThunk from above
+            state.source = action.payload;
+            console.log("Source: ", state.source);
+            state.error = false;
+            state.loading = false;
+        });
+        //End of View All Resolved
     }
 })
 

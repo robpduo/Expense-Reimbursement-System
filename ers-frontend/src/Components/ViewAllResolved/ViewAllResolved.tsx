@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { IReimbursement } from "../../Interfaces/IReimbursement";
-import { viewAllResolved } from "../../Slices/ReimbursementSlice";
+import { modifySource, viewAllResolved } from "../../Slices/ReimbursementSlice";
 import { AppDispatch, RootState } from "../../Store";
 import NavBarSelector from "../../Views/NavBarSelector/NavBarSelector";
 import Reimbursement from "../../Views/Reimbursement/Reimbursement";
@@ -15,6 +15,7 @@ export const ViewAllResolved:React.FC = () => {
 
     useEffect(() => {
         if (userState.user) {
+            dispatch(modifySource("view-resolved"));
             dispatch(viewAllResolved())
         }
     }, [])

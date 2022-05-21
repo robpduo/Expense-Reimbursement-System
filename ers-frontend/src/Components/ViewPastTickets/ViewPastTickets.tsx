@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { IReimbursement } from "../../Interfaces/IReimbursement";
-import { viewAllPending, viewPastTickets } from "../../Slices/ReimbursementSlice";
+import { modifySource, viewAllPending, viewPastTickets } from "../../Slices/ReimbursementSlice";
 import { AppDispatch, RootState } from "../../Store";
 import NavBarSelector from "../../Views/NavBarSelector/NavBarSelector";
 import Reimbursement from "../../Views/Reimbursement/Reimbursement";
@@ -15,6 +15,7 @@ export const ViewPastTickets:React.FC = () => {
 
     useEffect(() => {
         if (userState.user) {
+            dispatch(modifySource("view-past"));
             dispatch(viewPastTickets());
         }
     }, [])
