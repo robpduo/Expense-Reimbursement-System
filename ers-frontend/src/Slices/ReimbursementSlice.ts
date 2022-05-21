@@ -71,7 +71,6 @@ export const viewAllPending = createAsyncThunk(
     }
 )
 
-<<<<<<< HEAD
 export const resolveRequest = createAsyncThunk(
     'user/update',
     async (decision: Request, thunkAPI) => {
@@ -79,8 +78,12 @@ export const resolveRequest = createAsyncThunk(
         try {
             axios.defaults.withCredentials = true;
             const res = await axios.put(`http://localhost:8000/reimbursements/update`, decision);
-            
-=======
+        } catch (error) {
+            console.log(error);
+        }
+    }
+)
+
 export const viewPastTickets = createAsyncThunk(
     'user/view-past-tickets',
     async (thunkAPI) => {
@@ -89,15 +92,15 @@ export const viewPastTickets = createAsyncThunk(
             axios.defaults.withCredentials = true;
             const res = await axios.get(`http://localhost:8000/reimbursements/view-past`);
             return (res.data);
->>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
         } catch (error) {
             console.log(error);
         }
     }
 )
 
-<<<<<<< HEAD
-=======
+
+
+
 export const viewAllResolved = createAsyncThunk(
     'user/view-all-resolved',
     async (thunkAPI) => {
@@ -111,7 +114,6 @@ export const viewAllResolved = createAsyncThunk(
         }
     }
 )
->>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
 
 //Create the slice
 export const ReimburseSlice = createSlice({
@@ -151,15 +153,12 @@ export const ReimburseSlice = createSlice({
             state.reimbursements = action.payload;
             state.error = false;
             state.loading = false;
-<<<<<<< HEAD
-        })
+        });
 
         builder.addCase(resolveRequest.fulfilled, (state, action) => {
             state.error = false;
             state.loading = false;
             state.toggleChange = !state.toggleChange;
-        })
-=======
         });
 
         builder.addCase(viewPastTickets.fulfilled, (state, action) => {
@@ -173,11 +172,9 @@ export const ReimburseSlice = createSlice({
             state.error = false;
             state.loading = false;
         });
->>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
     }
 })
 
-//If we had normal actions and reducers we would export them like this
+// //If we had normal actions and reducers we would export them like this
 export const { toggleError } = ReimburseSlice.actions;
-
 export default ReimburseSlice.reducer;

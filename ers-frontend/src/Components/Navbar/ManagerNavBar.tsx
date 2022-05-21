@@ -31,9 +31,6 @@ export const ManagerNavbar: React.FC = () => {
                     <Link to={"/create-reimbursement"} className="nav-link">Reimbursement Form</Link>
                 </li>
                 <li className="nav-item">
-<<<<<<< HEAD
-                    <Link to={"/view-all-pending"} className="nav-link">View All Pending</Link>
-=======
                     <Link to={"/view-pending"} className="nav-link">View Pending</Link>
                 </li>
                 <li className="nav-item">
@@ -44,7 +41,6 @@ export const ManagerNavbar: React.FC = () => {
                 </li>
                 <li className="nav-item">
                     <Link to={"/view-all-resolved"} className="nav-link">View All Resolved</Link>
->>>>>>> 71f20d37079038620d9d969bd3b9f62f06044fb8
                 </li>
                 <li className="logout">
                     <Link to={"/"} className="nav-link">
