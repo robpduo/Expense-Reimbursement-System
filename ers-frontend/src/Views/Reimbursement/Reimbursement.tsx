@@ -71,7 +71,7 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
                 <td className="icon" onClick={handleDelete}><AiFillDelete /></td>
             </tr>
         )
-}
+    }
 }
 
 export default Reimbursement
