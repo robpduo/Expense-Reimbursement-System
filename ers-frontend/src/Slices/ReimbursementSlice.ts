@@ -237,7 +237,6 @@ export const ReimburseSlice = createSlice({
         builder.addCase(modifySource.fulfilled, (state, action) => {
             //The payload in this case, is the return from our asyncThunk from above
             state.source = action.payload;
-            console.log("Source: ", state.source);
             state.error = false;
             state.loading = false;
         });
