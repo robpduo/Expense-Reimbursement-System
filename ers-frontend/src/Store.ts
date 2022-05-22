@@ -3,12 +3,13 @@ import { configureStore } from "@reduxjs/toolkit";
 //We would import our reducers from the slices we have to create
 import userReducer from "./Slices/UserSlice";
 import reimburseReducer from "./Slices/ReimbursementSlice";
-
+import employeesReducer from "./Slices/EmployeesSlice";
 
 export const userStore = configureStore({
     reducer: {
         user: userReducer,
-        reimburser: reimburseReducer
+        reimburser: reimburseReducer,
+        employees: employeesReducer
     }
 });
 

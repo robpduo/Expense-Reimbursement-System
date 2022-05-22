@@ -10,7 +10,7 @@ interface UserSliceState {
     loading: boolean,
     error: boolean,
     user?: IUser,
-    nullUser?: IUser
+    nullUser?: IUser,
 }
 
 const initialUserState: UserSliceState = {

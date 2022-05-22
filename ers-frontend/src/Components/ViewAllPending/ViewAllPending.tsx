@@ -34,15 +34,14 @@ export const ViewAllPending:React.FC = () => {
             <div className="view-all-pending-page">
                 <FilterForm />
                 <table>
-                        <ReimbursementTableHeader />
-                        {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
-                                return <Reimbursement {...reimbursement} key={reimbursement.id} />
-                        }) :
-                            <tr>
-                                <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-                            </tr>
-                        }
-
+                    <ReimbursementTableHeader />
+                    {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
+                            return <Reimbursement {...reimbursement} key={reimbursement.id} />
+                    }) :
+                        <tr>
+                            <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+                        </tr>
+                    }
                 </table>
             </div>
         </div>
