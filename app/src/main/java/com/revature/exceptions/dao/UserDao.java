@@ -1,4 +1,4 @@
-package com.revature.dao;
+package com.revature.exceptions.dao;
 
 import com.revature.models.Role;
 import com.revature.models.User;

@@ -140,7 +140,6 @@ export const modFilterType = createAsyncThunk(
     'user/filterByType',
     function (type: RType) {
         filterType = type;
-        console.log("F", filterType);
     }
 )
 
@@ -201,6 +200,11 @@ export const ReimburseSlice = createSlice({
         //End of View All Pending
 
         builder.addCase(resolveRequest.fulfilled, (state, action) => {
+            state.error = false;
+            state.loading = false;
+        });
+
+        builder.addCase(modifyToRemove.fulfilled, (state, action) => {
             state.error = false;
             state.loading = false;
             state.reimbursements = state.reimbursements?.filter((stillPending) => stillPending.id !== toRemove);

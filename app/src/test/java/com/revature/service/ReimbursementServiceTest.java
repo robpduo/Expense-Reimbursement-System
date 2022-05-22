@@ -1,12 +1,9 @@
 package com.revature.service;
 
-import com.revature.dao.IReimbursementDao;
-import com.revature.dao.IUserDao;
-import com.revature.dao.ReimbursementDao;
-import com.revature.dao.UserDao;
+import com.revature.exceptions.dao.IReimbursementDao;
+import com.revature.exceptions.dao.IUserDao;
 import com.revature.exceptions.NegativeAmountException;
 import com.revature.exceptions.UnauthorizedUserException;
-import com.revature.exceptions.IncorrectUsernameOrPasswordException;
 import com.revature.models.*;
 import com.revature.services.ReimbursementService;
 import com.revature.services.UserService;
@@ -21,7 +18,6 @@ import org.mockito.MockitoAnnotations;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 public class ReimbursementServiceTest {
