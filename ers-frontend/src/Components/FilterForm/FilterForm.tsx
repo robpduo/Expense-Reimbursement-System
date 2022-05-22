@@ -45,7 +45,7 @@ const FilterForm: React.FC = () => {
         }
     }
 
-    if (reimbursementState.source === "view-all") {
+    if (reimbursementState.source === "view-all" || reimbursementState.source === "view-resolved") {
     return (
         <form className="filter-form" onSubmit={handleSubmit}>
             <h3>Filter by Reimbursement Properties!</h3>
