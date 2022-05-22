@@ -17,6 +17,7 @@ export const ManagerNavbar: React.FC = () => {
 
     return (
         <nav className="navbar">
+            <img src="revature-logo.webp" id="logo"></img>
             <ul className='nav-menu'>
                 <li className="nav-item">
                     <Link to={"/home"} className="nav-link">Home</Link>
@@ -29,6 +30,9 @@ export const ManagerNavbar: React.FC = () => {
                 </li>
                 <li className="nav-item">
                     <Link to={"/view-all-resolved"} className="nav-link">View All Resolved</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to={"/view-all-employees"} className="nav-link">View All Employees</Link>
                 </li>
                 <li className="logout">
                     <Link to={"/"} className="nav-link">

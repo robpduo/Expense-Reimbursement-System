@@ -1,0 +1,11 @@
+.view-all-resolved-page {
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+}

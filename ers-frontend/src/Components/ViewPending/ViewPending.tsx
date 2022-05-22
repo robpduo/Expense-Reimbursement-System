@@ -7,8 +7,9 @@ import { EmployeeNavbar } from '../Navbar/EmployeeNavbar';
 import { IReimbursement } from '../../Interfaces/IReimbursement';
 import Reimbursement from '../../Views/Reimbursement/Reimbursement';
 import NavBarSelector from '../../Views/NavBarSelector/NavBarSelector';
-import { ReimbursementTableHeader } from '../../Views/ReimbursementTableHeader/ReimbursementTableHeader';
+import { ReimbursementTableHeader } from '../../Views/Reimbursement/ReimbursementTableHeader';
 
+import "./ViewPending.css";
 
 const ViewPending: React.FC = () => {
     const dispatch: AppDispatch = useDispatch();

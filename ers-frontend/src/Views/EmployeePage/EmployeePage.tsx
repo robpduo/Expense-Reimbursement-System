@@ -8,6 +8,7 @@ import { ManagerNavbar } from '../../Components/Navbar/ManagerNavBar';
 import { render } from '@testing-library/react';
 import NavBarSelector from '../NavBarSelector/NavBarSelector';
 
+import "./EmployeePage.css";
 
 const EmployeePage = () => {
     const userState = useSelector((state: RootState) => state.user);

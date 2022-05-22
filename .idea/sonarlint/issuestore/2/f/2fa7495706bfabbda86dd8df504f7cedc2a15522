@@ -1,39 +1,0 @@
-
-d
-java:S1104"NMake rd a static final constant or non-public and provide accessors if needed.(âşïº
-d
-java:S1104"NMake rs a static final constant or non-public and provide accessors if needed.(øÒ–ê
-f
-java:S1104"PMake rCon a static final constant or non-public and provide accessors if needed.(®éáÊ
-i
-java:S1104"NMake ud a static final constant or non-public and provide accessors if needed.(¼ù¡ˆùÿÿÿÿ
-d
-java:S1104"NMake us a static final constant or non-public and provide accessors if needed.(ŸÜİ¯
-k
-java:S1104"PMake uCon a static final constant or non-public and provide accessors if needed.(ô™æ…ÿÿÿÿÿ
->
-java:S1444"(Make this "public static rd" field final(âşïº
->
-java:S1444"(Make this "public static rs" field final(øÒ–ê
-@
-java:S1444"*Make this "public static rCon" field final(®éáÊ
-C
-java:S1444"(Make this "public static ud" field final(¼ù¡ˆùÿÿÿÿ
->
-java:S1444"(Make this "public static us" field final(ŸÜİ¯
-E
-java:S1444"*Make this "public static uCon" field final(ô™æ…ÿÿÿÿÿ
-¡
-java:S1130 "ŠRemove the declaration of thrown exception 'com.revature.exceptions.UnauthorizedUserException', as it cannot be thrown from method's body.(µĞÿ²
-B
-java:S1602"",Remove useless curly braces around statement(ëñüÎ
-i
-java:S1612""SReplace this lambda with method reference 'JavalinConfig::enableCorsForAllOrigins'.(ëñüÎ
-G
-java:S1602&",Remove useless curly braces around statement(¹•Úıÿÿÿÿ
-B
-java:S1602*",Remove useless curly braces around statement(Ï¤´Å
-G
-java:S1602.",Remove useless curly braces around statement(»’òøùÿÿÿÿ
-K
-java:S1128"0Remove this unused import 'com.revature.models'.(ÈÚÕëøÿÿÿÿ

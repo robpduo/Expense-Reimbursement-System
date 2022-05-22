@@ -9,6 +9,7 @@ import ViewPending from './Components/ViewPending/ViewPending';
 import { ViewAllPending } from './Components/ViewAllPending/ViewAllPending';
 import { ViewPastTickets } from './Components/ViewPastTickets/ViewPastTickets';
 import { ViewAllResolved } from './Components/ViewAllResolved/ViewAllResolved';
+import { ViewAllEmployees } from './Components/ViewAllEmployees/ViewAllEmployees';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/view-all-pending" element={<ViewAllPending/>}/>
           <Route path="/view-past" element={<ViewPastTickets/>}/>
           <Route path="/view-all-resolved" element={<ViewAllResolved/>}/>
+          <Route path="/view-all-employees" element={<ViewAllEmployees/>}/>
       </Routes>
     </BrowserRouter>
   );

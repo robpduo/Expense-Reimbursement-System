@@ -5,8 +5,10 @@ import { modifySource, viewAllResolved } from "../../Slices/ReimbursementSlice";
 import { AppDispatch, RootState } from "../../Store";
 import NavBarSelector from "../../Views/NavBarSelector/NavBarSelector";
 import Reimbursement from "../../Views/Reimbursement/Reimbursement";
-import { ReimbursementTableHeader } from "../../Views/ReimbursementTableHeader/ReimbursementTableHeader";
+import { ReimbursementTableHeader } from "../../Views/Reimbursement/ReimbursementTableHeader";
 import FilterForm from "../FilterForm/FilterForm";
+
+import "./ViewAllResolved.css";
 
 export const ViewAllResolved:React.FC = () => {
 
@@ -24,8 +26,8 @@ export const ViewAllResolved:React.FC = () => {
     return(
         <div>
             <NavBarSelector/>
-            <FilterForm />
             <div className="view-all-resolved-page">
+                <FilterForm />
                 <ReimbursementTableHeader/>
                 {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
                         return <Reimbursement {...reimbursement} key={reimbursement.id} />

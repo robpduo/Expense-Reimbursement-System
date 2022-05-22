@@ -17,6 +17,7 @@ export const EmployeeNavbar: React.FC = () => {
 
     return(
         <nav className="navbar">
+            <img src="revature-logo.webp" id="logo"></img>
             <ul className='nav-menu'>
                 <li className="nav-item">
                     <Link to={"/home"} className="nav-link">Home</Link>
