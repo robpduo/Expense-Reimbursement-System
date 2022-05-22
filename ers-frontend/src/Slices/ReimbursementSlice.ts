@@ -95,7 +95,7 @@ export const resolveRequest = createAsyncThunk(
 
 export const modifyToRemove = createAsyncThunk(
     'user/toRemove',
-    function (reimburseId: number) {
+    function (reimburseId: RType) {
         toRemove = reimburseId;
     }
 )
@@ -138,7 +138,7 @@ export const viewAllResolved = createAsyncThunk(
 
 export const modFilterType = createAsyncThunk(
     'user/filterByType',
-    function (type: RType) {
+    function (type: number) {
         filterType = type;
     }
 )
@@ -241,11 +241,24 @@ export const ReimburseSlice = createSlice({
             state.loading = false;
         });
         //End of View All Resolved
-        
+
         builder.addCase(modFilterType.fulfilled, (state, action) => {
             state.error = false;
             state.loading = false;
-            state.reimbursements = state.reimbursements?.filter((filter) => filter.type == filterType);
+            let convertEnum: any;
+            let tempList: any | IReimbursement[] = new Array();
+            let counter: number = 0;
+            let size: any = state.reimbursements?.length;
+
+            for (let i: number = 0; i < size; i++) {
+                convertEnum = state.reimbursements?.at(i)?.type.valueOf();
+                if (convertEnum == RType[filterType]) {
+                    tempList[counter] = state.reimbursements?.at(i);
+                    counter++;
+                }
+            }
+
+            state.reimbursements = tempList;
         });
 
         builder.addCase(modFilterId.fulfilled, (state, action) => {

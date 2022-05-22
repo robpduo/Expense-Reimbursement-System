@@ -9,5 +9,5 @@ export interface IUser {
 
 export enum Role {
     MANAGER = 1,
-    EMPLOYEE
+    EMPLOYEE = 2
 }

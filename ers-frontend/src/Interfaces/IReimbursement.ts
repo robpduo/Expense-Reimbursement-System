@@ -13,15 +13,15 @@ export interface IReimbursement {
 }
 
 export enum Status {
-    APPROVED,   //Starts at zero even if you assign the first one as 1
-    DENIED,
-    PENDING
+    APPROVED = 1,  
+    DENIED = 2,
+    PENDING = 3
 }
 
 export enum RType {
-    LODGING = 0,
-    TRAVEL = 1,
-    FOOD = 2,
-    OTHER = 3,
-    BLANK = 4
+    BLANK = 0,
+    LODGING = 1,
+    TRAVEL = 2,
+    FOOD = 3,
+    OTHER = 4
 }
