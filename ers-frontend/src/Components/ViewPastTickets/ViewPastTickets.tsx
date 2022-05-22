@@ -6,8 +6,10 @@ import { modifySource, viewAllPending, viewPastTickets } from "../../Slices/Reim
 import { AppDispatch, RootState } from "../../Store";
 import NavBarSelector from "../../Views/NavBarSelector/NavBarSelector";
 import Reimbursement from "../../Views/Reimbursement/Reimbursement";
-import { ReimbursementTableHeader } from "../../Views/ReimbursementTableHeader/ReimbursementTableHeader";
+import { ReimbursementTableHeader } from "../../Views/Reimbursement/ReimbursementTableHeader";
 import FilterForm from "../FilterForm/FilterForm";
+
+import "./ViewPastTickets.css";
 
 export const ViewPastTickets:React.FC = () => {
 
@@ -28,8 +30,8 @@ export const ViewPastTickets:React.FC = () => {
     return (
         <div>
             <NavBarSelector/>
-            <FilterForm />
             <div className="view-past-tickets-page">
+                <FilterForm />
                 <table>
                     <ReimbursementTableHeader/>
                     {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {

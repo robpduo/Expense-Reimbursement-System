@@ -5,6 +5,8 @@ import { submitExpense } from '../../Slices/ReimbursementSlice';
 import { RType } from '../../Interfaces/IReimbursement';
 import { AppDispatch, RootState } from '../../Store';
 
+import "./ExpenseForm.css";
+
 const ExpenseForm = () => {
     const [amount, setAmt] = useState<number>(0);
     const [description, setDesc] = useState<string>("");

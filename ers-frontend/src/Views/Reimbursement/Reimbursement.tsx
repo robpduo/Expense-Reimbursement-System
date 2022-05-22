@@ -5,6 +5,8 @@ import { modifyToRemove, resolveRequest } from '../../Slices/ReimbursementSlice'
 import { IReimbursement } from '../../Interfaces/IReimbursement';
 import { AiOutlineCheck, AiOutlineClose, AiFillDelete } from "react-icons/ai";
 
+import "./Reimbursement.css";
+
 const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
     let date = new Date();
     const dispatch: AppDispatch = useDispatch();
