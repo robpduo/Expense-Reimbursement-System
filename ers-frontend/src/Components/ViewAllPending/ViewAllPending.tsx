@@ -8,7 +8,7 @@ import Reimbursement from "../../Views/Reimbursement/Reimbursement";
 import { AiOutlineCheck, AiOutlineClose } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 import { ReimbursementTableHeader } from "../../Views/ReimbursementTableHeader/ReimbursementTableHeader";
-import ResolverForm from "../ResolverForm/ResolverForm";
+import FilterForm from "../FilterForm/FilterForm";
 
 export const ViewAllPending:React.FC = () => {
 
@@ -29,7 +29,7 @@ export const ViewAllPending:React.FC = () => {
     return(
         <div>
             <NavBarSelector/>
-            <ResolverForm />
+            <FilterForm />
             <div className="view-all-pending-page">
                 <table>
                         <ReimbursementTableHeader />

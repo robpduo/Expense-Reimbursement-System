@@ -6,6 +6,7 @@ import { AppDispatch, RootState } from "../../Store";
 import NavBarSelector from "../../Views/NavBarSelector/NavBarSelector";
 import Reimbursement from "../../Views/Reimbursement/Reimbursement";
 import { ReimbursementTableHeader } from "../../Views/ReimbursementTableHeader/ReimbursementTableHeader";
+import FilterForm from "../FilterForm/FilterForm";
 
 export const ViewAllResolved:React.FC = () => {
 
@@ -23,6 +24,7 @@ export const ViewAllResolved:React.FC = () => {
     return(
         <div>
             <NavBarSelector/>
+            <FilterForm />
             <div className="view-all-resolved-page">
                 <ReimbursementTableHeader/>
                 {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {

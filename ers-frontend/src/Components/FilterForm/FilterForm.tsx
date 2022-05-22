@@ -1,18 +1,20 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { RType, Status } from '../../Interfaces/IReimbursement';
 import { modAuthorId, modFilterId, modFilterType } from '../../Slices/ReimbursementSlice';
-import { AppDispatch } from '../../Store';
+import { AppDispatch, RootState } from '../../Store';
 import { ViewAllPending } from '../ViewAllPending/ViewAllPending';
 
-const ResolverForm: React.FC = () => {
+const FilterForm: React.FC = () => {
     const dispatch: AppDispatch = useDispatch();
 
     const [selType, setSelType] = useState<RType>(RType.BLANK);
     const [idInput, setIdInput] = useState<number>(0);
     const [authorInput, setAuthorInput] = useState<number>(0);
 
-    const handleChange = (event:any) => {
+    const reimbursementState = useSelector((state:RootState) => state.reimburser);
+
+    const handleChange = (event: any) => {
         event.preventDefault();
 
         if (event.target.className === "type-menu") {
@@ -23,34 +25,38 @@ const ResolverForm: React.FC = () => {
             setAuthorInput(event.target.valueAsNumber);
         }
     }
- 
+
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
 
-        if(selType != RType.BLANK) {
+        if (selType != RType.BLANK) {
+            console.log("X1");
             dispatch(modFilterType(selType));
-        } else if (idInput != 0) {
+        }
+
+        if (idInput != 0) {
+            console.log("X2");
             dispatch(modFilterId(idInput));
-        } else if (authorInput != 0) {
+        }
+
+        if (authorInput != 0) {
+            console.log("X3");
             dispatch(modAuthorId(authorInput));
         }
     }
 
+    if (reimbursementState.source === "view-all") {
     return (
-
         <form className="filter-form" onSubmit={handleSubmit}>
             <h3>Filter by Reimbursement Properties!</h3>
-
             <h5 className="filter-id">
                 ID:
-                <input type="number" step="0" className="filter-by-id" min="1" onChange={handleChange}/>
+                <input type="number" step="0" className="filter-by-id" min="1" onChange={handleChange} />
             </h5>
-
             <h5 className="filter-author">
                 Author:
-                <input type="number" step="0" className="filter-by-author" min="1" onChange={handleChange}/>
+                <input type="number" step="0" className="filter-by-author" min="1" onChange={handleChange} />
             </h5>
-
             <h5 className="filter-type">Type:
                 <select className="type-menu" onChange={handleChange}>
                     <option value={RType.BLANK}></option>
@@ -60,14 +66,32 @@ const ResolverForm: React.FC = () => {
                     <option value={RType.OTHER}>Other</option>
                 </select>
             </h5>
-
-            <input type='submit'/>
-
-
+            <input type='submit' />
             <br /><br /><br />
-
         </form>
     )
+    } else {
+        return (
+            <form className="filter-form" onSubmit={handleSubmit}>
+                <h3>Filter by Reimbursement Properties!</h3>
+                <h5 className="filter-id">
+                    ID:
+                    <input type="number" step="0" className="filter-by-id" min="1" onChange={handleChange} />
+                </h5>
+                <h5 className="filter-type">Type:
+                    <select className="type-menu" onChange={handleChange}>
+                        <option value={RType.BLANK}></option>
+                        <option value={RType.FOOD}>Food</option>
+                        <option value={RType.TRAVEL}>Travel</option>
+                        <option value={RType.LODGING}>Lodging</option>
+                        <option value={RType.OTHER}>Other</option>
+                    </select>
+                </h5>
+                <input type='submit' />
+                <br /><br /><br />
+            </form>
+        )
+    }
 }
 
-export default ResolverForm
+export default FilterForm
