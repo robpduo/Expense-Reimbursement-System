@@ -67,7 +67,6 @@ public class UserController {
         u.setlName(editUser.getlName());
 
         if (editUser.getPassword() != null) {
-            System.out.println("User Wants to Update Password");
             u.setPassword(editUser.getPassword());
         }
 

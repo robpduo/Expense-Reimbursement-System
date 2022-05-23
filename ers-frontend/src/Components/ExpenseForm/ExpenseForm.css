@@ -1,5 +1,33 @@
 .new-expense-form {
+    display: grid;
+    justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 25px;
+}
+
+.reimbursement-form {
+    display: grid;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 15px 120px;
+    margin: 25px;
+}
+
+.reimbursement-form h3 {
+    margin-bottom: 20px;
+}
+
+.reimbursement-form label {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.reimbursement-form span{
+    padding-left: 10px;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
 }

@@ -8,6 +8,7 @@ import { AppDispatch, RootState } from '../../Store';
 import "./ExpenseForm.css";
 
 const ExpenseForm = () => {
+    const [prompt, setPrompt] = useState<boolean>(false);
     const [amount, setAmt] = useState<number>(0);
     const [description, setDesc] = useState<string>("");
     const [type, setType] = useState<number>(0);
@@ -15,6 +16,7 @@ const ExpenseForm = () => {
     const dispatch: AppDispatch = useDispatch();
 
     const handleInput = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setPrompt(false);
         if (event.target.name === "amount-field") {
             setAmt(event.target.valueAsNumber);
 
@@ -28,8 +30,9 @@ const ExpenseForm = () => {
 
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
+        setPrompt(true);
         let expenseForm = {
-            amount, 
+            amount,
             description,
             type
         }
@@ -40,18 +43,18 @@ const ExpenseForm = () => {
 
     return (
         <div className="new-expense-form">
-            <form onSubmit={handleSubmit}>
-                <label htmlFor='expense-amount'>Enter Expense Amount</label>
-                <input type="number" step="0.01" id='expense-amount' name='amount-field' onChange={handleInput}/>
+            {prompt == false ? <></> : <h3 className="prompter">Expense Request Submitted!</h3>}
+            <form className="reimbursement-form" onSubmit={handleSubmit}>
+                <h3 className='title'>Enter Expense Info</h3>
+                <label htmlFor='expense-amount'>Enter Expense Amount <span><input type="number" step="0.01" id='expense-amount' name='amount-field' className="input-field" onChange={handleInput} /></span></label>
                 <br />
 
-                <label htmlFor='expense-description'>Description</label>
-                <input type="string" id='expense-description' name='description-field' onChange={handleInput}/>
+                <label htmlFor='expense-description'>Description <span><input type="string" id='expense-description' name='description-field' className="input-field" onChange={handleInput} /></span></label>
                 <br />
 
                 <label htmlFor='expense-type'>Type of Expense</label>
                 <input type="number" id="expense-type" name='type-menu' onChange={handleInput} />
-                 {/* <select id='expense-type' className="type-menu" ref="type-menu">
+                {/* <select id='expense-type' className="type-menu" ref="type-menu">
                     <option value="FOOD">Food</option>
                     <option value="TRAVEL">Travel</option>
                     <option value="LODGING">Lodging</option>
