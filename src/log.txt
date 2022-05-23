@@ -521,3 +521,23 @@
 2022-05-23 16:30:35 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
 2022-05-23 16:30:37 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
 2022-05-23 16:30:40 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 17:09:42 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 17:09:42 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 17:09:58 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 17:10:36 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 17:10:36 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 17:10:38 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:10:38 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 17:10:47 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 17:10:53 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 17:10:53 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 17:11:23 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 17:11:29 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 17:11:29 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 17:11:30 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:11:30 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 17:12:00 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 17:15:00 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 17:15:00 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 17:15:11 INFO  LoggingUtil:30 - User johndoeSuccessfully submitted a new reimbursement request
+2022-05-23 17:15:11 INFO  LoggingUtil:33 - User johndoe Successfully submitted a new reimbursement request

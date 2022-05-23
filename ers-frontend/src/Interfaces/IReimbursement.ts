@@ -26,8 +26,3 @@ export enum RType {
     OTHER = 4
 }
 
-export interface RDate {
-    year: number,
-    month: number,
-    day: number
-}
