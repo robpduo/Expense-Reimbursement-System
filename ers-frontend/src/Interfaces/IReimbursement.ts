@@ -25,3 +25,9 @@ export enum RType {
     FOOD = 3,
     OTHER = 4
 }
+
+export interface RDate {
+    year: number,
+    month: number,
+    day: number
+}

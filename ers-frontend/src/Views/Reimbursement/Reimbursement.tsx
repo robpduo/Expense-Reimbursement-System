@@ -5,8 +5,17 @@ import { modifyToRemove, resolveRequest } from '../../Slices/ReimbursementSlice'
 import { IReimbursement } from '../../Interfaces/IReimbursement';
 import { AiOutlineCheck, AiOutlineClose, AiFillDelete } from "react-icons/ai";
 
+import "./Reimbursement.css";
+
 const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
-    let date = new Date();
+
+    // let date = new Date();
+    let submitted = reimburse.submittedDate;
+    let resolved = reimburse.resolvedDate;
+
+    // console.log("Submitted Date: ", reimburse.submittedDate);
+    console.log("Resolved Date: ", resolved);
+
     const dispatch: AppDispatch = useDispatch();
     const reimbursementState = useSelector((state: RootState) => state.reimburser);
     const userState = useSelector((state: RootState) => state.user);
@@ -48,8 +57,10 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
             <tr className="reimbursement-data">
                 <td>{reimburse.id}</td>
                 <td>${reimburse.amount}</td>
-                <td>DD: {date.getDate()} Month {date.getMonth()}</td>
-                <td>DD: {date.getDate()} Month {date.getMonth()}</td>
+
+                {reimburse.submittedDate ? <td>{submitted?.toString()}</td> : <td>N/A</td>}
+                {reimburse.resolvedDate ? <td>{resolved?.toString()}</td> : <td>N/A</td>}
+
                 <td>{reimburse.description}</td>
                 <td>{reimburse.author?.userId}</td>
                 <td>{reimburse.resolver?.userId}</td>
@@ -65,8 +76,10 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
             <tr>
                 <td>{reimburse.id}</td>
                 <td>${reimburse.amount}</td>
-                <td>D: {date.getDate()} MM {date.getMonth()}</td>
-                <td>D: {date.getDate()} MM {date.getMonth()}</td>
+
+                {reimburse.submittedDate ? <td>{submitted?.toString()}</td> : <td>N/A</td>}
+                {reimburse.resolvedDate ? <td>{resolved?.toString()}</td> : <td>N/A</td>}
+
                 <td>{reimburse.description}</td>
                 <td>{reimburse.author?.userId}</td>
                 <td>{reimburse.resolver?.userId}</td>

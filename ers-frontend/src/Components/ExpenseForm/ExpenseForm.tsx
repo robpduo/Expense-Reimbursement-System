@@ -10,6 +10,7 @@ import "./ExpenseForm.css";
 const ExpenseForm = () => {
     const [prompt, setPrompt] = useState<boolean>(false);
     const [amount, setAmt] = useState<number>(0);
+    const [submittedDate, setSubmittedDate] = useState<Date>(new Date());
     const [description, setDesc] = useState<string>("");
     const [type, setType] = useState<number>(0);
 
@@ -33,6 +34,7 @@ const ExpenseForm = () => {
         setPrompt(true);
         let expenseForm = {
             amount,
+            submittedDate,
             description,
             type
         }
@@ -54,13 +56,15 @@ const ExpenseForm = () => {
 
                 <label htmlFor='expense-type'>Type of Expense</label>
                 <input type="number" id="expense-type" name='type-menu' onChange={handleInput} />
-                {/* <select id='expense-type' className="type-menu" ref="type-menu">
-                    <option value="FOOD">Food</option>
-                    <option value="TRAVEL">Travel</option>
-                    <option value="LODGING">Lodging</option>
-                    <option value="OTHER">Other</option>
-                </select>  */}
-
+                {/*
+                <select id='expense-type' className="type-menu" ref="type-menu">
+                    <option value={RType.BLANK}></option>
+                    <option value={RType.FOOD}>Food</option>
+                    <option value={RType.TRAVEL}>Travel</option>
+                    <option value={RType.LODGING}>Lodging</option>
+                    <option value={RType.OTHER}>Other</option>
+                </select>
+                */}
                 <br />
                 <input type='submit' className="expense-submit-button" value="Submit" />
             </form>

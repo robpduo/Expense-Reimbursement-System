@@ -9,3 +9,18 @@ html, body, #root {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+table {
+    border: 2px solid forestgreen;
+    width: 1000px;
+    height: 200px;
+}
+    
+th {
+    border-bottom: 1px solid black;
+}
+    
+td {
+    text-align: center;
+}
+  

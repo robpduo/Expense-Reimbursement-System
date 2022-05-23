@@ -304,3 +304,220 @@
 2022-05-23 11:55:18 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
 2022-05-23 11:55:18 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
 2022-05-23 11:55:18 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 14:33:11 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 14:33:11 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 14:33:14 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:33:28 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:33:28 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:33:45 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:33:46 INFO  LoggingUtil:109 - emcgill successfully viewed all employees
+2022-05-23 14:33:59 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:33:59 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:34:11 INFO  LoggingUtil:77 - APPROVED Reimbursement #8
+2022-05-23 14:34:20 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 14:34:27 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 14:34:27 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 14:34:28 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:34:28 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:34:32 INFO  LoggingUtil:77 - DENIED Reimbursement #10
+2022-05-23 14:34:40 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 14:34:40 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 14:34:45 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:34:45 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:34:48 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:37:01 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:37:01 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:38:46 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:38:46 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:38:50 INFO  LoggingUtil:77 - DENIED Reimbursement #16
+2022-05-23 14:39:04 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 14:39:04 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 14:40:07 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 14:40:13 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 14:40:13 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 14:40:53 INFO  LoggingUtil:78 - Successfully Updated User: 6
+2022-05-23 14:41:33 INFO  LoggingUtil:78 - Successfully Updated User: 6
+2022-05-23 14:42:10 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:42:10 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:42:11 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:43:37 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 14:43:37 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 14:43:47 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 14:43:47 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 14:45:20 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 14:45:20 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 14:47:45 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 14:47:45 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 14:48:08 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:48:08 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:48:10 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:50:13 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:50:13 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:50:15 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:50:19 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:50:19 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:50:19 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:50:45 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:50:45 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:50:45 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:51:00 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:51:00 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:51:01 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:52:26 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 14:52:26 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 14:52:32 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:52:32 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:52:34 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:52:48 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:52:48 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:52:52 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:53:09 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:53:09 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:53:10 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:53:26 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 14:53:33 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 14:53:33 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 14:53:35 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:53:35 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:53:39 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:53:39 INFO  LoggingUtil:109 - emcgill successfully viewed all employees
+2022-05-23 14:53:44 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:53:44 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:53:45 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:54:55 INFO  LoggingUtil:109 - emcgill successfully viewed all employees
+2022-05-23 14:55:52 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:55:55 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:55:55 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:56:54 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:56:55 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:56:55 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:56:56 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:57:24 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 14:57:24 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 14:57:26 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:57:27 INFO  LoggingUtil:109 - emcgill successfully viewed all employees
+2022-05-23 14:57:29 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:57:37 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 14:57:42 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 14:57:42 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 14:57:45 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:57:45 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:57:47 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:57:54 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 14:57:54 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 14:57:55 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 14:57:56 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 14:58:14 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 14:58:14 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 14:58:16 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 14:58:57 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 15:00:57 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 15:00:57 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 15:00:58 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 15:01:04 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 15:01:04 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 15:01:06 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 15:01:08 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 15:01:08 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 15:01:43 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 15:04:55 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 15:04:55 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 15:04:56 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 15:06:06 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 15:06:12 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:06:12 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:06:14 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 15:06:14 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 15:06:20 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:06:23 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 15:06:29 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 15:06:29 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 15:06:36 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 15:06:36 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 15:17:08 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:17:08 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:17:13 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 15:17:13 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 15:17:17 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:18:17 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 15:18:23 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:18:23 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:18:24 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:21:20 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 15:21:24 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:21:24 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:21:25 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:23:23 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 15:23:23 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 15:23:24 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:23:41 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 15:23:46 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:23:46 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:23:47 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:25:43 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:26:39 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 15:26:39 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 15:26:40 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:32:44 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 15:32:49 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:32:49 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:32:50 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:34:17 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:35:10 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 15:35:15 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:35:15 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:35:16 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:36:23 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:36:23 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:36:25 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:40:28 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:43:56 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:45:07 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 15:49:41 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:49:41 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:49:43 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:51:27 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 15:51:27 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 15:51:29 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:51:38 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:55:38 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:56:16 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 15:59:42 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:00:33 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:01:17 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:01:42 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:02:28 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:03:22 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:03:27 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 16:03:27 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 16:03:29 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:04:41 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:12:27 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:13:26 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:16:29 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:16:52 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:17:22 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:19:02 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:21:43 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:24:04 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:25:29 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:26:30 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 16:26:30 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 16:26:33 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:26:34 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 16:26:34 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 16:29:54 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:29:58 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 16:29:58 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 16:30:00 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-23 16:30:14 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-23 16:30:14 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-23 16:30:20 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:30:26 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 16:30:26 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 16:30:27 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 16:30:34 INFO  LoggingUtil:109 - emcgill successfully viewed all employees
+2022-05-23 16:30:35 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:30:35 INFO  LoggingUtil:91 - emcgill successfully viewed all pending tickets
+2022-05-23 16:30:37 INFO  LoggingUtil:106 - emcgill successfully viewed all resolved tickets
+2022-05-23 16:30:40 INFO  LoggingUtil:55 - Successfully logged out
