@@ -25,3 +25,4 @@ export enum RType {
     FOOD = 3,
     OTHER = 4
 }
+

@@ -31,12 +31,11 @@ export const ViewAllResolved:React.FC = () => {
                 <ReimbursementTableHeader/>
                 {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
                         return <Reimbursement {...reimbursement} key={reimbursement.id} />
-                    }) :
-                        <tr>
-                            <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-                        </tr>
-                    }
-
+                }) :
+                    <tr>
+                        <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+                    </tr>
+                }
             </div>
         </div>
     )

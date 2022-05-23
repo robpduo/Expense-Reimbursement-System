@@ -55,11 +55,11 @@ const ExpenseForm = () => {
                 <label htmlFor='expense-type'>Type of Expense</label>
                 <input type="number" id="expense-type" name='type-menu' onChange={handleInput} />
                 {/* <select id='expense-type' className="type-menu" ref="type-menu">
-                    <option value="FOOD">Food</option>
-                    <option value="TRAVEL">Travel</option>
-                    <option value="LODGING">Lodging</option>
-                    <option value="OTHER">Other</option>
-                </select>  */}
+                    <option value={RType.FOOD}>Food</option>
+                    <option value={RType.TRAVEL}>Travel</option>
+                    <option value={RType.LODGING}>Lodging</option>
+                    <option value={RType.OTHER}>Other</option>
+                </select> */}
 
                 <br />
                 <input type='submit' className="expense-submit-button" value="Submit" />
