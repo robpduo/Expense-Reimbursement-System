@@ -28,10 +28,10 @@ const EmployeePage = () => {
                 <div className="welcome-canvas">
                     <div className='text-box'>
                         <h1>Welcome: {userState.user?.fName} {userState.user?.lName}</h1>
-                        <h3>Account Information</h3>
-                        <h3>Email: {userState.user?.email}</h3>
-                        <h3>Role: {userState.user?.role}</h3>
-                        <h3>Account ID: {userState.user?.userId}</h3>
+                        <h3 className="info-card-text">Account Information</h3>
+                        <h3 className="info-card-text">Email: {userState.user?.email}</h3>
+                        <h3 className="info-card-text">Role: {userState.user?.role}</h3>
+                        <h3 className="info-card-text">Account ID: {userState.user?.userId}</h3>
                         <h3 className="edit-button">Edit</h3>
                     </div>
                 </div>

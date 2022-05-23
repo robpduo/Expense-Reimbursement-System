@@ -9,9 +9,6 @@
 .welcome-canvas {
     display: flex;
     justify-content: center;
-    background-image: url("./assests/images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 25px;
 }
 
@@ -25,13 +22,28 @@
 }
 
 .edit-button {
+    width: 100%;
+    padding: 5px;
     background-color: #F26926;
+    border-style: solid;
     border-radius: 15px;
-    color: white;
+    border-width: thin;
+    padding: 5px;
+    padding-left: 145px;
+    color: black;
+    align-self: right;
 }
 
 .edit-button:hover {
     background-color: #F26926;
+    padding: 5px;
+    padding-left: 145px;
+    border-style: solid;
     border-radius: 15px;
-    color:black;
+    color: white;
+    cursor: pointer;
+}
+
+.info-card-text {
+    text-align: center;
 }
