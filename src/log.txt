@@ -304,3 +304,296 @@
 2022-05-23 11:55:18 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
 2022-05-23 11:55:18 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
 2022-05-23 11:55:18 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 16:15:46 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 16:15:46 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 16:16:25 INFO  LoggingUtil:78 - Successfully Updated User: 7
+2022-05-23 16:16:34 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:16:43 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 16:16:43 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 16:17:06 INFO  LoggingUtil:78 - Successfully Updated User: 7
+2022-05-23 16:17:32 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 16:17:32 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 16:17:36 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
+2022-05-23 16:17:38 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 16:17:38 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 16:17:47 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
+2022-05-23 16:17:53 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 16:17:53 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 16:17:57 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:18:04 INFO  LoggingUtil:30 - Attempt to login as user tester failed
+2022-05-23 16:18:25 INFO  LoggingUtil:41 - Successfully logged in user 8
+2022-05-23 16:18:25 INFO  LoggingUtil:43 - Successfully logged in user 8
+2022-05-23 16:18:31 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:18:31 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 16:18:36 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:18:42 INFO  LoggingUtil:41 - Successfully logged in user 1
+2022-05-23 16:18:42 INFO  LoggingUtil:43 - Successfully logged in user 1
+2022-05-23 16:18:51 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:19:00 INFO  LoggingUtil:30 - Attempt to login as user Robpduo failed
+2022-05-23 16:19:04 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 16:19:04 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 16:19:08 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:19:18 INFO  LoggingUtil:41 - Successfully logged in user 2
+2022-05-23 16:19:18 INFO  LoggingUtil:43 - Successfully logged in user 2
+2022-05-23 16:19:41 INFO  LoggingUtil:78 - Successfully Updated User: 2
+2022-05-23 16:19:52 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user kgoligly0
+2022-05-23 16:19:52 INFO  LoggingUtil:61 - kgoligly0 successfully viewed their pending tickets
+2022-05-23 16:20:09 INFO  LoggingUtil:30 - User kgoligly0Successfully submitted a new reimbursement request
+2022-05-23 16:20:09 INFO  LoggingUtil:33 - User kgoligly0 Successfully submitted a new reimbursement request
+2022-05-23 16:20:11 INFO  LoggingUtil:30 - User kgoligly0Successfully submitted a new reimbursement request
+2022-05-23 16:20:11 INFO  LoggingUtil:33 - User kgoligly0 Successfully submitted a new reimbursement request
+2022-05-23 16:20:11 INFO  LoggingUtil:30 - User kgoligly0Successfully submitted a new reimbursement request
+2022-05-23 16:20:11 INFO  LoggingUtil:33 - User kgoligly0 Successfully submitted a new reimbursement request
+2022-05-23 16:20:11 INFO  LoggingUtil:30 - User kgoligly0Successfully submitted a new reimbursement request
+2022-05-23 16:20:11 INFO  LoggingUtil:33 - User kgoligly0 Successfully submitted a new reimbursement request
+2022-05-23 16:20:12 INFO  LoggingUtil:30 - User kgoligly0Successfully submitted a new reimbursement request
+2022-05-23 16:20:12 INFO  LoggingUtil:33 - User kgoligly0 Successfully submitted a new reimbursement request
+2022-05-23 16:20:13 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user kgoligly0
+2022-05-23 16:20:14 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user kgoligly0
+2022-05-23 16:20:14 INFO  LoggingUtil:61 - kgoligly0 successfully viewed their pending tickets
+2022-05-23 16:20:19 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:20:29 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:20:29 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:20:39 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:20:39 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:20:41 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:20:41 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:20:46 INFO  LoggingUtil:77 - APPROVED Reimbursement #218
+2022-05-23 16:21:00 INFO  LoggingUtil:30 - Attempt to login as user Robpduo failed
+2022-05-23 16:21:14 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:21:14 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:21:19 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 16:21:20 INFO  LoggingUtil:109 - tmclarnon1 successfully viewed all employees
+2022-05-23 16:21:22 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 16:21:35 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:21:35 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:21:36 INFO  LoggingUtil:77 - APPROVED Reimbursement #210
+2022-05-23 16:21:40 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:23:35 INFO  LoggingUtil:41 - Successfully logged in user 8
+2022-05-23 16:23:35 INFO  LoggingUtil:43 - Successfully logged in user 8
+2022-05-23 16:23:38 INFO  LoggingUtil:106 - YOU successfully viewed all resolved tickets
+2022-05-23 16:23:39 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:23:39 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 16:23:45 INFO  LoggingUtil:77 - APPROVED Reimbursement #211
+2022-05-23 16:26:32 INFO  LoggingUtil:41 - Successfully logged in user 8
+2022-05-23 16:26:32 INFO  LoggingUtil:43 - Successfully logged in user 8
+2022-05-23 16:26:38 INFO  LoggingUtil:106 - YOU successfully viewed all resolved tickets
+2022-05-23 16:26:39 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:26:39 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 16:26:44 INFO  LoggingUtil:77 - DENIED Reimbursement #212
+2022-05-23 16:27:08 INFO  LoggingUtil:41 - Successfully logged in user 8
+2022-05-23 16:27:08 INFO  LoggingUtil:43 - Successfully logged in user 8
+2022-05-23 16:39:42 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:39:42 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 16:39:43 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:39:43 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 16:39:44 INFO  LoggingUtil:106 - YOU successfully viewed all resolved tickets
+2022-05-23 16:39:48 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:39:48 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 16:39:49 INFO  LoggingUtil:77 - APPROVED Reimbursement #213
+2022-05-23 16:40:42 INFO  LoggingUtil:41 - Successfully logged in user 1
+2022-05-23 16:40:42 INFO  LoggingUtil:43 - Successfully logged in user 1
+2022-05-23 16:40:46 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user test
+2022-05-23 16:40:46 INFO  LoggingUtil:61 - test successfully viewed their pending tickets
+2022-05-23 16:40:47 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user test
+2022-05-23 16:40:48 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user test
+2022-05-23 16:40:48 INFO  LoggingUtil:61 - test successfully viewed their pending tickets
+2022-05-23 16:40:53 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user test
+2022-05-23 16:40:53 INFO  LoggingUtil:61 - test successfully viewed their pending tickets
+2022-05-23 16:40:54 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:41:06 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:41:06 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:41:12 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:41:12 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:41:16 INFO  LoggingUtil:77 - APPROVED Reimbursement #214
+2022-05-23 16:41:57 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:41:57 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:41:59 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:41:59 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:42:03 INFO  LoggingUtil:77 - APPROVED Reimbursement #215
+2022-05-23 16:43:03 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:43:10 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:43:10 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:43:12 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 16:43:12 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:43:12 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:43:14 INFO  LoggingUtil:77 - APPROVED Reimbursement #216
+2022-05-23 16:43:34 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:43:34 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:43:36 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:43:36 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:43:37 INFO  LoggingUtil:77 - APPROVED Reimbursement #217
+2022-05-23 16:44:19 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:44:19 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:44:21 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:44:21 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:44:22 INFO  LoggingUtil:77 - APPROVED Reimbursement #219
+2022-05-23 16:45:38 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:45:38 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:45:40 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:45:40 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:45:42 INFO  LoggingUtil:77 - DENIED Reimbursement #220
+2022-05-23 16:46:39 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:46:39 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:46:44 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:46:44 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:46:45 INFO  LoggingUtil:77 - DENIED Reimbursement #221
+2022-05-23 16:46:55 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:46:55 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:46:59 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:46:59 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:47:00 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 16:47:01 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:47:01 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:47:03 INFO  LoggingUtil:77 - APPROVED Reimbursement #222
+2022-05-23 16:47:27 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 16:51:43 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:51:43 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:51:45 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 16:51:46 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:51:46 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:52:00 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 16:52:00 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 16:52:02 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 16:52:04 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:52:04 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:52:06 INFO  LoggingUtil:77 - APPROVED Reimbursement #223
+2022-05-23 16:55:54 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 16:55:54 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 16:55:55 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 16:55:56 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:55:56 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:57:55 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 16:57:57 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:57:57 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:57:59 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:57:59 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:58:02 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:58:02 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:58:02 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 16:58:03 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:58:03 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:58:13 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 16:58:13 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 16:58:14 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 16:58:14 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 16:58:17 INFO  LoggingUtil:77 - APPROVED Reimbursement #224
+2022-05-23 17:02:21 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 17:02:21 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 17:02:22 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:02:22 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 17:02:24 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:02:24 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 17:02:31 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:31 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:32 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:32 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:33 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:34 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:34 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:34 INFO  LoggingUtil:30 - User tmclarnon1Successfully submitted a new reimbursement request
+2022-05-23 17:02:34 INFO  LoggingUtil:33 - User tmclarnon1 Successfully submitted a new reimbursement request
+2022-05-23 17:02:34 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:02:34 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 17:02:37 INFO  LoggingUtil:77 - APPROVED Reimbursement #225
+2022-05-23 17:02:59 INFO  LoggingUtil:41 - Successfully logged in user 3
+2022-05-23 17:02:59 INFO  LoggingUtil:43 - Successfully logged in user 3
+2022-05-23 17:03:01 INFO  LoggingUtil:106 - tmclarnon1 successfully viewed all resolved tickets
+2022-05-23 17:03:02 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:03:02 INFO  LoggingUtil:91 - tmclarnon1 successfully viewed all pending tickets
+2022-05-23 17:03:42 INFO  LoggingUtil:77 - APPROVED Reimbursement #226
+2022-05-23 17:04:32 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 17:04:38 INFO  LoggingUtil:30 - Attempt to login as user Robpduo failed
+2022-05-23 17:04:43 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 17:04:43 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 17:04:46 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 17:04:46 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 17:04:47 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
+2022-05-23 17:04:52 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:52 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:53 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:54 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 17:04:55 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 17:04:57 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 17:04:57 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 17:05:00 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 17:05:00 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 17:05:00 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
+2022-05-23 17:05:02 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 17:05:15 INFO  LoggingUtil:30 - Attempt to login as user jmaunder4 failed
+2022-05-23 17:05:17 INFO  LoggingUtil:30 - Attempt to login as user jmaunder4 failed
+2022-05-23 17:05:21 INFO  LoggingUtil:41 - Successfully logged in user 6
+2022-05-23 17:05:21 INFO  LoggingUtil:43 - Successfully logged in user 6
+2022-05-23 17:05:24 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:05:24 INFO  LoggingUtil:91 - jmaunder4 successfully viewed all pending tickets
+2022-05-23 17:11:11 INFO  LoggingUtil:41 - Successfully logged in user 8
+2022-05-23 17:11:11 INFO  LoggingUtil:43 - Successfully logged in user 8
+2022-05-23 17:11:13 INFO  LoggingUtil:106 - YOU successfully viewed all resolved tickets
+2022-05-23 17:11:14 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:11:14 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 17:11:18 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:11:18 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 17:11:18 INFO  LoggingUtil:106 - YOU successfully viewed all resolved tickets
+2022-05-23 17:11:19 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:11:19 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 17:11:20 INFO  LoggingUtil:106 - YOU successfully viewed all resolved tickets
+2022-05-23 17:11:20 INFO  LoggingUtil:109 - YOU successfully viewed all employees
+2022-05-23 17:11:21 INFO  LoggingUtil:106 - YOU successfully viewed all resolved tickets
+2022-05-23 17:11:22 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:11:22 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 17:11:24 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:11:24 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 17:11:25 INFO  LoggingUtil:106 - YOU successfully viewed all resolved tickets
+2022-05-23 17:11:25 INFO  LoggingUtil:109 - YOU successfully viewed all employees
+2022-05-23 17:11:26 INFO  LoggingUtil:106 - YOU successfully viewed all resolved tickets
+2022-05-23 17:11:26 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:11:26 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 17:11:28 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-23 17:11:28 INFO  LoggingUtil:91 - YOU successfully viewed all pending tickets
+2022-05-23 17:11:30 INFO  LoggingUtil:55 - Successfully logged out
