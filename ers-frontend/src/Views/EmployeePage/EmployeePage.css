@@ -44,6 +44,11 @@
     cursor: pointer;
 }
 
+.card-title-text {
+    text-align: center;
+    text-decoration: underline;
+}
+
 .info-card-text {
     text-align: center;
 }
