@@ -21,11 +21,13 @@ export const ViewAllPending:React.FC = () => {
 
     useEffect(() => {
         if (userState.user?.role.toString() === "MANAGER") {
+            console.log("Y1");
             dispatch(modifySource("view-all"));
             dispatch(viewAllPending());
         } else {
             navigator("./");
         }
+        console.log("Y2");
     },[]);
 
     return(
@@ -36,7 +38,7 @@ export const ViewAllPending:React.FC = () => {
                 <table>
                     <ReimbursementTableHeader />
                     {reimbursementState.reimbursements ? reimbursementState.reimbursements.map((reimbursement: IReimbursement) => {
-                            return <Reimbursement {...reimbursement} key={reimbursement.id} />
+                            return <Reimbursement {...reimbursement}/>
                     }) :
                         <tr>
                             <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
