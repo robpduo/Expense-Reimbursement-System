@@ -27,6 +27,13 @@ type currentUser = {
     username: string
 }
 
+type updateInfo = {
+    username: string,
+    email: string,
+    fName: string,
+    lName: string
+}
+
 export const loginUser = createAsyncThunk(
     'user/login',
     async (credentials: Login, thunkAPI) => {
@@ -55,6 +62,26 @@ export const logoutUser = createAsyncThunk(
             const res = await axios.put('http://localhost:8000/users/logout');
             window.location.reload();
         } catch (e) {
+        }
+    }
+)
+
+export const updateUser = createAsyncThunk(
+    'user/update',
+    async (accountInformation: updateInfo, thunkAPI) => {
+        try {
+            axios.defaults.withCredentials = true;
+            const res = await axios.post('http://localhost:8000/users/update', accountInformation);
+            return {
+                userId: res.data.userId,
+                username: res.data.username,
+                fName: res.data.fName,
+                lName: res.data.lName,
+                email: res.data.email,
+                role: res.data.role
+            }
+        } catch (e) {
+            return thunkAPI.rejectWithValue('something went wrong');
         }
     }
 )
@@ -88,6 +115,21 @@ export const UserSlice = createSlice({
             //clear all user field
             state.user = state.nullUser;
             state.error = false;
+            state.loading = false;
+        });
+
+        //This is where we would create our reducer logic
+        builder.addCase(updateUser.pending, (state, action) => {
+            state.loading = true;
+        });
+        builder.addCase(updateUser.fulfilled, (state, action) => {
+            //The payload in this case, is the return from our asyncThunk from above
+            state.user = action.payload;
+            state.error = false;
+            state.loading = false;
+        });
+        builder.addCase(updateUser.rejected, (state, action) => {
+            state.error = true;
             state.loading = false;
         });
     }

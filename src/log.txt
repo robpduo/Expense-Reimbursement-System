@@ -1,0 +1,203 @@
+2022-05-22 19:28:30 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 19:28:30 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 19:28:38 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:28:38 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:28:49 INFO  LoggingUtil:77 - APPROVED Reimbursement #202
+2022-05-22 19:28:50 INFO  LoggingUtil:77 - APPROVED Reimbursement #206
+2022-05-22 19:28:51 INFO  LoggingUtil:77 - APPROVED Reimbursement #207
+2022-05-22 19:28:54 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:28:54 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:28:58 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 19:29:06 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 19:35:02 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 19:35:02 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 19:36:27 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 19:36:27 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 19:49:18 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 19:49:18 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 19:53:04 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:53:04 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:53:05 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:53:05 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:53:06 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 19:53:06 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 19:53:08 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 19:53:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:53:09 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:53:12 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:53:12 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:53:13 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 19:53:15 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 19:53:23 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:53:23 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:53:31 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:53:31 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:55:51 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:55:51 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:55:52 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 19:55:52 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 19:55:53 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 19:55:53 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:55:53 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:55:55 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:55:55 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 19:55:55 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 19:55:56 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 19:55:56 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 20:04:48 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 20:04:48 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 20:11:16 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 20:11:16 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 21:32:27 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 21:32:27 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 21:33:50 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 21:33:50 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 21:43:52 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 21:43:52 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 21:52:25 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 21:52:25 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 22:26:27 INFO  LoggingUtil:40 - Successfully logged in user 8
+2022-05-22 22:26:27 INFO  LoggingUtil:42 - Successfully logged in user 8
+2022-05-22 22:26:29 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 22:26:32 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:26:33 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:26:33 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:26:39 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:26:39 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:26:54 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:26:54 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:27:01 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:27:04 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 22:27:05 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:27:06 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:27:06 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:27:07 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:27:07 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 22:28:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:28:09 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:28:09 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:28:13 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 22:28:14 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:28:15 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 22:28:16 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:28:17 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:28:17 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:28:25 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:28:25 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:28:34 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:28:34 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:28:35 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:28:35 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 22:28:36 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:28:36 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:28:36 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:28:39 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:28:39 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:28:41 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-22 22:29:09 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-22 22:29:09 INFO  LoggingUtil:91 - tester successfully viewed all pending tickets
+2022-05-22 22:29:10 INFO  LoggingUtil:77 - APPROVED Reimbursement #208
+2022-05-22 22:29:23 INFO  LoggingUtil:81 - tester successfully viewed all employees
+2022-05-22 22:29:25 INFO  LoggingUtil:106 - tester successfully viewed all resolved tickets
+2022-05-23 00:27:29 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 00:27:29 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 00:30:26 INFO  LoggingUtil:69 - Successfully Updated User: 0
+2022-05-23 00:32:26 INFO  LoggingUtil:69 - Successfully Updated User: 0
+2022-05-23 00:33:33 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 00:33:33 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 00:33:37 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 00:36:40 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 00:36:40 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 00:36:44 INFO  LoggingUtil:38 - Failed to update user 7
+2022-05-23 00:36:48 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 00:36:48 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 00:36:50 INFO  LoggingUtil:38 - Failed to update user 7
+2022-05-23 00:38:09 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 00:38:09 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 00:38:11 INFO  LoggingUtil:38 - Failed to update user 7
+2022-05-23 00:39:04 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 00:39:04 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 00:39:06 INFO  LoggingUtil:38 - Failed to update user 7
+2022-05-23 00:40:38 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 00:40:38 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 00:40:42 INFO  LoggingUtil:69 - Successfully Updated User: 7
+2022-05-23 00:41:01 INFO  LoggingUtil:69 - Successfully Updated User: 7
+2022-05-23 00:42:16 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 00:42:16 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 00:42:18 INFO  LoggingUtil:73 - Successfully Updated User: 7
+2022-05-23 00:42:33 INFO  LoggingUtil:73 - Successfully Updated User: 7
+2022-05-23 01:04:57 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:04:57 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:09:06 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 01:09:13 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:09:13 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:10:15 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 01:10:21 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:10:21 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:11:26 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 01:11:33 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:11:33 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:13:07 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:13:07 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:14:50 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:14:50 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:14:55 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:16:12 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:17:17 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:17:18 INFO  LoggingUtil:74 - Successfully Updated User: 0
+2022-05-23 01:17:37 INFO  LoggingUtil:30 - Attempt to login as user Robpduo failed
+2022-05-23 01:17:43 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:17:43 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:18:02 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:18:12 INFO  LoggingUtil:74 - Successfully Updated User: 0
+2022-05-23 01:19:42 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:19:42 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:19:53 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:19:56 INFO  LoggingUtil:74 - Successfully Updated User: 0
+2022-05-23 01:20:05 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:20:05 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:20:43 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:20:49 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robduo
+2022-05-23 01:20:49 INFO  LoggingUtil:61 - Robduo successfully viewed their pending tickets
+2022-05-23 01:20:50 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robduo
+2022-05-23 01:20:52 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robduo
+2022-05-23 01:20:52 INFO  LoggingUtil:61 - Robduo successfully viewed their pending tickets
+2022-05-23 01:20:57 INFO  LoggingUtil:30 - User RobduoSuccessfully submitted a new reimbursement request
+2022-05-23 01:20:57 INFO  LoggingUtil:33 - User Robduo Successfully submitted a new reimbursement request
+2022-05-23 01:20:59 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robduo
+2022-05-23 01:21:00 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robduo
+2022-05-23 01:21:00 INFO  LoggingUtil:61 - Robduo successfully viewed their pending tickets
+2022-05-23 01:21:00 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robduo
+2022-05-23 01:21:05 INFO  LoggingUtil:74 - Successfully Updated User: 0
+2022-05-23 01:22:30 INFO  LoggingUtil:41 - Successfully logged in user 8
+2022-05-23 01:22:30 INFO  LoggingUtil:43 - Successfully logged in user 8
+2022-05-23 01:23:13 INFO  LoggingUtil:74 - Successfully Updated User: 8
+2022-05-23 01:23:15 INFO  LoggingUtil:74 - Successfully Updated User: 8
+2022-05-23 01:23:15 INFO  LoggingUtil:74 - Successfully Updated User: 8
+2022-05-23 01:23:15 INFO  LoggingUtil:74 - Successfully Updated User: 8
+2022-05-23 01:23:16 INFO  LoggingUtil:74 - Successfully Updated User: 8
+2022-05-23 01:23:16 INFO  LoggingUtil:74 - Successfully Updated User: 8
+2022-05-23 01:23:16 INFO  LoggingUtil:74 - Successfully Updated User: 8
+2022-05-23 01:23:25 INFO  LoggingUtil:74 - Successfully Updated User: 8
+2022-05-23 01:23:26 INFO  LoggingUtil:74 - Successfully Updated User: 0
+2022-05-23 01:28:20 INFO  LoggingUtil:30 - Attempt to login as user Robpduo failed
+2022-05-23 01:28:35 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 01:28:35 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 01:35:51 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:36:00 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:38:45 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:38:47 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:38:54 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:39:04 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:39:05 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:39:09 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:39:43 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:39:46 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:40:13 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:40:38 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:40:45 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:41:00 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:42:44 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:45:25 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:45:33 INFO  LoggingUtil:74 - Successfully Updated User: 7
+2022-05-23 01:46:16 INFO  LoggingUtil:74 - Successfully Updated User: 7

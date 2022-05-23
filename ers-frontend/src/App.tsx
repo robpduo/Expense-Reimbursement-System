@@ -10,6 +10,7 @@ import { ViewAllPending } from './Components/ViewAllPending/ViewAllPending';
 import { ViewPastTickets } from './Components/ViewPastTickets/ViewPastTickets';
 import { ViewAllResolved } from './Components/ViewAllResolved/ViewAllResolved';
 import { ViewAllEmployees } from './Components/ViewAllEmployees/ViewAllEmployees';
+import EditUserPage from './Views/EditUserPage/EditUserPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/view-past" element={<ViewPastTickets/>}/>
           <Route path="/view-all-resolved" element={<ViewAllResolved/>}/>
           <Route path="/view-all-employees" element={<ViewAllEmployees/>}/>
+          <Route path="/edit-user" element={<EditUserPage />}/>
       </Routes>
     </BrowserRouter>
   );

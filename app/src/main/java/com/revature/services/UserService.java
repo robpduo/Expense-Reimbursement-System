@@ -33,6 +33,13 @@ public class UserService {
         return u;
     }
 
+    public void updateUser(User u) {
+        if (ud.updateUser(u) == false) {
+            LoggingUtil.logger.info("Failed to update user " + u.getUserId());
+            throw new NullPointerException();
+        }
+    }
+
     public void registerUser(User u) throws ExistingUserException {
         if(ud.getUserByUsername(u.getUsername()) == null) {
             LoggingUtil.logger.info("Failed to register user " + u.getUserId());

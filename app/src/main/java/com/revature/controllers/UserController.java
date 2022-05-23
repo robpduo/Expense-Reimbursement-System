@@ -20,6 +20,7 @@ public class UserController {
 
     public Handler getUser = (ctx) -> {
         User u = om.readValue(ctx.body(), User.class);
+
         try {
              ctx.result(om.writeValueAsString(us.getUserByUsername(u.getUsername())));
         } catch (NullPointerException e) {
@@ -52,6 +53,29 @@ public class UserController {
         ctx.status(200);
         ctx.result("Logged out Successfully");
         LoggingUtil.logger.info("Successfully logged out");
+    };
+
+    public Handler handleUserUpdate = (ctx) -> {
+        String username = (String) ctx.req.getSession().getAttribute("LoggedIn");
+
+        User u = us.getUserByUsername(username);
+        User editUser = om.readValue(ctx.body(), User.class);
+
+        u.setUsername(editUser.getUsername());
+        u.setEmail(editUser.getEmail());
+        u.setfName(editUser.getfName());
+        u.setlName(editUser.getlName());
+
+        try {
+            us.updateUser(u);
+            ctx.req.getSession().setAttribute("LoggedIn", u.getUsername());
+            ctx.result(om.writeValueAsString(u));
+            ctx.status(201);
+            LoggingUtil.logger.info("Successfully Updated User: " + u.getUserId());
+        } catch (NullPointerException e) {
+            ctx.result("Incorrect Username or Password");
+            ctx.status(401);
+        }
     };
 
     public Handler handleRegisterUser = (ctx) -> {

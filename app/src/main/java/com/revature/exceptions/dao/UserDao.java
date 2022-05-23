@@ -138,24 +138,21 @@ public class UserDao implements IUserDao{
     public boolean updateUser(User user) {
         String sql = "UPDATE users SET " +
                 "username = ?," +
-                "password = ?," +
                 "first_name = ?," +
                 "last_name = ?," +
-                "email = ?," +
-                "role = ?" +
+                "email = ?" +
                 "WHERE user_id = " + user.getUserId() + ";";
 
         try {
             cs = ConnectionSingleton.getConnection();
             PreparedStatement ps = cs.prepareStatement(sql);
 
-            ps.setString(1, user.getUsername());
-            ps.setString(2, user.getPassword());
-            ps.setString(3, user.getfName());
-            ps.setString(4, user.getlName());
-            ps.setString(5, user.getEmail());
-            ps.setInt(6, Role.toInt(user.getRole()));
 
+            ps.setString(1, user.getUsername());
+            ps.setString(2, user.getfName());
+            ps.setString(3, user.getlName());
+            ps.setString(4, user.getEmail());
+            System.out.println(ps.toString());
             ps.execute();
 
             return true;

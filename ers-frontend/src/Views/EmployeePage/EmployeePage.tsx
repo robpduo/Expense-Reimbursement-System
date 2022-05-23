@@ -21,6 +21,10 @@ const EmployeePage = () => {
         }
     }, []);
 
+    const handleEdit = () => {
+        navigator('/edit-user');
+    }
+
     return (
         <div className="container" >
             <NavBarSelector />
@@ -32,7 +36,7 @@ const EmployeePage = () => {
                         <h3 className="info-card-text">Email: {userState.user?.email}</h3>
                         <h3 className="info-card-text">Role: {userState.user?.role}</h3>
                         <h3 className="info-card-text">Account ID: {userState.user?.userId}</h3>
-                        <h3 className="edit-button">Edit</h3>
+                        <h3 className="edit-button" onClick={handleEdit}>Edit</h3>
                     </div>
                 </div>
             </div>

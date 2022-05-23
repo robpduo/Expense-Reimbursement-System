@@ -56,6 +56,7 @@ public class Driver {
               put("/logout", uCon.handleLogout);
               get("/view-account", uCon.handleViewAccountInfo);
               get("/get-user", uCon.getUser);
+              post("/update", uCon.handleUserUpdate);
            });
 
            path("reimbursements", () -> {
