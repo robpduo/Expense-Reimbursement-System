@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { RType, Status } from '../../Interfaces/IReimbursement';
-import { modAuthorId, modFilterId, modFilterType } from '../../Slices/ReimbursementSlice';
+import { modAuthorId, modFilterId, modFilterType, viewAllPending, viewAllResolved, viewPastTickets } from '../../Slices/ReimbursementSlice';
 import { AppDispatch, RootState } from '../../Store';
+import Reimbursement from '../../Views/Reimbursement/Reimbursement';
 import { ViewAllPending } from '../ViewAllPending/ViewAllPending';
 
 const FilterForm: React.FC = () => {
@@ -42,6 +43,18 @@ const FilterForm: React.FC = () => {
         }
     }
 
+    const handleReset = (event: React.MouseEvent<HTMLButtonElement>) => {
+        console.log(reimbursementState.source);
+        event.preventDefault();
+        if (reimbursementState.source === "view-all") {
+            dispatch(viewAllPending());
+        } else if (reimbursementState.source === "view-resolved") {
+            dispatch(viewAllResolved());
+        } else if (reimbursementState.source === "view-past") {
+            dispatch(viewPastTickets());
+        }
+    }
+
     if (reimbursementState.source === "view-all" || reimbursementState.source === "view-resolved") {
         return (
             <form className="filter-form" onSubmit={handleSubmit}>
@@ -63,7 +76,7 @@ const FilterForm: React.FC = () => {
                         <option value={4}>Other</option>
                     </select>
                 </h5>
-                <input type='submit' />
+                <div className='buttons'><input type='submit' /> <button className='reset' onClick={handleReset}>Reset</button></div>
                 <br /><br /><br />
             </form>
         )
@@ -84,7 +97,7 @@ const FilterForm: React.FC = () => {
                         <option value={RType.OTHER}>Other</option>
                     </select>
                 </h5>
-                <input type='submit' />
+                <div className='buttons'><input type='submit' /> <button className='reset' onClick={handleReset}>Reset</button></div>
                 <br /><br /><br />
             </form>
         )
