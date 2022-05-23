@@ -276,3 +276,31 @@
 2022-05-23 11:41:54 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
 2022-05-23 11:41:54 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
 2022-05-23 11:41:54 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
+2022-05-23 11:52:12 INFO  LoggingUtil:30 - User RobpduoSuccessfully submitted a new reimbursement request
+2022-05-23 11:52:12 INFO  LoggingUtil:33 - User Robpduo Successfully submitted a new reimbursement request
+2022-05-23 11:52:36 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:52:36 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 11:53:03 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:53:03 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 11:53:40 INFO  LoggingUtil:41 - Successfully logged in user 7
+2022-05-23 11:53:40 INFO  LoggingUtil:43 - Successfully logged in user 7
+2022-05-23 11:54:08 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:54:08 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 11:54:44 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:54:44 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 11:54:45 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
+2022-05-23 11:54:45 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:54:45 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 11:54:53 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:54:53 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 11:54:54 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
+2022-05-23 11:55:04 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:55:04 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 11:55:05 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
+2022-05-23 11:55:06 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:55:06 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 11:55:17 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:55:17 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
+2022-05-23 11:55:18 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user Robpduo
+2022-05-23 11:55:18 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user Robpduo
+2022-05-23 11:55:18 INFO  LoggingUtil:61 - Robpduo successfully viewed their pending tickets
