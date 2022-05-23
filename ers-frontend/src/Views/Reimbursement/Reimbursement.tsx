@@ -15,14 +15,13 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
     let resolved = reimburse.resolvedDate;
 
     // console.log("Submitted Date: ", reimburse.submittedDate);
-    console.log("Resolved Date: ", resolved);
+    //console.log("Resolved Date: ", resolved);
 
     const dispatch: AppDispatch = useDispatch();
     const reimbursementState = useSelector((state: RootState) => state.reimburser);
     const userState = useSelector((state: RootState) => state.user);
 
     const handleApprove = (event: React.MouseEvent<HTMLElement>) => {
-        console.log(event);
         event.preventDefault();
         let updater = {
             id: reimburse.id,
@@ -42,7 +41,6 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
     }
 
     const handleDeny = (event: React.MouseEvent<HTMLElement>) => {
-        console.log(event);
         event.preventDefault();
         let updater = {
             id: reimburse.id,

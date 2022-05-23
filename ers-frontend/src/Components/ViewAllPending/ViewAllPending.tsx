@@ -21,13 +21,11 @@ export const ViewAllPending:React.FC = () => {
 
     useEffect(() => {
         if (userState.user?.role.toString() === "MANAGER") {
-            console.log("Y1");
             dispatch(modifySource("view-all"));
             dispatch(viewAllPending());
         } else {
             navigator("./");
         }
-        console.log("Y2");
     },[]);
 
     return(
