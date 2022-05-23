@@ -16,6 +16,7 @@ const EditUserPage: React.FC = () => {
     const [changeFirstName, setFirstName] = useState<string | any>(userState.user?.fName);
     const [changeLastName, setLastName] = useState<string | any>(userState.user?.lName);
     const [changeUsername, setUsername] = useState<string | any>(userState.user?.username);
+    const [changePassword, setPassword] = useState<string | any>("");
 
     const[prompt, setPrompt] = useState<boolean>(false);
 
@@ -37,7 +38,11 @@ const EditUserPage: React.FC = () => {
             setEmail(event.target.value);
         } else if (event.target.className === "edit-field-username") {
             setUsername(event.target.value);
+        } else if (event.target.className === "edit-field-password") {
+            setPassword(event.target.value);
         }
+
+        console.log(changePassword);
     } 
 
     const handleSubmit = (event: React.MouseEvent<HTMLHeadingElement>) => {
@@ -45,7 +50,8 @@ const EditUserPage: React.FC = () => {
             username: changeUsername, 
             email: changeEmail,
             fName: changeFirstName,
-            lName: changeLastName
+            lName: changeLastName,
+            password: changePassword
         }
         setPrompt(true);
         dispatch(updateUser(newAccountDetails));
@@ -65,13 +71,13 @@ const EditUserPage: React.FC = () => {
                         <h3 className="first-name">First Name:<span><input className="edit-field-fname" type="text" placeholder={userState.user?.fName} onChange={handleChange}></input></span></h3>
                         <h3 className="last-name">Last Name: <span><input className="edit-field-lname" type="text" placeholder={userState.user?.lName} onChange={handleChange}></input></span></h3>
                         <h3 className="email">Email: <span><input className="edit-field-email" type="text" placeholder={userState.user?.email} onChange={handleChange}></input></span></h3>
-                        <h3 className="password">password:<span><input className="edit-field-password" type="text" placeholder="Enter New Password" ></input></span></h3>
+                        <h3 className="password">password:<span><input className="edit-field-password" type="password" placeholder="Enter New Password" onChange={handleChange}></input></span></h3>
                         <h3 className="username">Username: {userState.user?.username}</h3>
                         <h3 className="role">Role: {userState.user?.role}</h3>
                         <h3 className="account">Account ID: {userState.user?.userId}</h3>
                         {prompt == false ? <></> : <h3 className="prompter">Changes Submitted!</h3>}
                         <div className="button-wrapper">
-                            <h3 className="button-submit" onClick={handleSubmit}>Save & Logout</h3>
+                            <h3 className="button-submit" onClick={handleSubmit}>Submit</h3>
                             <h3 className="button-cancel" onClick={handleCancel}>Cancel</h3>
                         </div>
                     </div>

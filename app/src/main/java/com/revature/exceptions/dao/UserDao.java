@@ -140,7 +140,8 @@ public class UserDao implements IUserDao{
                 "username = ?," +
                 "first_name = ?," +
                 "last_name = ?," +
-                "email = ?" +
+                "email = ?," +
+                "password = ?" +
                 "WHERE user_id = " + user.getUserId() + ";";
 
         try {
@@ -152,7 +153,7 @@ public class UserDao implements IUserDao{
             ps.setString(2, user.getfName());
             ps.setString(3, user.getlName());
             ps.setString(4, user.getEmail());
-            System.out.println(ps.toString());
+            ps.setString(5, user.getPassword());
             ps.execute();
 
             return true;

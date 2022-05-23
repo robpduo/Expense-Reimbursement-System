@@ -31,7 +31,8 @@ type updateInfo = {
     username: string,
     email: string,
     fName: string,
-    lName: string
+    lName: string,
+    password: string
 }
 
 export const loginUser = createAsyncThunk(

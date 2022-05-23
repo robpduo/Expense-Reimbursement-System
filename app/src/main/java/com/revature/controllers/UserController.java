@@ -66,6 +66,11 @@ public class UserController {
         u.setfName(editUser.getfName());
         u.setlName(editUser.getlName());
 
+        if (editUser.getPassword() != null) {
+            System.out.println("User Wants to Update Password");
+            u.setPassword(editUser.getPassword());
+        }
+
         try {
             us.updateUser(u);
             ctx.req.getSession().setAttribute("LoggedIn", u.getUsername());
