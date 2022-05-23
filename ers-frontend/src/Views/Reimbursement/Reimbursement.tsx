@@ -2,8 +2,9 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppDispatch, RootState } from '../../Store'; //change userstore to store
 import { modifyToRemove, resolveRequest } from '../../Slices/ReimbursementSlice';
-import { IReimbursement } from '../../Interfaces/IReimbursement';
+import { IReimbursement, RType } from '../../Interfaces/IReimbursement';
 import { AiOutlineCheck, AiOutlineClose, AiFillDelete } from "react-icons/ai";
+import { Role } from '../../Interfaces/IUser';
 
 import "./Reimbursement.css";
 
@@ -20,7 +21,9 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
     const reimbursementState = useSelector((state: RootState) => state.reimburser);
     const userState = useSelector((state: RootState) => state.user);
 
-    const handleApprove = () => {
+    const handleApprove = (event: React.MouseEvent<HTMLElement>) => {
+        console.log(event);
+        event.preventDefault();
         let updater = {
             id: reimburse.id,
             status: 0
@@ -29,14 +32,18 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
         if (reimburse.id != null) {
             updater.id = reimburse.id;
             dispatch(modifyToRemove(reimburse.id));
-        }
-
-        if (userState.user?.username != null) {
             dispatch(resolveRequest(updater));
         }
+
+        // if (userState.user?.username != null) {
+        //     dispatch(resolveRequest(updater));
+        // }
+
     }
 
-    const handleDeny = () => {
+    const handleDeny = (event: React.MouseEvent<HTMLElement>) => {
+        console.log(event);
+        event.preventDefault();
         let updater = {
             id: reimburse.id,
             status: 1
@@ -45,11 +52,12 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
         if (reimburse.id != null) {
             updater.id = reimburse.id;
             dispatch(modifyToRemove(reimburse.id));
-        }
-
-        if (userState.user?.username != null) {
             dispatch(resolveRequest(updater));
         }
+
+        // if (userState.user?.username != null) {
+        //     dispatch(resolveRequest(updater));
+        // }
     }
 
     if (userState.user?.role.toString() === "MANAGER" && reimbursementState.source === "view-all") {
@@ -68,7 +76,6 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
                 <td>{reimburse.status}</td>
                 <td className="icon" onClick={handleApprove}><AiOutlineCheck /></td>
                 <td className="icon" onClick={handleDeny}><AiOutlineClose /></td>
-                
             </tr>
         )
     } else {
@@ -89,7 +96,7 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
                 <td></td>
             </tr>
         )
-    }
+    } 
 }
 
 export default Reimbursement

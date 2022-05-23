@@ -12,6 +12,7 @@ export const EmployeeNavbar: React.FC = () => {
     const navigator = useNavigate();
 
     const handleLogout = () => {
+        console.log("LOG ME OUT");
         dispatch(logoutUser());
     }
 

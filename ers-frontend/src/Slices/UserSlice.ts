@@ -68,7 +68,7 @@ export const logoutUser = createAsyncThunk(
 )
 
 export const updateUser = createAsyncThunk(
-    'user/update',
+    'user/update-info',
     async (accountInformation: updateInfo, thunkAPI) => {
         try {
             axios.defaults.withCredentials = true;
