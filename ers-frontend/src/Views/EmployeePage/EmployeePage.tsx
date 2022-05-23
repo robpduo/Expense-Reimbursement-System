@@ -22,16 +22,21 @@ const EmployeePage = () => {
     }, []);
 
     return (
-        <>
+        <div className="container" >
             <NavBarSelector />
-            <div className="welcome-canvas">
-                <h1>Welcome: {userState.user?.fName} {userState.user?.lName}</h1>
-                <h3>Account Information</h3>
-                <h5>Email: {userState.user?.email}</h5>
-                <h5>Role: {userState.user?.role}</h5>
-                <h5>Account ID: {userState.user?.userId}</h5>
+            <div className="background">
+                <div className="welcome-canvas">
+                    <div className='text-box'>
+                        <h1>Welcome: {userState.user?.fName} {userState.user?.lName}</h1>
+                        <h3>Account Information</h3>
+                        <h3>Email: {userState.user?.email}</h3>
+                        <h3>Role: {userState.user?.role}</h3>
+                        <h3>Account ID: {userState.user?.userId}</h3>
+                        <h3 className="edit-button">Edit</h3>
+                    </div>
+                </div>
             </div>
-        </>
+        </div>
     )
 }
 

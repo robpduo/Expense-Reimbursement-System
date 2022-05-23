@@ -1,5 +1,37 @@
-.welcome-canvas{
+.container {
+    background-image: url("./assests/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome-canvas {
+    display: flex;
+    justify-content: center;
+    background-image: url("./assests/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+}
+
+.text-box {
+    border-style: solid;
+    border-radius: 25px;
+    padding: 15px;
     margin-top: 25px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.edit-button {
+    background-color: #F26926;
+    border-radius: 15px;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #F26926;
+    border-radius: 15px;
+    color:black;
 }
