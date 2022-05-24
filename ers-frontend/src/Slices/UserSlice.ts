@@ -12,11 +12,13 @@ interface UserSliceState {
     error: boolean,
     user?: IUser,
     nullUser?: IUser,
+    key: number,
 }
 
 const initialUserState: UserSliceState = {
     loading: false,
-    error: false
+    error: false,
+    key: 0
 }
 
 type Login = {
@@ -70,11 +72,21 @@ export const logoutUser = createAsyncThunk(
 )
 
 export const newUser = createAsyncThunk(
-    'user/register',
+    'user/get-user',
     async (register: updateInfo, thunkAPI) => {
         try {
             axios.defaults.withCredentials = true;
-            const res = await axios.post('http://localhost:8000/users/register', register);
+            const res = await axios.post('http://localhost:8000/users/get-user', register);
+
+            if (res.data.username == null) {
+                const createRes = await axios.post('http://localhost:8000/users/register', register);
+                return {
+                    key: 1 //new employee registered
+                }
+            }
+            return {
+                key: 2 //Username Exists
+            }
 
         } catch (e) {
             return thunkAPI.rejectWithValue('something went wrong');
@@ -150,6 +162,7 @@ export const UserSlice = createSlice({
         });
 
         builder.addCase(newUser.fulfilled, (state, action) => {
+            state.key = action.payload.key;
             state.error = false;
             state.loading = false;
         });

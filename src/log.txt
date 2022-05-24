@@ -6,3 +6,40 @@
 2022-05-23 22:25:02 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user ymoney
 2022-05-23 22:25:03 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user ymoney
 2022-05-23 22:25:03 INFO  LoggingUtil:61 - ymoney successfully viewed their pending tickets
+2022-05-23 23:16:54 INFO  LoggingUtil:92 - Successfully registered user 0
+2022-05-23 23:19:19 INFO  LoggingUtil:92 - Successfully registered user 0
+2022-05-23 23:33:54 INFO  LoggingUtil:92 - Successfully registered user 0
+2022-05-23 23:36:04 INFO  LoggingUtil:92 - Successfully registered user 0
+2022-05-23 23:36:04 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 23:36:52 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 23:36:52 INFO  LoggingUtil:92 - Successfully registered user 0
+2022-05-23 23:38:37 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 23:38:37 INFO  LoggingUtil:92 - Successfully registered user 0
+2022-05-23 23:46:40 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 23:46:40 INFO  LoggingUtil:92 - Successfully registered user 0
+2022-05-23 23:47:37 INFO  LoggingUtil:55 - Successfully logged out
+2022-05-23 23:47:37 INFO  LoggingUtil:92 - Successfully registered user 0
+2022-05-23 23:52:22 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-23 23:52:22 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-23 23:53:12 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-23 23:53:12 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-23 23:53:48 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-23 23:53:48 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-23 23:54:27 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-23 23:55:17 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-23 23:57:53 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-23 23:57:53 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-23 23:58:15 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-23 23:58:15 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-23 23:58:52 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-23 23:59:06 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-23 23:59:06 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-24 00:02:13 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-24 00:02:13 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-24 00:02:31 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-24 00:02:31 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-24 00:18:46 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-24 00:25:28 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-24 00:34:45 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-24 00:35:40 INFO  LoggingUtil:96 - Successfully registered user 0
+2022-05-24 00:36:40 INFO  LoggingUtil:96 - Successfully registered user 0

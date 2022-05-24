@@ -23,6 +23,10 @@ public class UserController {
 
         try {
              ctx.result(om.writeValueAsString(us.getUserByUsername(u.getUsername())));
+             if(us.getUserByUsername(u.getUsername()) ==null) {
+                 System.out.println("NULL USER");
+                 ctx.status(401);
+             }
         } catch (NullPointerException e) {
             ctx.result("Incorrect Username or Password");
             ctx.status(401);

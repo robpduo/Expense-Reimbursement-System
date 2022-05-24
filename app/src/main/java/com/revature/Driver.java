@@ -55,7 +55,7 @@ public class Driver {
               get("/view-all-employees", uCon.handleViewALlEmployees);
               put("/logout", uCon.handleLogout);
               get("/view-account", uCon.handleViewAccountInfo);
-              get("/get-user", uCon.getUser);
+              post("/get-user", uCon.getUser);
               post("/update", uCon.handleUserUpdate);
            });
 

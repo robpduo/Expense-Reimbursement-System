@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { Role } from '../../Interfaces/IUser';
-import { newUser } from '../../Slices/UserSlice';
+import { logoutUser, newUser } from '../../Slices/UserSlice';
 import { AppDispatch, RootState } from '../../Store';
 
 import "./RegisterForm.css";
@@ -15,11 +15,11 @@ const RegisterForm: React.FC = () => {
     const [lastName, setLastName] = useState<string | any>("");
     const [username, setUsername] = useState<string | any>("");
     const [password, setPassword] = useState<string | any>("");
-    const[prompt, setPrompt] = useState<boolean>(false);
-    
+    const [prompt, setPrompt] = useState<boolean>(false);
+
     const navigator = useNavigate();
     const dispatch: AppDispatch = useDispatch();
-    
+
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 
         if (event.target.className == "first-name-field") {
@@ -54,16 +54,12 @@ const RegisterForm: React.FC = () => {
         }
 
         if (prompt === true) {
-
             dispatch(newUser(newAccountDetails));
-            alert("New Employee Registered");
-            navigator('/');
-        } 
+        }
     }
 
     const handleCancel = (event: React.MouseEvent<HTMLButtonElement>) => {
         event.preventDefault();
-        navigator("/");
     }
 
     return (
@@ -81,6 +77,7 @@ const RegisterForm: React.FC = () => {
                 <h3>Password: <span><input type="password" className="password-field" onChange={handleChange}></input></span></h3>
 
                 {prompt === false ? <h5 className="form-status">Form Incomplete</h5> : <h5 className="form-status-complete">Ready to Submit!</h5>}
+                {userState.key === 1 ? <h5 className="form-status-complete">New Employee Registered!</h5> : <h5 className="form-status">Username Already Exists</h5>}
 
                 <input type="submit" className="submit-button"></input>
                 <button className="cancel-button" onClick={handleCancel} >Cancel</button>
