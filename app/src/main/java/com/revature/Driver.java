@@ -2,10 +2,10 @@ package com.revature;
 
 import com.revature.controllers.ReimbursementController;
 import com.revature.controllers.UserController;
-import com.revature.exceptions.dao.IReimbursementDao;
-import com.revature.exceptions.dao.IUserDao;
-import com.revature.exceptions.dao.ReimbursementDao;
-import com.revature.exceptions.dao.UserDao;
+import com.revature.dao.IReimbursementDao;
+import com.revature.dao.IUserDao;
+import com.revature.dao.ReimbursementDao;
+import com.revature.dao.UserDao;
 import com.revature.exceptions.IncorrectUsernameOrPasswordException;
 import com.revature.exceptions.NegativeAmountException;
 import com.revature.exceptions.UnauthorizedUserException;

@@ -1,7 +1,7 @@
 package com.revature.service;
 
-import com.revature.exceptions.dao.IReimbursementDao;
-import com.revature.exceptions.dao.IUserDao;
+import com.revature.dao.IReimbursementDao;
+import com.revature.dao.IUserDao;
 import com.revature.exceptions.NegativeAmountException;
 import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.models.*;

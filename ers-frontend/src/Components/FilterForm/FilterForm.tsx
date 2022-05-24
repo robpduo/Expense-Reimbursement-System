@@ -29,18 +29,21 @@ const FilterForm: React.FC = () => {
 
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
-
-        if (selType != 0) {
+        if (selType != 0 && isNaN(selType) == false) {
+            console.log("x1");
             dispatch(modFilterType(selType));
-        }
+        } 
 
-        if (idInput != 0) {
+        if (idInput != 0 && isNaN(idInput) == false) {
+            console.log("x2");
             dispatch(modFilterId(idInput));
         }
 
-        if (authorInput != 0) {
+        if (authorInput != 0 && isNaN(authorInput) == false) {
+            console.log("x3");
             dispatch(modAuthorId(authorInput));
         }
+        
     }
 
     const handleReset = (event: React.MouseEvent<HTMLButtonElement>) => {

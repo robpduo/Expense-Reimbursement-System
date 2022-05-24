@@ -1,6 +1,6 @@
 package com.revature.service;
 
-import com.revature.exceptions.dao.UserDao;
+import com.revature.dao.UserDao;
 import com.revature.exceptions.IncorrectUsernameOrPasswordException;
 import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.models.Role;
