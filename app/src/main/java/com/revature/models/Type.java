@@ -1,6 +1,7 @@
 package com.revature.models;
 
 public enum Type {
+    BLANK,
     LODGING,
     TRAVEL,
     FOOD,
@@ -32,7 +33,7 @@ public enum Type {
             case 4:
                 return OTHER;
             default:
-                return null;
+                return BLANK;
         }
     }
 
