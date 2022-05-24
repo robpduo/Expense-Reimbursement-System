@@ -11,7 +11,7 @@ const ExpenseForm = () => {
     const [prompt, setPrompt] = useState<boolean>(false);
     const [amount, setAmt] = useState<number>(0);
     const [description, setDesc] = useState<string>("");
-    const [type, setType] = useState<number>(0);
+    const [type, setType] = useState<number>(4);
 
     const dispatch: AppDispatch = useDispatch();
 
@@ -48,7 +48,7 @@ const ExpenseForm = () => {
             {prompt == false ? <></> : <h3 className="prompter">Expense Request Submitted!</h3>}
             <form className="reimbursement-form" onSubmit={handleSubmit}>
                 <h3 className='title'>Enter Expense Info</h3>
-                <label htmlFor='expense-amount'>Enter Expense Amount <span><input type="number" step="0.01" id='expense-amount' name='amount-field' className="amount-field" onChange={handleInput} /></span></label>
+                <label htmlFor='expense-amount'>Enter Expense Amount <span><input type="number" step="0.01" id='expense-amount' name='amount-field' className="amount-field" min="0.01" onChange={handleInput} /></span></label>
                 <br />
 
                 <label htmlFor='expense-description'>Description <span><input type="string" id='expense-description' name='description-field' className="description-field" onChange={handleInput} /></span></label>
