@@ -2,6 +2,7 @@ package com.revature.service;
 
 import com.revature.dao.IReimbursementDao;
 import com.revature.dao.IUserDao;
+import com.revature.exceptions.IncorrectUsernameOrPasswordException;
 import com.revature.exceptions.NegativeAmountException;
 import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.models.*;
@@ -87,6 +88,11 @@ public class ReimbursementServiceTest {
         Assert.assertTrue(list.contains(r3) && list.contains(r5));
     }
 
+    @Test
+    public void testViewPastTickets2() {
+
+    }
+
     // test for viewPendingTickets -----------------------------------------------------------------------
 
     @Test
@@ -141,5 +147,24 @@ public class ReimbursementServiceTest {
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
         List<Reimbursement> list = rs.viewEmployeeRequests(u2, u1);
     }
+
+    // tests for getUserByUsername -----------------------------------------------------------------------
+
+    /*
+    @Test
+    public void testGetUserByUsername() throws IncorrectUsernameOrPasswordException {
+        User u = new User();
+        u.setUsername("username");
+        Mockito.when(us.getUserByUsername(Mockito.any())).thenReturn(u);
+        Assert.assertTrue(rs.getUserByUsername("username").equals(u));
+    }
+
+    @Test(expected = IncorrectUsernameOrPasswordException.class)
+    public void testGetUserByUsernameIncorrectUsername() throws IncorrectUsernameOrPasswordException {
+        Mockito.when(us.getUserByUsername(Mockito.anyString())).thenReturn(null);
+        rs.getUserByUsername("username");
+    }
+
+     */
 
 }

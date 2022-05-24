@@ -89,3 +89,67 @@
 2022-05-24 09:01:48 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
 2022-05-24 09:07:54 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
 2022-05-24 09:07:54 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 09:28:59 INFO  LoggingUtil:45 - Successfully logged in user 7
+2022-05-24 09:28:59 INFO  LoggingUtil:47 - Successfully logged in user 7
+2022-05-24 09:29:05 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-24 09:29:10 INFO  LoggingUtil:45 - Successfully logged in user 6
+2022-05-24 09:29:10 INFO  LoggingUtil:47 - Successfully logged in user 6
+2022-05-24 09:29:20 INFO  LoggingUtil:30 - User johndoeSuccessfully submitted a new reimbursement request
+2022-05-24 09:29:20 INFO  LoggingUtil:33 - User johndoe Successfully submitted a new reimbursement request
+2022-05-24 09:29:21 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-24 09:29:21 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-24 09:29:32 INFO  LoggingUtil:30 - User johndoeSuccessfully submitted a new reimbursement request
+2022-05-24 09:29:32 INFO  LoggingUtil:33 - User johndoe Successfully submitted a new reimbursement request
+2022-05-24 09:29:37 INFO  LoggingUtil:30 - User johndoeSuccessfully submitted a new reimbursement request
+2022-05-24 09:29:37 INFO  LoggingUtil:33 - User johndoe Successfully submitted a new reimbursement request
+2022-05-24 09:29:42 INFO  LoggingUtil:30 - User johndoeSuccessfully submitted a new reimbursement request
+2022-05-24 09:29:42 INFO  LoggingUtil:33 - User johndoe Successfully submitted a new reimbursement request
+2022-05-24 09:29:47 INFO  LoggingUtil:30 - User johndoeSuccessfully submitted a new reimbursement request
+2022-05-24 09:29:47 INFO  LoggingUtil:33 - User johndoe Successfully submitted a new reimbursement request
+2022-05-24 09:29:48 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-24 09:29:48 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-24 09:29:53 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user johndoe
+2022-05-24 09:29:55 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user johndoe
+2022-05-24 09:29:55 INFO  LoggingUtil:61 - johndoe successfully viewed their pending tickets
+2022-05-24 09:30:17 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-24 09:30:23 INFO  LoggingUtil:45 - Successfully logged in user 7
+2022-05-24 09:30:23 INFO  LoggingUtil:47 - Successfully logged in user 7
+2022-05-24 09:30:25 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:30:25 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets
+2022-05-24 09:30:28 INFO  LoggingUtil:106 - hmcnelis successfully viewed all resolved tickets
+2022-05-24 09:30:30 INFO  LoggingUtil:113 - hmcnelis successfully viewed all employees
+2022-05-24 09:31:17 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-24 09:33:46 INFO  LoggingUtil:45 - Successfully logged in user 7
+2022-05-24 09:33:46 INFO  LoggingUtil:47 - Successfully logged in user 7
+2022-05-24 09:33:55 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:33:55 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets
+2022-05-24 09:34:16 INFO  LoggingUtil:106 - hmcnelis successfully viewed all resolved tickets
+2022-05-24 09:34:27 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:34:27 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets
+2022-05-24 09:34:33 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:34:33 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets
+2022-05-24 09:34:34 INFO  LoggingUtil:106 - hmcnelis successfully viewed all resolved tickets
+2022-05-24 09:34:35 INFO  LoggingUtil:113 - hmcnelis successfully viewed all employees
+2022-05-24 09:34:37 INFO  LoggingUtil:106 - hmcnelis successfully viewed all resolved tickets
+2022-05-24 09:34:47 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:34:47 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets
+2022-05-24 09:34:48 INFO  LoggingUtil:106 - hmcnelis successfully viewed all resolved tickets
+2022-05-24 09:34:55 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:34:55 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets
+2022-05-24 09:35:00 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:35:00 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets
+2022-05-24 09:35:00 INFO  LoggingUtil:106 - hmcnelis successfully viewed all resolved tickets
+2022-05-24 09:35:01 INFO  LoggingUtil:113 - hmcnelis successfully viewed all employees
+2022-05-24 09:35:07 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:35:07 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets
+2022-05-24 09:35:08 INFO  LoggingUtil:106 - hmcnelis successfully viewed all resolved tickets
+2022-05-24 09:35:08 INFO  LoggingUtil:113 - hmcnelis successfully viewed all employees
+2022-05-24 09:35:57 INFO  LoggingUtil:113 - hmcnelis successfully viewed all employees
+2022-05-24 09:35:58 INFO  LoggingUtil:106 - hmcnelis successfully viewed all resolved tickets
+2022-05-24 09:35:59 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:35:59 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets
+2022-05-24 09:38:49 INFO  LoggingUtil:59 - Successfully logged out
+2022-05-24 09:41:13 INFO  LoggingUtil:45 - Successfully logged in user 7
+2022-05-24 09:41:13 INFO  LoggingUtil:47 - Successfully logged in user 7
+2022-05-24 09:41:18 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:41:18 INFO  LoggingUtil:91 - hmcnelis successfully viewed all pending tickets

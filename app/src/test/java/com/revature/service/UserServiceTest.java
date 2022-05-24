@@ -1,6 +1,7 @@
 package com.revature.service;
 
 import com.revature.dao.UserDao;
+import com.revature.exceptions.ExistingUserException;
 import com.revature.exceptions.IncorrectUsernameOrPasswordException;
 import com.revature.exceptions.UnauthorizedUserException;
 import com.revature.models.Role;
@@ -60,7 +61,23 @@ public class UserServiceTest {
 
     // tests for registerUser ---------------------------------------------------------------------------------
 
+    /*
+    @Test
+    public void testRegisterUser() throws ExistingUserException {
+        User u = new User();
+        u.setUsername("username");
+        Mockito.when(ud.getUserByUsername(Mockito.any())).thenReturn(null);
+        us.registerUser(u);
+    }
 
+     */
+
+    @Test(expected = ExistingUserException.class)
+    public void testRegisterUserExistingUser() throws ExistingUserException {
+        User u = new User();
+        Mockito.when(ud.getUserByUsername(Mockito.anyString())).thenReturn(u);
+        us.registerUser(u);
+    }
 
     // tests for viewAllEmployees -----------------------------------------------------------------------------
     @Test

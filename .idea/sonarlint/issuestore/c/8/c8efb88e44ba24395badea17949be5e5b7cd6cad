@@ -1,0 +1,30 @@
+
+z
+java:S1192"_Define a constant instead of duplicating this literal "Incorrect Username or Password" 3 times.(†Õìşÿÿÿÿ
+^
+java:S1192,"IDefine a constant instead of duplicating this literal "LoggedIn" 6 times.(¯õõR
+n
+java:S1104"SMake getUser a static final constant or non-public and provide accessors if needed.(áı¢¤øÿÿÿÿ
+m
+java:S1104$"WMake handleLogin a static final constant or non-public and provide accessors if needed.(Öª‰
+s
+java:S11047"XMake handleLogout a static final constant or non-public and provide accessors if needed.(Ö€ãøÿÿÿÿ
+w
+java:S1104>"\Make handleUserUpdate a static final constant or non-public and provide accessors if needed.(İÄúÊüÿÿÿÿ
+t
+java:S1104Y"^Make handleRegisterUser a static final constant or non-public and provide accessors if needed.(ŸóÂš
+x
+java:S1104g"bMake handleViewALlEmployees a static final constant or non-public and provide accessors if needed.(ßèüË
+|
+java:S1104u"aMake handleViewAccountInfo a static final constant or non-public and provide accessors if needed.(¸§â¼ÿÿÿÿÿ
+L
+java:S1611"1Remove the parentheses around the "ctx" parameter(áı¢¤øÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¤£°Àúÿÿÿÿ8Ê¹¿£0
+G
+java:S1611$"1Remove the parentheses around the "ctx" parameter(Öª‰
+L
+java:S16117"1Remove the parentheses around the "ctx" parameter(Ö€ãøÿÿÿÿ
+L
+java:S1611>"1Remove the parentheses around the "ctx" parameter(İÄúÊüÿÿÿÿ
+G
+java:S1611Y"1Remove the parentheses around the "ctx" parameter(ŸóÂš
