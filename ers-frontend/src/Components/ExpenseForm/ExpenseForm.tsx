@@ -57,9 +57,9 @@ const ExpenseForm = () => {
                 <label className="type-menu">Type:
                     <select className="type-menu" onChange={handleInput}>
                         <option value={0}></option>
-                        <option value={3}>Food</option>
-                        <option value={2}>Travel</option>
                         <option value={1}>Lodging</option>
+                        <option value={2}>Travel</option>
+                        <option value={3}>Food</option>
                         <option value={4}>Other</option>
                     </select>
                 </label>
