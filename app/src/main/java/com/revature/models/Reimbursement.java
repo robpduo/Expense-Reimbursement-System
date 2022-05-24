@@ -17,10 +17,10 @@ public class Reimbursement {
     public Reimbursement() {
     }
 
-    public Reimbursement(int id, double amount, LocalDate sumbmittedDate, LocalDate resolvedDate, String description, User author, User resolver, Status status, Type type) {
+    public Reimbursement(int id, double amount, LocalDate submittedDate, LocalDate resolvedDate, String description, User author, User resolver, Status status, Type type) {
         this.id = id;
         this.amount = amount;
-        this.submittedDate = sumbmittedDate;
+        this.submittedDate = submittedDate;
         this.resolvedDate = resolvedDate;
         this.description = description;
         this.author = author;
@@ -45,12 +45,12 @@ public class Reimbursement {
         this.amount = amount;
     }
 
-    public LocalDate getSumbmittedDate() {
+    public LocalDate getSubmittedDate() {
         return submittedDate;
     }
 
-    public void setSumbmittedDate(LocalDate sumbmittedDate) {
-        this.submittedDate = sumbmittedDate;
+    public void setSubmittedDate(LocalDate submittedDate) {
+        this.submittedDate = submittedDate;
     }
 
     public LocalDate getResolvedDate() {

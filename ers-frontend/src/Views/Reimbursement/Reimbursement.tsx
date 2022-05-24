@@ -14,9 +14,6 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
     let submitted = reimburse.submittedDate;
     let resolved = reimburse.resolvedDate;
 
-    // console.log("Submitted Date: ", reimburse.submittedDate);
-    //console.log("Resolved Date: ", resolved);
-
     const dispatch: AppDispatch = useDispatch();
     const reimbursementState = useSelector((state: RootState) => state.reimburser);
     const userState = useSelector((state: RootState) => state.user);
@@ -33,10 +30,6 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
             dispatch(modifyToRemove(reimburse.id));
             dispatch(resolveRequest(updater));
         }
-
-        // if (userState.user?.username != null) {
-        //     dispatch(resolveRequest(updater));
-        // }
 
     }
 
@@ -56,8 +49,6 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
     }
 
     if (userState.user?.role.toString() === "MANAGER" && reimbursementState.source === "view-all") {
-        console.log(submitted);
-        console.log(resolved);
         return (
             <tr className="reimbursement-data">
                 <td>{reimburse.id}</td>

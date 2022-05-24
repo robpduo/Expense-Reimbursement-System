@@ -26,7 +26,7 @@ public class ReimbursementDao implements IReimbursementDao {
 
             stmt.setDouble(1, r.getAmount());
 
-            stmt.setDate(2, Date.valueOf(r.getSumbmittedDate()));
+            stmt.setDate(2, Date.valueOf(r.getSubmittedDate()));
             stmt.setString(3, r.getDescription());
             stmt.setInt(4, r.getAuthor().getUserId());
             stmt.setInt(5, Status.toInt(r.getStatus()));
@@ -57,7 +57,7 @@ public class ReimbursementDao implements IReimbursementDao {
 
                 r.setId(rs.getInt(1));
                 r.setAmount(rs.getDouble(2));
-                r.setSumbmittedDate(rs.getDate(3).toLocalDate());
+                r.setSubmittedDate(rs.getDate(3).toLocalDate());
                 if (rs.getDate(4)!= null) r.setResolvedDate(rs.getDate(4).toLocalDate());
                 r.setDescription(rs.getString(5));
                 r.setAuthor(ud.getUserById(rs.getInt(6)));

@@ -36,7 +36,7 @@ public class ReimbursementService {
         }
 
         r.setAmount(amount);
-        r.setSumbmittedDate(LocalDate.now());
+        r.setSubmittedDate(LocalDate.now());
         r.setResolvedDate(null);
         r.setDescription(description);
         r.setAuthor(author);
