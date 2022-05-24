@@ -38,3 +38,54 @@
 2022-05-24 08:42:54 INFO  LoggingUtil:47 - Successfully logged in user 1
 2022-05-24 08:42:55 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
 2022-05-24 08:42:55 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:45:01 INFO  LoggingUtil:45 - Successfully logged in user 1
+2022-05-24 08:45:01 INFO  LoggingUtil:47 - Successfully logged in user 1
+2022-05-24 08:45:06 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 08:45:06 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:45:21 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 08:45:21 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:45:22 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 08:45:25 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 08:45:25 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:46:55 INFO  LoggingUtil:45 - Successfully logged in user 1
+2022-05-24 08:46:55 INFO  LoggingUtil:47 - Successfully logged in user 1
+2022-05-24 08:46:56 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 08:46:56 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 08:46:56 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:49:20 INFO  LoggingUtil:45 - Successfully logged in user 1
+2022-05-24 08:49:20 INFO  LoggingUtil:47 - Successfully logged in user 1
+2022-05-24 08:49:22 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 08:49:22 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:54:23 INFO  LoggingUtil:77 - APPROVED Reimbursement #310
+2022-05-24 08:54:25 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 08:54:25 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 08:54:25 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:57:34 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 08:57:34 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:58:10 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 08:58:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 08:58:10 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:58:14 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 08:58:16 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 08:58:16 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 08:58:17 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 09:00:05 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:00:05 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 09:00:05 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 09:00:06 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:00:06 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 09:00:07 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 09:00:07 INFO  LoggingUtil:113 - Robpduo successfully viewed all employees
+2022-05-24 09:00:08 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 09:00:09 INFO  LoggingUtil:113 - Robpduo successfully viewed all employees
+2022-05-24 09:00:09 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 09:00:10 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:00:10 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 09:00:12 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 09:00:13 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:00:13 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 09:01:47 INFO  LoggingUtil:106 - Robpduo successfully viewed all resolved tickets
+2022-05-24 09:01:48 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:01:48 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets
+2022-05-24 09:07:54 INFO  LoggingUtil:153 - Successfully retrieved all pending tickets
+2022-05-24 09:07:54 INFO  LoggingUtil:91 - Robpduo successfully viewed all pending tickets

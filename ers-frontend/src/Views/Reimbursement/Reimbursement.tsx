@@ -68,7 +68,7 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
         )
     } else {
         return (
-            <tr>
+            <tr className="reimbursement-data">
                 <td>{reimburse.id}</td>
                 <td>${reimburse.amount}</td>
 
