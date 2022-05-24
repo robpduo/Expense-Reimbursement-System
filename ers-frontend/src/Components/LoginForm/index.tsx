@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import { loginUser } from '../../Slices/UserSlice';
 import { AppDispatch, RootState } from '../../Store';
 
@@ -11,9 +12,10 @@ export const Login: React.FC = () => {
     const [password, setPassword] = useState<string>("");
 
     const dispatch: AppDispatch = useDispatch();
-    
-    const handleInput = (event:React.ChangeEvent<HTMLInputElement>) => {
-        if(event.target.name === "username"){
+    const navigator = useNavigate();
+
+    const handleInput = (event: React.ChangeEvent<HTMLInputElement>) => {
+        if (event.target.name === "username") {
             setUsername(event.target.value);
         }
         else {
@@ -21,7 +23,7 @@ export const Login: React.FC = () => {
         }
     }
 
-    const handleLogin = (event:React.MouseEvent<HTMLButtonElement>) => {
+    const handleLogin = (event: React.MouseEvent<HTMLButtonElement>) => {
         let credentials = {
             username,
             password,
@@ -30,22 +32,33 @@ export const Login: React.FC = () => {
         dispatch(loginUser(credentials));
     }
 
-    return(
+    const handleRegister = (event: React.MouseEvent<HTMLButtonElement>) => {
+        navigator("/register-user");
+    }
+
+    return (
         <div className="login">
+
             <div className="text-container">
                 <h1 className="login-header">Expense Reimbursement System</h1>
             </div>
+
             <form className="login-form">
                 <div className="input-div">
                     <h4 className="input-h4">Please Enter Email</h4>
-                    <input autoComplete="off" className="login-input" type="text" placeholder="username" name="username" onChange={handleInput}/>
+                    <input autoComplete="off" className="login-input" type="text" placeholder="username" name="username" onChange={handleInput} />
                 </div>
                 <div className="input-div">
                     <h4 className="input-h4">Please Enter Password</h4>
-                    <input className="login-input" type="password" name="password" placeholder="password" onChange={handleInput}/>
+                    <input className="login-input" type="password" name="password" placeholder="password" onChange={handleInput} />
                 </div>
             </form>
-            <button className="login-button" onClick={handleLogin}>Login</button>
+
+            <div className="buttons">
+                <button className="login-button" onClick={handleLogin}>Login</button>
+                <button className="new-employee" onClick={handleRegister}>Register</button>
+            </div>
+
         </div>
     )
 

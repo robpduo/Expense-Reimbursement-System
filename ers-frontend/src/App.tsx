@@ -11,6 +11,7 @@ import { ViewPastTickets } from './Components/ViewPastTickets/ViewPastTickets';
 import { ViewAllResolved } from './Components/ViewAllResolved/ViewAllResolved';
 import { ViewAllEmployees } from './Components/ViewAllEmployees/ViewAllEmployees';
 import EditUserPage from './Views/EditUserPage/EditUserPage';
+import RegisterForm from './Components/RegisterForm/RegisterForm';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/view-all-resolved" element={<ViewAllResolved/>}/>
           <Route path="/view-all-employees" element={<ViewAllEmployees/>}/>
           <Route path="/edit-user" element={<EditUserPage />}/>
+          <Route path="/register-user" element={<RegisterForm />}/>
       </Routes>
     </BrowserRouter>
   );

@@ -1,7 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { IUser } from "../Interfaces/IUser";
+import { IUser, Role } from "../Interfaces/IUser";
 import { wrapper } from 'axios-cookiejar-support';
+import { RType } from "../Interfaces/IReimbursement";
 
 
 //Figure out our default state for this slice
@@ -32,7 +33,8 @@ type updateInfo = {
     email: string,
     fName: string,
     lName: string,
-    password: string
+    password: string,
+    role?: Role | any
 }
 
 export const loginUser = createAsyncThunk(
@@ -63,6 +65,19 @@ export const logoutUser = createAsyncThunk(
             const res = await axios.put('http://localhost:8000/users/logout');
             window.location.reload();
         } catch (e) {
+        }
+    }
+)
+
+export const newUser = createAsyncThunk(
+    'user/register',
+    async (register: updateInfo, thunkAPI) => {
+        try {
+            axios.defaults.withCredentials = true;
+            const res = await axios.post('http://localhost:8000/users/register', register);
+
+        } catch (e) {
+            return thunkAPI.rejectWithValue('something went wrong');
         }
     }
 )
@@ -131,6 +146,11 @@ export const UserSlice = createSlice({
         });
         builder.addCase(updateUser.rejected, (state, action) => {
             state.error = true;
+            state.loading = false;
+        });
+
+        builder.addCase(newUser.fulfilled, (state, action) => {
+            state.error = false;
             state.loading = false;
         });
     }

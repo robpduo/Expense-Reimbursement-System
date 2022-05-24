@@ -1,0 +1,59 @@
+:root {
+    --bg: #2D2E2E;
+    --dark: #0F0F0F;
+    --btn-blue: #46B1C9;
+    --accent: #23CE6B;
+    --text-white: #FBFBFB;
+}
+
+.register {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid var(--dark);
+    padding: 20px;
+    margin: 5% 37%;
+}
+
+.registration-form h3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-button,
+.cancel-button {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #F26926;
+    height: 30px;
+}
+
+.submit-button:hover {
+    color: white;
+    background-color: #23CE6B;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form-status {
+    color: red;
+    text-align: center;
+    margin: 10px;
+}
+
+.form-status-complete {
+    color: green;
+    text-align: center;
+    margin: 10px;
+}

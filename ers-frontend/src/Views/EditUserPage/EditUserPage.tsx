@@ -42,7 +42,6 @@ const EditUserPage: React.FC = () => {
             setPassword(event.target.value);
         }
 
-        console.log(changePassword);
     } 
 
     const handleSubmit = (event: React.MouseEvent<HTMLHeadingElement>) => {

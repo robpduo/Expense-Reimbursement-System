@@ -23,8 +23,6 @@
     color: var(--dark);
 }
 
-
-
 .login-input{
     height: 40px;
     margin-bottom: 10px;
@@ -37,13 +35,34 @@
     font-size: 1.2rem;
 }
 
+.login-input:focus{
+    outline-width: 0;
+}
+
+.new-employee{
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: gold;
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px;
+    padding-left: 15px;
+    border: solid 2px var(--dark);
+    font-size: 1.2rem;
+}
+
+.new-employee:hover{
+    cursor: pointer;
+    background: var(--text-white);
+    transition: .3s;
+}
+
+
 ::placeholder{
     color: var(--dark);
 }
 
-.login-input:focus{
-    outline-width: 0;
-}
+
 
 .login-button {
     background: var(--btn-blue);
