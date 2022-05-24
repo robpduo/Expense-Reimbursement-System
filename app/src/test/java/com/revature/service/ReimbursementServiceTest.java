@@ -88,10 +88,6 @@ public class ReimbursementServiceTest {
         Assert.assertTrue(list.contains(r3) && list.contains(r5));
     }
 
-    @Test
-    public void testViewPastTickets2() {
-
-    }
 
     // test for viewPendingTickets -----------------------------------------------------------------------
 
@@ -108,6 +104,13 @@ public class ReimbursementServiceTest {
     public void testViewAllPending() throws UnauthorizedUserException {
         Mockito.when(rd.readReimbursements()).thenReturn(testList);
         List<Reimbursement> list = rs.viewAllPending(manager);
+        Assert.assertTrue(list.contains(r1) && list.contains(r2) && list.contains(r7) && list.contains(r8));
+    }
+
+    @Test
+    public void testViewAllPendings() throws UnauthorizedUserException, IncorrectUsernameOrPasswordException {
+        Mockito.when(rd.readReimbursements()).thenReturn(testList);
+        List<Reimbursement> list = rs.viewAllPending("manager");
         Assert.assertTrue(list.contains(r1) && list.contains(r2) && list.contains(r7) && list.contains(r8));
     }
 
@@ -133,6 +136,13 @@ public class ReimbursementServiceTest {
         List<Reimbursement> list = rs.viewAllResolved(u1);
     }
 
+    @Test(expected = UnauthorizedUserException.class)
+    public void testViewAllResolvedUnauthorizedUses() throws UnauthorizedUserException {
+        User u = new User();
+        Mockito.when(rd.readReimbursements()).thenReturn(testList);
+        List<Reimbursement> list = rs.viewAllResolved(u);
+    }
+
     // tests for viewEmployeeRequests --------------------------------------------------------------------
 
     @Test
@@ -150,7 +160,7 @@ public class ReimbursementServiceTest {
 
     // tests for getUserByUsername -----------------------------------------------------------------------
 
-    /*
+
     @Test
     public void testGetUserByUsername() throws IncorrectUsernameOrPasswordException {
         User u = new User();
@@ -165,6 +175,6 @@ public class ReimbursementServiceTest {
         rs.getUserByUsername("username");
     }
 
-     */
+
 
 }
