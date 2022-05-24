@@ -1,0 +1,8 @@
+2022-05-23 22:24:49 INFO  LoggingUtil:92 - Successfully registered user 0
+2022-05-23 22:24:55 INFO  LoggingUtil:41 - Successfully logged in user 13
+2022-05-23 22:24:55 INFO  LoggingUtil:43 - Successfully logged in user 13
+2022-05-23 22:25:02 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user ymoney
+2022-05-23 22:25:02 INFO  LoggingUtil:61 - ymoney successfully viewed their pending tickets
+2022-05-23 22:25:02 INFO  LoggingUtil:47 - Successfully retrieved all past tickets from user ymoney
+2022-05-23 22:25:03 INFO  LoggingUtil:91 - Successfully retrieved all pending tickets from user ymoney
+2022-05-23 22:25:03 INFO  LoggingUtil:61 - ymoney successfully viewed their pending tickets
