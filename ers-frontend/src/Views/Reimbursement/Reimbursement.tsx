@@ -53,12 +53,11 @@ const Reimbursement: React.FC<IReimbursement> = (reimburse: IReimbursement) => {
             dispatch(resolveRequest(updater));
         }
 
-        // if (userState.user?.username != null) {
-        //     dispatch(resolveRequest(updater));
-        // }
     }
 
     if (userState.user?.role.toString() === "MANAGER" && reimbursementState.source === "view-all") {
+        console.log(submitted);
+        console.log(resolved);
         return (
             <tr className="reimbursement-data">
                 <td>{reimburse.id}</td>

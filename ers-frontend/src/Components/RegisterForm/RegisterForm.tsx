@@ -60,9 +60,11 @@ const RegisterForm: React.FC = () => {
 
     const handleCancel = (event: React.MouseEvent<HTMLButtonElement>) => {
         event.preventDefault();
+        navigator('/');
     }
-
+    console.log(userState.key);
     return (
+        
         <div className="register">
 
             <h1>Register New Employee</h1>
@@ -77,7 +79,7 @@ const RegisterForm: React.FC = () => {
                 <h3>Password: <span><input type="password" className="password-field" onChange={handleChange}></input></span></h3>
 
                 {prompt === false ? <h5 className="form-status">Form Incomplete</h5> : <h5 className="form-status-complete">Ready to Submit!</h5>}
-                {userState.key === 1 ? <h5 className="form-status-complete">New Employee Registered!</h5> : <h5 className="form-status">Username Already Exists</h5>}
+                {userState.key === 1 ? <h5 className="form-status-complete">New Employee Registered!</h5> : userState.key === 2 ? <h5 className="form-status">Username Already Exists</h5> : <></>}
 
                 <input type="submit" className="submit-button"></input>
                 <button className="cancel-button" onClick={handleCancel} >Cancel</button>
