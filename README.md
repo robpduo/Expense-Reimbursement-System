@@ -63,7 +63,7 @@ To-do List
 ![image](https://user-images.githubusercontent.com/101683611/171870896-db2d777f-5dfb-4383-b4ae-ab76baeb9886.png)<br/>
 ![image](https://user-images.githubusercontent.com/101683611/171870963-51972433-2026-495e-b558-ba186c3e83aa.png)<br/>
 
-6. You may filter through the results by using the form near the top of the page
+6. You may filter through the results by using the form near the top of the page<br/>
 ![image](https://user-images.githubusercontent.com/101683611/171871219-daeb403e-6dfd-404f-a708-fbc5ff534964.png)<br/>
 
 
