@@ -46,9 +46,10 @@ To-do List
 4. Setup the database using the script file provided in the resource folder located in app/src/main/resources/ers script.sql
 
 ## Usage
-1. Register a new user as an employee
-![image](https://user-images.githubusercontent.com/101683611/171868865-3b5eee96-ece5-4897-b5ae-7c5f60882c6b.png)
+1. Register a new user as an employee<br/>
+![image](https://user-images.githubusercontent.com/101683611/171869050-227f3c2c-ebf6-4a57-8e98-e53c21303cbf.png) <br/>
+![image](https://user-images.githubusercontent.com/101683611/171869334-eab03ea0-7b10-4582-bb05-65490cdb42f5.png)
 
-2. Navigate to 
+2. Login using the same credential you used to register your account<br/>
 
   
