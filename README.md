@@ -57,7 +57,10 @@ To-do List
 ![image](https://user-images.githubusercontent.com/101683611/171869963-18b7be04-a7de-4e82-893d-cce164b5de66.png)<br/>
 
 4. After navigating to the reimbursement form, fill out the form to submit a request<br/>
-![image](https://user-images.githubusercontent.com/101683611/171870157-26ebf2f0-24ac-47bc-adba-610a7898825a.png)
+![image](https://user-images.githubusercontent.com/101683611/171870157-26ebf2f0-24ac-47bc-adba-610a7898825a.png)<br/>
+
+5. You may view any pending and resolved request by navigating to the corresponsing page
+
 
 
 
