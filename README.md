@@ -34,5 +34,15 @@ To-do List
 - Use local storage to have data persistent after refreshing the page
 
 ## Getting Started
-Clone repository into the a working directory with the following command:
-  git clone 
+1. Clone repository into the a working directory with the following command:
+  git clone https://github.com/robpduo/Expense-Reimbursement-System.git
+
+2. Run the Javalin server in the root directory under app/src/main/java/com.revature/driver.java
+
+3. Run the React front-end components by changing directory into ers-frontend folder from the root director:
+  cd ers-frontend/
+  npm start
+
+4. Setup the database using the script file provided in the resource folder located in app/src/main/resources/ers script.sql
+
+  
