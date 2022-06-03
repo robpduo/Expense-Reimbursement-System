@@ -73,8 +73,12 @@ To-do List
 1. After logging in, the navigation bar will include an extended features list
 ![image](https://user-images.githubusercontent.com/101683611/171871672-230bd401-d6fb-4914-b240-d5bc27c0aa02.png)<br/>
 
-2. Viewing all pending requests will give you the option to filter and resolve the pending requests
+2. Viewing all pending requests will give you the option to filter and resolve the pending requests, clicking on the X will deny the request, while the checkmark will approve the request
 ![image](https://user-images.githubusercontent.com/101683611/171871829-d710ff06-f50e-4fcd-a92e-1714dee4d066.png)<br/>
+
+3. Viewing all resolved request will bring a table of all past requests, the filter option is present at the top of the screen
+![image](https://user-images.githubusercontent.com/101683611/171872136-b09a8f1d-2b22-42a8-9503-bd8ed1a39a8c.png)<br/>
+
 
 
 
