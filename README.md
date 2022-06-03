@@ -47,7 +47,7 @@ To-do List
 
 ## Usage
 1. Register a new user as an employee<br/>
-![image](https://user-images.githubusercontent.com/101683611/171869050-227f3c2c-ebf6-4a57-8e98-e53c21303cbf.png) <br/>
+![image](https://user-images.githubusercontent.com/101683611/171869050-227f3c2c-ebf6-4a57-8e98-e53c21303cbf.png)
 ![image](https://user-images.githubusercontent.com/101683611/171869334-eab03ea0-7b10-4582-bb05-65490cdb42f5.png)
 
 2. Login using the same credential you used to register your account<br/>
