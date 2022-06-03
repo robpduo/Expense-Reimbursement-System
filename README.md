@@ -60,6 +60,10 @@ To-do List
 ![image](https://user-images.githubusercontent.com/101683611/171870157-26ebf2f0-24ac-47bc-adba-610a7898825a.png)<br/>
 
 5. You may view any pending and resolved request by navigating to the corresponsing page
+![image](https://user-images.githubusercontent.com/101683611/171870896-db2d777f-5dfb-4383-b4ae-ab76baeb9886.png)<br/>
+![image](https://user-images.githubusercontent.com/101683611/171870963-51972433-2026-495e-b558-ba186c3e83aa.png)<br/>
+
+
 
 
 
