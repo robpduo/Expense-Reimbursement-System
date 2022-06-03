@@ -79,6 +79,10 @@ To-do List
 3. Viewing all resolved request will bring a table of all past requests, the filter option is present at the top of the screen
 ![image](https://user-images.githubusercontent.com/101683611/171872136-b09a8f1d-2b22-42a8-9503-bd8ed1a39a8c.png)<br/>
 
+4. Viewing all employees will bring a table of all employees that are registered into the system
+5. ![image](https://user-images.githubusercontent.com/101683611/171872320-a6324ba4-fbe9-4e94-a9d2-690ac35a8f5b.png)
+
+
 
 
 
