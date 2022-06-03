@@ -70,6 +70,13 @@ To-do List
 7. Logout button will navigate you back to the login menu and ending the current session
 
 ### As a Manager
+1. After logging in, the navigation bar will include an extended features list
+![image](https://user-images.githubusercontent.com/101683611/171871672-230bd401-d6fb-4914-b240-d5bc27c0aa02.png)<br/>
+
+2. Viewing all pending requests will give you the option to filter and resolve the pending requests
+![image](https://user-images.githubusercontent.com/101683611/171871829-d710ff06-f50e-4fcd-a92e-1714dee4d066.png)<br/>
+
+
 
 
 
