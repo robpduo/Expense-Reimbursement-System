@@ -51,5 +51,13 @@ To-do List
 ![image](https://user-images.githubusercontent.com/101683611/171869334-eab03ea0-7b10-4582-bb05-65490cdb42f5.png)
 
 2. Login using the same credential you used to register your account<br/>
+![image](https://user-images.githubusercontent.com/101683611/171869679-123f073f-21cc-483e-a0bb-ddcf3121217b.png)<br/>
+
+3. Use the navigation bar at the top of the page to submit a reimbursement form
+![image](https://user-images.githubusercontent.com/101683611/171869963-18b7be04-a7de-4e82-893d-cce164b5de66.png)<br/>
+
+
+
+
 
   
