@@ -83,7 +83,7 @@ To-do List
 ![image](https://user-images.githubusercontent.com/101683611/171872320-a6324ba4-fbe9-4e94-a9d2-690ac35a8f5b.png)<br/>
 
 ## Contributors
-Kong (Robert) Duong - Github: https://github.com/robpduo
+Kong (Robert) Duong - Github: https://github.com/robpduo<br/>
 Yue McNelis - Github: https://github.com/yuemcn 
 
 
