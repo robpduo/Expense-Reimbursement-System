@@ -41,6 +41,7 @@ To-do List
 
 3. Run the React front-end components by changing directory into ers-frontend folder from the root director:
   cd ers-frontend/
+  npm install (to install all the node modules used within the system)
   npm start
 
 4. Setup the database using the script file provided in the resource folder located in app/src/main/resources/ers script.sql
