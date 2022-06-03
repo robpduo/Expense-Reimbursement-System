@@ -10,3 +10,6 @@ given the option to be registered into the system with a chosen unique username 
 
 Managers are given the same functionality with the addition to view all pending and resolved requests in the system and filter the results by reimbursement type, account id, and status of the request. Managers may choose to deny or approve pending requests.
 
+## Technologies Used
+- Javalin
+- Java - version 1.8.0
