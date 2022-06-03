@@ -46,6 +46,7 @@ To-do List
 4. Setup the database using the script file provided in the resource folder located in app/src/main/resources/ers script.sql
 
 ## Usage
+### As an Employee
 1. Register a new user as an employee<br/>
 ![image](https://user-images.githubusercontent.com/101683611/171869050-227f3c2c-ebf6-4a57-8e98-e53c21303cbf.png)
 ![image](https://user-images.githubusercontent.com/101683611/171869334-eab03ea0-7b10-4582-bb05-65490cdb42f5.png)
@@ -65,6 +66,11 @@ To-do List
 
 6. You may filter through the results by using the form near the top of the page<br/>
 ![image](https://user-images.githubusercontent.com/101683611/171871219-daeb403e-6dfd-404f-a708-fbc5ff534964.png)<br/>
+
+7. Logout button will navigate you back to the login menu and ending the current session
+
+### As a Manager
+
 
 
 
